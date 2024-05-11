@@ -27,7 +27,6 @@ export default function ContactForm({ heading, color }) {
 				[target.name]: target.value,
 			},
 		}));
-
 	const onSubmit = async () => {
 		await sendContactForm(values);
 	};
@@ -143,14 +142,27 @@ export default function ContactForm({ heading, color }) {
 											className="block w-full pl-3 pr-10 py-2 text-base shadow-sm placeholder:text-gray-400 border border-gray-300 rounded-md bg-white text-gray-900 focus:outline-none focus:border-indigo-500 focus:ring-indigo-200"
 										>
 											<option value="">Select</option>
-											<option value="website">SEO Services</option>
-											<option value="seo">Website Development</option>
-											<option value="smo">Branding</option>
-											<option value="campaign">Content Marketing</option>
-											<option value="other">Paid Online Advertising</option>
-											<option value="smo">Social Media Marketing</option>
-											<option value="campaign">Analytics and Reporting</option>
-											<option value="other">CRO and Usability</option>
+											<option value="SEO_Services">SEO Services</option>
+											<option value="Website_Development">
+												Website Development
+											</option>
+											<option value="Branding">Branding</option>
+											<option value="Content_Marketing">
+												Content Marketing
+											</option>
+											<option value="Paid_Online_Adverts">
+												Paid Online Advertising
+											</option>
+											<option value="Social_Media_Marketing">
+												Social Media Marketing
+											</option>
+											<option value="Analytics_and_Reporting">
+												Analytics and Reporting
+											</option>
+											<option value="CRO_and_Usablity">
+												CRO and Usability
+											</option>
+											<option value="Others">Others</option>
 										</select>
 									</div>
 								</div>
