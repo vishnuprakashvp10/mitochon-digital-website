@@ -27,7 +27,8 @@ export default function ContactForm({ heading, color }) {
 				[target.name]: target.value,
 			},
 		}));
-	const onSubmit = async () => {
+	const onSubmit = async (e) => {
+		e.preventDefault();
 		await sendContactForm(values);
 	};
 
