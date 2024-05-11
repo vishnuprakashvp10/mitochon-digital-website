@@ -3,10 +3,9 @@ import smtpTransport from "nodemailer-smtp-transport";
 
 const email = process.env.EMAIL;
 const pass = process.env.EMAIL_PASS;
-console.log(process.env.EMAIL);
 export const transporter = nodemailer.createTransport(
 	smtpTransport({
-		host: "smtp.gmail.com",
+		host: "smtpout.secureserver.net",
 		port: 465,
 		secure: true, // Use SSL
 		auth: {
@@ -21,6 +20,6 @@ export const transporter = nodemailer.createTransport(
 );
 
 export const mailOptions = {
-	from: email,
-	to: "sukhvantsingh2@gmail.com",
+	from: "contact@mitochondigital.com",
+	to: "contact@mitochondigital.com",
 };
