@@ -81,7 +81,7 @@ export default function ContactForm({ heading, color }) {
 											value={values.name}
 											onChange={handleChange}
 											autoComplete="name"
-											className="block w-full pl-3 pr-10 py-2 text-base shadow-sm placeholder:text-gray-400 border border-gray-300 rounded-md bg-white text-gray-900 focus:outline-none focus:border-indigo-500 focus:ring-indigo-200"
+											className="block w-full pl-3 pr-10 py-2 text-base shadow-sm placeholder:text-gray-400 border border-gray-300 rounded-md bg-white text-gray-900 focus:outline-none focus:border-green-500 focus:ring-indigo-200"
 										/>
 									</div>
 								</div>
@@ -101,7 +101,7 @@ export default function ContactForm({ heading, color }) {
 											value={values.email}
 											onChange={handleChange}
 											autoComplete="email"
-											className="block w-full pl-3 pr-10 py-2 text-base shadow-sm placeholder:text-gray-400 border border-gray-300 rounded-md bg-white text-gray-900 focus:outline-none focus:border-indigo-500 focus:ring-indigo-200"
+											className="block w-full pl-3 pr-10 py-2 text-base shadow-sm placeholder:text-gray-400 border border-gray-300 rounded-md bg-white text-gray-900 focus:outline-none focus:border-green-500 focus:ring-indigo-200"
 										/>
 									</div>
 								</div>
@@ -121,7 +121,7 @@ export default function ContactForm({ heading, color }) {
 											value={values.number}
 											onChange={handleChange}
 											autoComplete="number"
-											className="block w-full pl-3 pr-10 py-2 text-base shadow-sm placeholder:text-gray-400 border border-gray-300 rounded-md bg-white text-gray-900 focus:outline-none focus:border-indigo-500 focus:ring-indigo-200"
+											className="block w-full pl-3 pr-10 py-2 text-base shadow-sm placeholder:text-gray-400 border border-gray-300 rounded-md bg-white text-gray-900 focus:outline-none focus:border-green-500 focus:ring-indigo-200"
 										/>
 									</div>
 								</div>
@@ -139,7 +139,7 @@ export default function ContactForm({ heading, color }) {
 											name="service"
 											value={values.service}
 											onChange={handleChange}
-											className="block w-full pl-3 pr-10 py-2 text-base shadow-sm placeholder:text-gray-400 border border-gray-300 rounded-md bg-white text-gray-900 focus:outline-none focus:border-indigo-500 focus:ring-indigo-200"
+											className="block w-full pl-3 pr-10 py-2 text-base shadow-sm placeholder:text-gray-400 border border-gray-300 rounded-md bg-white text-gray-900 focus:outline-none focus:border-green-500 focus:ring-indigo-200"
 										>
 											<option value="">Select</option>
 											<option value="SEO_Services">SEO Services</option>
@@ -181,7 +181,7 @@ export default function ContactForm({ heading, color }) {
 											value={values.message}
 											onChange={handleChange}
 											cols="50"
-											className="block w-full pl-3 pr-10 py-2 text-base shadow-sm placeholder:text-gray-400 border border-gray-300 rounded-md bg-white text-gray-900 focus:outline-none focus:border-indigo-500 focus:ring-indigo-200"
+											className="block w-full pl-3 pr-10 py-2 text-base shadow-sm placeholder:text-gray-400 border border-gray-300 rounded-md bg-white text-gray-900 focus:outline-none focus:border-green-500 focus:ring-indigo-200"
 										/>
 									</div>
 								</div>
