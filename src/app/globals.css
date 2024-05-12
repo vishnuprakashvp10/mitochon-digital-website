@@ -648,7 +648,6 @@
 }
 
 .h4-offer-card:after {
-	background-color: #ffe3d6;
 	-webkit-clip-path: circle(0% at 13% 30%);
 	clip-path: circlecircle(0% at 13% 30%);
 }
