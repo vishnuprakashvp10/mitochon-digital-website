@@ -5,6 +5,7 @@ import Header from "@/constant/Navbar/Header";
 import BottomBar from "@/constant/BottomBar/BottomBar";
 import WhatsApp from "@/constant/FAB/WhatsApp";
 import Head from "next/head";
+import { Toaster } from "react-hot-toast";
 
 const nunito = Nunito({
 	weight: ["200", "300", "400", "500", "600", "700", "800"],
@@ -31,6 +32,7 @@ export default function RootLayout({ children }) {
 				<BottomBar />
 				<WhatsApp />
 				<Footer />
+				<Toaster />
 			</body>
 		</html>
 	);

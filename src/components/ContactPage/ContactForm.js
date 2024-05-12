@@ -5,6 +5,7 @@ import { FaEnvelope } from "@react-icons/all-files/fa/FaEnvelope";
 import { FaPhoneSquareAlt } from "@react-icons/all-files/fa/FaPhoneSquareAlt";
 import Image from "next/image";
 import { useState } from "react";
+import toast from "react-hot-toast";
 
 const initValues = {
 	name: "",
@@ -19,6 +20,8 @@ export default function ContactForm({ heading, color }) {
 	const [state, setState] = useState(initState);
 	const { values } = state;
 
+	const [loading, setLoading] = useState(false);
+
 	const handleChange = ({ target }) =>
 		setState((prev) => ({
 			...prev,
@@ -29,7 +32,17 @@ export default function ContactForm({ heading, color }) {
 		}));
 	const onSubmit = async (e) => {
 		e.preventDefault();
-		await sendContactForm(values);
+		setLoading(true);
+		await sendContactForm(values)
+			.then(() => {})
+			.catch((error) => {
+				toast.error("Error sending message");
+			})
+			.finally(() => {
+				setState(initState);
+				setLoading(false);
+				toast.success("Message sent successfully");
+			});
 	};
 
 	return (
@@ -198,12 +211,13 @@ export default function ContactForm({ heading, color }) {
 								!values.email ||
 								!values.number ||
 								!values.service ||
-								!values.message
+								!values.message ||
+								loading
 							}
 							onClick={onSubmit}
 							className="rounded-md bg-gradient-to-r transition-all from-[#96A210] to-[#176301] hover:bg-none hover:bg-transparent border hover:border-green-800 hover:text-black px-4 py-3 text-sm font-semibold text-white shadow-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
 						>
-							Send Message
+							{loading ? "Sending..." : "Send Message"}
 						</button>
 					</div>
 				</form>

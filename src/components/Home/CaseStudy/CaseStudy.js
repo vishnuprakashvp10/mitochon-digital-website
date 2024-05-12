@@ -108,7 +108,7 @@ const CaseStudy = () => {
 							{services.map((service, key) => (
 								<motion.div key={key} className="mx-2">
 									<div
-										className={`common-single-card flex flex-col py-8 md:py-12 px-16 md:px-20 ${service.hoverBg}`}
+										className={`common-single-card flex flex-col py-8 md:py-12 px-16 md:px-20  ${service.hoverBg}`}
 									>
 										<div
 											className={`mx-auto w-44 md:w-52 h-44 md:h-52 ${service.iconColor}`}
