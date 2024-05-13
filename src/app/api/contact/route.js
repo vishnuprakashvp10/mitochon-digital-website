@@ -51,5 +51,4 @@ export async function POST(request) {
 		console.log(err);
 		return NextResponse.json({ message: err.message });
 	}
-	return NextResponse.json({ res });
 }

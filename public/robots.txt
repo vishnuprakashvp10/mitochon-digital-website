@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://mitochondigital.com
+
+# Sitemaps
+Sitemap: https://mitochondigital.com/sitemap.xml
