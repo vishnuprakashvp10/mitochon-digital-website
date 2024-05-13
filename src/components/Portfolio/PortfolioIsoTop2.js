@@ -8,137 +8,8 @@ import { ArrowSmallLeftIcon, ArrowSmallRightIcon, XMarkIcon } from "@heroicons/r
 
 const images = [
   {
-    imgUrl: image.portfolio1,
-  },
-  {
     imgUrl: image.portfolio2,
   },
-  {
-    imgUrl: image.portfolio3,
-  },
-  {
-    imgUrl: image.portfolio4,
-  },
-  // {
-  //   imgUrl: image.portfolio5,
-  // },
-  // {
-  //   imgUrl: image.portfolio6,
-  // },
-  // {
-  //   imgUrl: image.portfolio7,
-  // },
-  // {
-  //   imgUrl: image.portfolio8,
-  // },
-  // {
-  //   imgUrl: image.portfolio9,
-  // },
-  // {
-  //   imgUrl: image.portfolio10,
-  // },
-  // {
-  //   imgUrl: image.portfolio11,
-  // },
-  // {
-  //   imgUrl: image.portfolio12,
-  // },
-  // {
-  //   imgUrl: image.portfolio13,
-  // },
-  // {
-  //   imgUrl: image.portfolio14,
-  // },
-  // {
-  //   imgUrl: image.portfolio15,
-  // },
-  // {
-  //   imgUrl: image.portfolio16,
-  // },
-  // {
-  //   imgUrl: image.portfolio17,
-  // },
-  // {
-  //   imgUrl: image.portfolio18,
-  // },
-  // {
-  //   imgUrl: image.portfolio19,
-  // },
-  // {
-  //   imgUrl: image.portfolio20,
-  // },
-  // {
-  //   imgUrl: image.p1,
-  // },
-  // {
-  //   imgUrl: image.p2,
-  // },
-  // {
-  //   imgUrl: image.p3,
-  // },
-  // {
-  //   imgUrl: image.p4,
-  // },
-  // {
-  //   imgUrl: image.p5,
-  // },
-  // {
-  //   imgUrl: image.p6,
-  // },
-  // {
-  //   imgUrl: image.p7,
-  // },
-  // {
-  //   imgUrl: image.p8,
-  // },
-  // {
-  //   imgUrl: image.p9,
-  // },
-  // {
-  //   imgUrl: image.p10,
-  // },
-  // {
-  //   imgUrl: image.p11,
-  // },
-  // {
-  //   imgUrl: image.p12,
-  // },
-  // {
-  //   imgUrl: image.p13,
-  // },
-  // {
-  //   imgUrl: image.p14,
-  // },
-  // {
-  //   imgUrl: image.p15,
-  // },
-  // {
-  //   imgUrl: image.p16,
-  // },
-  // {
-  //   imgUrl: image.p17,
-  // },
-  // {
-  //   imgUrl: image.p18,
-  // },
-  // {
-  //   imgUrl: image.p19,
-  // },
-  // {
-  //   imgUrl: image.p20,
-  // },
-  // {
-  //   imgUrl: image.p21,
-  // },
-  // {
-  //   imgUrl: image.p22,
-  // },
-  // {
-  //   imgUrl: image.p23,
-  // },
-  // {
-  //   imgUrl: image.p24,
-  // },
 ];
 const PortfolioIsoTop = () => {
   const [selectedImage, setSelectedImage] = useState(null);
@@ -160,7 +31,7 @@ const PortfolioIsoTop = () => {
           }}
         >
           <h3 className="highlight text-3xl font-semibold text-center"> 
-          UK Clients
+          Clients in UK 
           </h3>
         </div>
         <Suspense fallback={loading}>
