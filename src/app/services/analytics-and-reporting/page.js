@@ -7,7 +7,7 @@ import Smo from "@/components/SMO/Smo"
 
 export const metadata = {
   title: 'Analytics and Reporting - Expert in Web Analytics',
-  description: 'All digital marketing services, seo, smo, PPC, web development.',
+  description: 'All digital marketing services, seo, PPC, web development.',
 }
 const sections = [
   {
