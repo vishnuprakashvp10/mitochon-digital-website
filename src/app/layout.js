@@ -1,4 +1,5 @@
 import Footer from "@/constant/Footer/Footer";
+import { GoogleTagManager } from '@next/third-parties/google'
 import "./globals.css";
 import { Nunito } from "next/font/google";
 import Header from "@/constant/Navbar/Header";
@@ -21,6 +22,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
 	return (
 		<html lang="en">
+			      <GoogleTagManager gtmId="GTM-KQ5399G4" />
 			<head>
 				<meta name="fl-verify" content="9be66eef7379e3946a735731ecf2c665" />
 				<link rel="icon" href="/favicon.png" />
