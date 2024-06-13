@@ -22,7 +22,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
 	return (
 		<html lang="en">
-			      <GoogleTagManager gtmId="GTM-KQ5399G4" />
+			      <GoogleTagManager gtmId="G-5EKJZZ045S" />
 			<head>
 				<meta name="fl-verify" content="9be66eef7379e3946a735731ecf2c665" />
 				<link rel="icon" href="/favicon.png" />
