@@ -26,7 +26,7 @@ export default function CtaBox({Heading, Description}) {
                   href="#"
                   className="primary-btn shadow-lg"
                 >
-                  Connect With Us
+                  Reach Us
                 </a>
                 <a href="#" className="text-sm font-semibold leading-6 text-white">
                   Know more <span aria-hidden="true">→</span>
