@@ -112,7 +112,7 @@ const Footer = () => {
                     <li className="social">
                       <a
                         className="social-icon"
-                        href="#"
+                        href="https://www.facebook.com/people/Mitochon-Digital/61559303402146"
                       >
                         <FaFacebook/>
                       </a>
@@ -120,7 +120,7 @@ const Footer = () => {
                     <li className="social">
                       <a
                         className="social-icon"
-                        href="#"
+                        href="https://x.com/MitochonDigital"
                       >
                         <FaTwitter/>
                       </a>
@@ -136,7 +136,7 @@ const Footer = () => {
                     <li className="social">
                       <a
                         className="social-icon"
-                        href="#"
+                        href="https://uk.linkedin.com/company/mitochon-digital?trk=public_post_feed-actor-name"
                       >
                         <FaLinkedinIn/>
                       </a>
