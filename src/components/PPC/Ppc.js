@@ -21,7 +21,7 @@ const Ppc = () => {
             PPC is most commonly associated with search engine advertising, where businesses can bid for ad placement in a search engine&apos;s sponsored links when someone searches on a keyword that is related to their business offering.
             </p>
 
-            <button className='primary-btn mt-12 shadow-lg'>Get Started</button>
+            <button className='primary-btn mt-12 shadow-lg'>Reach Us</button>
           </div>
         </div>
       </div>
