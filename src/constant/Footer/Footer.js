@@ -128,7 +128,7 @@ const Footer = () => {
                     <li className="social">
                       <a
                         className="social-icon"
-                        href="#"
+                        href="https://www.instagram.com/mitochon_digital"
                       >
                         <FaInstagram/>
                       </a>
