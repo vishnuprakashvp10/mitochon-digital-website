@@ -8,7 +8,7 @@ const WhatsApp = () => {
      <Image src={image.whatsapp} height={25} width={25} alt="whats app"/>
      <p>What&apos;s App</p>
     </a>
-{/*    <a className="fixed bottom-24 right-4 md:right-8 md:bottom-8 z-20 drop-shadow-lg hidden md:block" href="https://wa.me/7906514988">
+{/*    <a className="fixed bottom-24 right-4 md:right-8 md:bottom-8 z-20 drop-shadow-lg hidden md:block" href="https://wa.me/+447442005437">
     <Image src={image.whatsapp} height={50} width={50} alt="whats app"/>
   </a> */}
     </>

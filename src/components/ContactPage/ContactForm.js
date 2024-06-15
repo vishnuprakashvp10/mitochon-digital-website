@@ -61,7 +61,7 @@ export default function ContactForm({ heading, color }) {
 							<div className="flex items-center gap-x-4 mt-4 text-sm leading-6">
 								<a
 									className="text-sm text-gray-600 text-bold flex items-center justify-center md:justify-start gap-2"
-									href="tel:+44-7442005437"
+									href="tel:+447442005437"
 								>
 									<span className="text-green-600">
 										<FaPhoneSquareAlt />

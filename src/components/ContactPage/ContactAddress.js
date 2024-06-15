@@ -56,8 +56,8 @@ const ContactAddress = () => {
 							</div>
 							<div className="contact-card-content mt-4">
 								<h6 className="font-semibold">
-									+44-7442005437 <br />
-									+91 7904445263{" "}
+								+44-7442005437 <br />
+									+91-7904445263{" "}
 								</h6>
 							</div>
 						</div>
