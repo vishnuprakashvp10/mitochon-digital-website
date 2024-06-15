@@ -20,7 +20,7 @@ const Footer = () => {
           </div>
           <div>
             <a href="tel:+917906514988">
-              <button className="primary-btn shadow-lg">Call us Now</button>
+              <button className="primary-btn shadow-lg">Reach Us</button>
             </a>
           </div>
         </div>

@@ -23,7 +23,7 @@ const Home = () => {
 						</p>
 						<div className="flex gap-5">
 							<Link href="/contact-us" className="primary-btn shadow-lg">
-								Get Started
+								Reach Us
 							</Link>
 							<Link href="/about-us" className="secondary-btn shadow-lg">
 								Know More
