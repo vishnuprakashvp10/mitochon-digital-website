@@ -14,26 +14,31 @@ const WebWhyUs = () => {
         <div className="my-auto">
           <div className="we-are-content">
             <div className="section-title">
-              <h2 className="pb-12 text-3xl primary-heading">50 times more Business Leads: Drive Your Success Forward <span className='highlight'>With Us!</span></h2>
+              <h2 className="pb-12 text-3xl primary-heading">Get Filled with Leads: Drive Your Success Forward <span className='highlight'>With Us!</span></h2>
             </div>
 
-            <p className='app__text'>Imagine navigating a ship through unfamiliar waters—without an experienced captain, the journey could be risky and inefficient. At Mitochon Digital, we act as your navigational guide, steering your digital strategy to avoid common pitfalls and seize opportunities, ensuring a smooth voyage toward exceptional growth!</p>
+            <p className='app__text'>Imagine navigating a ship through unfamiliar waters—without an experienced captain, the journey could be risky and inefficient. At Mitochon Digital, a premier web development company in the UK, we act as your navigational guide, steering your digital strategy to avoid common pitfalls and seize opportunities, ensuring a smooth voyage toward exceptional growth!</p>
 
             <ul role="list" className="mt-8 space-y-8 text-gray-600">
             <li className="flex gap-x-3">
               <CheckCircleIcon className="mt-1 h-5 w-5 flex-none text-indigo-600" aria-hidden="true" />
               <p className='app__text'>
-              Our team comprises seasoned graphic designers and web developers who not only understand the aesthetics of effective design but also the mechanics of user engagement and conversion optimization              </p>
+              Our team comprises seasoned graphic designers and web developers in the UK who not only understand the aesthetics of effective design but also the mechanics of user engagement and conversion optimization. We specialize in website design services, website development services, website management services, and comprehensive website building services tailored to meet your business goals.              </p>
             </li>
             <li className="flex gap-x-3">
               <CheckCircleIcon className="mt-1 h-5 w-5 flex-none text-indigo-600" aria-hidden="true" />
               <p className='app__text'>
-              With our tailored designs and strategies, your business is poised to attract up to 50 times more potential customers. We focus on creating interfaces that not only draw in visitors but compel them to act, turning clicks into customers.              </p>
+              With our tailored designs and strategies, your business is poised to attract up to 50 times more potential customers. We focus on creating interfaces that not only draw in visitors but also compel them to act, turning clicks into customers. As a leading website development company in the UK, we embrace the latest technologies to keep your business at the forefront of digital innovation.</p>
             </li>
             <li className="flex gap-x-3">
             <CheckCircleIcon className="mt-1 h-5 w-5 flex-none text-indigo-600" aria-hidden="true" />
             <p className='app__text'>
-            We embrace the latest technologies to keep your business at the forefront of digital innovation. During our consultations, we assess your specific needs and match you with technologies that enhance your digital footprint and streamline your operations.            </p>
+            During our consultations, we assess your specific needs and match you with technologies that enhance your digital footprint and streamline your operations. Our expertise in digital marketing in the United Kingdom ensures that your online presence is optimized to drive traffic and generate leads effectively.      </p>
+          </li>
+          <li className="flex gap-x-3">
+            <CheckCircleIcon className="mt-1 h-5 w-5 flex-none text-indigo-600" aria-hidden="true" />
+            <p className='app__text'>
+            Partner with Mitochon Digital, the foremost web development company in the UK, and watch your business thrive with a stunning, high-performing website that captivates your audience and maximizes your growth potential.  </p>
           </li>
           </ul>
           </div>

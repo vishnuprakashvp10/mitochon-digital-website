@@ -29,25 +29,25 @@ const features = [
   {
     name: 'Website Optimization',
     description:
-      "To ensure your website meets the evolving demands of both time and customers, we continually adapt and refine its design. What draws customers and converts visits into sales is how compelling and relatable your website is.",
+      "To ensure your website meets the evolving demands of both time and customers, our website developers continually adapt and refine its design. What draws customers and converts visits into sales is how compelling and relatable your website is.",
     icon: CodeBracketIcon,
   },
   {
     name: 'Unique Content Research',
     description:
-      "Crafting content that educates your audience about your product is crucial. We utilize infographics and maps to vividly illustrate your product's features and benefits, ensuring your content resonates with and informs potential customers.",
+      "Our SEO specialists craft content that educates your audience about your product is crucial. Mitochon Digital utilizes infographics and maps to vividly illustrate your product's features and benefits, ensuring your content resonates with and informs potential customers.",
     icon: PencilSquareIcon,
   },
   {
     name: 'Website Maintenance',
     description:
-      "From developing relatable templates to designing your entire website, we handle all aspects of website creation. We manage your website's server and architecture to ensure it remains operational around the clock, every day of the year.",
+      "From developing relatable templates to designing your entire website, our website Developers handle all aspects of website creation. We manage your website's server and architecture to ensure it remains operational around the clock, every day of the year.",
     icon: CodeBracketSquareIcon,
   },
   {
     name: 'Targeted Audience & SEO',
     description:
-      "Our approach extends beyond reaching just your target audience; we also connect you with potential customers, broadening your influence. With the help of our SEO team, your website is optimized to capture the attention of both your established and emerging markets.",
+      "Mitochon Digital's approach extends beyond reaching just your target audience; we also connect you with potential customers, broadening your influence. With the help of our SEO team, your website is optimized to capture the attention of both your established and emerging markets.",
     icon: UserGroupIcon,
   },
 ]
@@ -58,10 +58,10 @@ export default function WeDev() {
       <div className="app__container">
         <div className="mx-auto max-w-2xl lg:text-center">
           <p className="mt-2 primary-heading text-gray-900 text-center">
-          Beautiful / Fast Loading <span className='highlight'>Website</span>
+          Stunning, High-Speed <span className='highlight'>Website</span>
           </p>
           <p className="mt-6 text-lg leading-8 app__text text-center">
-          We handle everything, from developing websites to content writing, SEO and more. You get the following :-
+          We handle everything from website development to content writing, SEO, and more. With Mitochon Digital, you receive the following:
           </p>
         </div>
         <div className="mx-auto mt-16 max-w-2xl sm:mt-20 lg:mt-24 lg:max-w-4xl">
