@@ -42,7 +42,7 @@ const WebDevelopment = () => {
       section: <Powerful/>
     },
     {
-      section: <Feature content={content} mainHeading={`A Good Website Means More Business Leads and More <span class="highlight">Customers</span>`}/>
+      section: <Feature content={content} mainHeading={`An Effective Website Drives Business Growth and Attracts <span class="highlight">More Customers</span>`}/>
     },
     {
       section: <WebEngaging/>

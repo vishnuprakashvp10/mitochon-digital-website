@@ -67,7 +67,7 @@ export default function ContactForm({ heading, color }) {
                 >
                   <span className="text-green-600">
                     <FaPhoneSquareAlt />
-                  </span>{" "}
+                  </span>{" "} 
                   +44-7442005437
                 </a>
                 <a

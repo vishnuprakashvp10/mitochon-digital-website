@@ -4,7 +4,7 @@ import Image from 'next/image'
 
 const WebWhyUs = () => {
   return (
-    <section className="we-are-area py-16 md:py-32 flex items-center bg-slate-50">
+    <section className="we-are-area text-justify py-16 md:py-32 flex items-center bg-slate-50">
     <div className="app__container grid grid-cols-1 md:grid-cols-2 gap-8 relative">
       <div className="we-are-img">
         <div className="we-are-banner-img">

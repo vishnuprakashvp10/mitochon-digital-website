@@ -10,26 +10,26 @@ const Test = () => {
       id: 1,
       name: "Suresh Kumar - Infratech Builders",
       message:
-        "They took the reins on everything from crafting a clear content strategy to building a user-friendly website.  Their online advertising expertise has been instrumental in attracting a significant number of potential leads.",
+        "They took the reins on everything from crafting a clear content strategy to building a user-friendly website. Their online advertising expertise has been instrumental in attracting a significant number of potential leads.",
       imgUrl: image.client,
     },
     {
       id: 2,
       name: "Morgan Maxwell - Athlefy",
       message:
-        "They completely revamped our online presence, starting with a rock-solid content strategy and a user-friendly website that showcases our offerings perfectly. Sales have skyrocketed! We hit a record-breaking 3,000 sales in just one month since launching the new campaigns.Sales have skyrocketed! We hit a record-breaking 3,000 sales in just one month since launching the new campaigns.",
+        "They completely revamped our online presence, starting with a rock-solid content strategy and a user-friendly website that showcases our offerings perfectly. Sales have skyrocketed with remarkable growth!",
       imgUrl: image.client,
     },
     // {
     //   id: 3,
-    //   name: "WebDev.com",
+    //   name: "example",
     //   message:
     //     "Today we work with statistics and more accurate data and realize the digital space is an essential tool for Clinica da Mama to position itself in an increasingly competitive field",
     //   imgUrl: image.client,
     // },
     // {
     //   id: 4,
-    //   name: "WebDev.com",
+    //   name: "example",
     //   message:
     //     "It really met my requirements. You guys were very patient even though there were delays from my side. The price was competitive and all our requirements were met. If somebody were to ask me for something similar, I would definitely recommend you guys!",
     //   imgUrl: image.client,

@@ -50,30 +50,33 @@ const ContactAddress = () => {
 					className="grid grid-cols-1 md:grid-cols-3 gap-8"
 				>
 					<motion.div variants={items}>
-						<div className="contact-card common-single-card h4-offer-card paste-hover bg-white flex justify-center items-center flex-col shadow-md">
+						<div className="contact-card h4-offer-card paste-hover bg-white flex justify-center items-center flex-col shadow-md">
 							<div className="contact-card-icon card-paste svg-paste p-6 drop-shadow-lg">
 								<Image src={image.call} alt="call" />
+								</div>
+								<div className="contact-card-content mt-4">
+									<h6 className="font-semibold hover:scale-110">
+										<a  href="tel:+447442005437">+44-7442005437</a>
+										<br />
+										<a href="tel:+917904445263">+91-7904445263</a>
+									</h6>
+								</div>
+							</div>
+					</motion.div>
+					<motion.div variants={items}>
+						<div className="contact-card  h4-offer-card pink-hover bg-white flex justify-center items-center flex-col shadow-md">
+							<div className="contact-card-icon card-pink1 svg-pink1 p-6 drop-shadow-lg">
+								<Image src={image.chat} alt="chat" />
 							</div>
 							<div className="contact-card-content mt-4">
-								<h6 className="font-semibold">
-								+44-7442005437 <br />
-									+91-7904445263{" "}
+								<h6 className="font-semibold hover:scale-110">
+								<a  href="mailto:contact@mitochondigital.com">contact@mitochondigital.com</a>
 								</h6>
 							</div>
 						</div>
 					</motion.div>
 					<motion.div variants={items}>
-						<div className="contact-card common-single-card h4-offer-card pink-hover bg-white flex justify-center items-center flex-col shadow-md">
-							<div className="contact-card-icon card-pink1 svg-pink1 p-6 drop-shadow-lg">
-								<Image src={image.chat} alt="chat" />
-							</div>
-							<div className="contact-card-content mt-4">
-								<h6 className="font-semibold">contact@mitochondigital.com</h6>
-							</div>
-						</div>
-					</motion.div>
-					<motion.div variants={items}>
-						<div className="contact-card common-single-card h4-offer-card purple-hover bg-white flex justify-center items-center flex-col shadow-md">
+						<div className="contact-card  h4-offer-card purple-hover bg-white flex justify-center items-center flex-col shadow-md">
 							<div className="contact-card-icon card-purple svg-purple p-6 drop-shadow-lg">
 								<Image src={image.placeholder} alt="placeholder" />
 							</div>
