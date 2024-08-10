@@ -81,11 +81,17 @@ const ContactAddress = () => {
 								<Image src={image.placeholder} alt="placeholder" />
 							</div>
 							<div className="contact-card-content mt-4">
-								<h6 className="font-semibold">
-									34 Moat Terrace, Edinburgh
-									<br />
-									EH14 1PS, Scotland, UK
-								</h6>
+								<h6 className="font-semibold hover:scale-110">
+										<a  href="https://maps.app.goo.gl/bneZQCHVp1XF2doXA" 
+    										target="_blank" 
+    										rel="noopener noreferrer">
+											34 Moat Terrace, Edinburgh</a>
+										<br />
+										<a  href="https://maps.app.goo.gl/bneZQCHVp1XF2doXA" 
+    										target="_blank" 
+    										rel="noopener noreferrer">
+											EH14 1PS, Scotland, UK</a>
+									</h6>
 							</div>
 						</div>
 					</motion.div>

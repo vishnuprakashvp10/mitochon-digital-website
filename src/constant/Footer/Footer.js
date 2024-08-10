@@ -15,7 +15,7 @@ const Footer = () => {
         <div className="flex justify-between items-center md:items-start gap-y-8 flex-col sm:flex-row text-center md:text-start">
           <div className="flex-1">
             <h2 className="text-white text-2xl md:text-3xl font-medium">
-              Interested To Get Our Featured Service
+            Experience the Best with Our Featured Service!
             </h2>
           </div>
           <div>
@@ -28,7 +28,7 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-4 ld:grid-cols-4 gap-y-8 pt-20">
         <div className="lg:pr-8 text-center md:text-start ">
         <Image src={image.webdevWhite} alt="WebDev" className="mx-auto md:mx-0" width={150} height={150}/>
-        <p className="text-base mt-4 text-slate-200 hover:text-white transition-all duration-300">With one and a half years of expertise in digital marketing, Mitochon Digital has successfully completed over six projects, making a notable impact across the internet landscape.</p>
+        <p className="text-base mt-4 text-slate-200 hover:text-white transition-all duration-300">With extensive expertise in digital marketing, Mitochon Digital has successfully completed over six projects, making a notable impact across the internet landscape.</p>
         </div>
           <div className="mx-auto text-center md:text-start">
               <div>
@@ -101,6 +101,14 @@ const Footer = () => {
                 </li>
                 <li className="my-2 text-slate-200 hover:text-white transition-all duration-300">
                   <a
+                    className="text-sm text-white text-bold flex items-center justify-center md:justify-start gap-2"
+                    href="tel:+917904445263"
+                  >
+                <FaPhoneSquareAlt/> +91-7904445263
+                  </a>
+                </li>
+                <li className="my-2 text-slate-200 hover:text-white transition-all duration-300">
+                  <a
                     className="text-sm text-white text-sbold flex items-center justify-center md:justify-start gap-2"
                     href="mailto:contact@mitochondigital.com"
                   >
@@ -113,6 +121,8 @@ const Footer = () => {
                       <a
                         className="social-icon"
                         href="https://www.facebook.com/people/Mitochon-Digital/61559303402146"
+                        target="_blank" 
+                        rel="noopener noreferrer"
                       >
                         <FaFacebook/>
                       </a>
@@ -121,6 +131,8 @@ const Footer = () => {
                       <a
                         className="social-icon"
                         href="https://x.com/MitochonDigital"
+                        target="_blank" 
+                        rel="noopener noreferrer"
                       >
                         <FaTwitter/>
                       </a>
@@ -129,6 +141,8 @@ const Footer = () => {
                       <a
                         className="social-icon"
                         href="https://www.instagram.com/mitochon_digital"
+                        target="_blank" 
+                        rel="noopener noreferrer"
                       >
                         <FaInstagram/>
                       </a>
@@ -137,6 +151,8 @@ const Footer = () => {
                       <a
                         className="social-icon"
                         href="https://uk.linkedin.com/company/mitochon-digital?trk=public_post_feed-actor-name"
+                        target="_blank" 
+                        rel="noopener noreferrer"
                       >
                         <FaLinkedinIn/>
                       </a>
@@ -151,7 +167,7 @@ const Footer = () => {
 
       <div className="text-center py-6 mt-4 md:mt-8 lg:mt-12 mb-[4.5rem] md:mb-0">
       <p className="text-sm text-slate-200 hover:text-white transition-all duration-300">
-        © Copyright <a href="#">MitochonDigital.com</a> 2024. All rights reserved.
+        © Copyright <a href="/">MitochonDigital.com</a> 2024. All rights reserved.
       </p>
     </div>
 
