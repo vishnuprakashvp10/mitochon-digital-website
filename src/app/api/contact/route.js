@@ -7,17 +7,23 @@ const CONTACT_MESSAGE_FIELDS = {
   number: "Number",
   service: "Service",
   message: "Message",
-  referralCode: "Referral Code", // Added referralCode to the fields
+  referralCode: "Referral Code",
 };
 
 const generateEmailContent = (data) => {
-  const stringData = Object.entries(data).reduce(
+  // Ensure referralCode has a default value if not provided
+  const processedData = {
+    ...data,
+    referralCode: data.referralCode || "No Referral Code", // Default message if no referral code
+  };
+
+  const stringData = Object.entries(processedData).reduce(
     (str, [key, val]) =>
       (str += `${CONTACT_MESSAGE_FIELDS[key]}: \n${val} \n \n`),
     ""
   );
 
-  const htmlData = Object.entries(data).reduce((str, [key, val]) => {
+  const htmlData = Object.entries(processedData).reduce((str, [key, val]) => {
     return (str += `<h3 class="form-heading" align="left">${CONTACT_MESSAGE_FIELDS[key]}</h3><p class="form-answer" align="left">${val}</p>`);
   }, "");
 
