@@ -3,7 +3,7 @@ import './WebHero.css'
 import image from "@/constant/Images/image"
 
 
-const WebHero = () => {
+const WebHero = () => { 
   return (
     <section className="">
     <div className="mx-auto max-w-7xl p-6 lg:px-8">

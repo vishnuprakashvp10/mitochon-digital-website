@@ -10,7 +10,7 @@ export const metadata = {
 }
 const WebsiteOptimization = () => {
   return (
-    <>
+    <> 
     <Breadcrumbs name={"Content Marketing"}/>
     <PageWrapper>
      <WebOptimization/>
