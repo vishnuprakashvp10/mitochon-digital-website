@@ -25,7 +25,7 @@ const sections = [
     section: <Marketing/>
   },
   {
-    section: <Cta heading={"Digital Marketing Paid Online Advertising Solution!"} para={"Our digital marketing solutions encompass both SMO (Social Media Optimization) and SEO (Search Engine Optimization) strategies, designed to maximize online visibility and engagement for businesses."}/>
+    section: <Cta heading={"Digital Marketing Paid Online Advertising Solution!"} para={"Mitochon Digital's digital branding and advertising solutions include comprehensive paid online advertising strategies that encompass both Pay-Per-Click (PPC) campaigns and targeted social media advertising. These strategies are designed to maximize online visibility and engagement for businesses across the United Kingdom."}/>
   },
   {
     section: <ContactForm heading={`Get in <span class="highlight">Touch</span>`} color={"bg-white"}/>

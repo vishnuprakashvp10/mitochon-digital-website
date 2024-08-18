@@ -30,8 +30,8 @@ const Marketing = () => {
       <div className="app__container">
         <div className="max-w-3xl mx-auto mb-16">
           <h2 className="primary-heading text-center">
-            We help you increase sales by improving SEO / PPC / Social Media Marketing of{" "}
-            <span className="highlight">your brand</span>
+          OUR FEATURED {" "}
+            <span className="highlight">BRANDING SERVICES</span>
           </h2>
         </div>
         <div
@@ -60,18 +60,20 @@ const Marketing = () => {
                   </g>
                 </svg>
               </div>
+              <a href="/services/social-media-marketing">
               <div className="card-two-content">
                 <div>
                   <div className="card-title">
                     <h3 className="text-2xl text-center font-bold py-7">
                       Social Media marketing
                     </h3>
-                  </div>
+                  </div> 
                   <p className="app__text">
-                  According to statistics, over 2.6 billion people worldwide actively engage with social media. With such a vast audience, social media platforms offer an unparalleled opportunity to promote your product to a global market.
+                  With over 2.6 billion people worldwide actively engaging with social media, these platforms offer an unparalleled opportunity to promote your product globally.
                   </p>
                 </div>
               </div>
+              </a>
             </div>
           </div>
 
@@ -88,6 +90,7 @@ const Marketing = () => {
                   <path d="M410.34277,18.34277,388.68555,40H360a8.00039,8.00039,0,0,0-8,8V76.68555L324.68555,104H296a8.00039,8.00039,0,0,0-8,8v28.68555L260.68555,168H232a8.00039,8.00039,0,0,0-8,8v28.68555L188.68652,240H161.33423a95.64587,95.64587,0,0,1,42.97925-64.91309l-8.627-13.47461A112.00943,112.00943,0,0,0,256,368H358.75293A152.11931,152.11931,0,0,1,256,408c-83.81348,0-152-68.18652-152-152H88a167.79394,167.79394,0,0,0,4.82446,40H32V216H96a8,8,0,0,0,7.39062-4.93848l12.92188-31.19629a8.00028,8.00028,0,0,0-1.7334-8.71875l-45.25586-45.2539,56.56934-56.56934,45.2539,45.25586a7.99745,7.99745,0,0,0,8.71875,1.7334l31.19629-12.92188A8,8,0,0,0,216,96V32h80V80h16V24a8.00039,8.00039,0,0,0-8-8H208a8.00039,8.00039,0,0,0-8,8V90.6543l-21.31934,8.831L131.5498,52.35254a8.0018,8.0018,0,0,0-11.31445,0L52.35254,120.23535a8.0018,8.0018,0,0,0,0,11.31445l47.13281,47.13086L90.6543,200H24a8.00039,8.00039,0,0,0-8,8v96a8.00039,8.00039,0,0,0,8,8H90.6543l8.831,21.31934L52.35254,380.4502a8.0018,8.0018,0,0,0,0,11.31445l67.88281,67.88281a8.0018,8.0018,0,0,0,11.31445,0l47.13086-47.13281L200,421.3457V488a8.00039,8.00039,0,0,0,8,8h96a8.00039,8.00039,0,0,0,8-8V421.3457l21.31934-8.83105,47.13086,47.13281a8.0018,8.0018,0,0,0,11.31445,0l67.88281-67.88281a8.00062,8.00062,0,0,0-.001-11.31445L447.19629,368H488a8.00039,8.00039,0,0,0,8-8V88a8.00039,8.00039,0,0,0-8-8H424a8.00039,8.00039,0,0,0-8,8v56H360a8.00039,8.00039,0,0,0-8,8v40H296a8.00039,8.00039,0,0,0-8,8v48H232a8.00039,8.00039,0,0,0-8,8v32H165.491A95.5652,95.5652,0,0,1,160,256h32a8.00235,8.00235,0,0,0,5.65723-2.34277L235.31445,216H264a8.00039,8.00039,0,0,0,8-8V179.31445L299.31445,152H328a8.00039,8.00039,0,0,0,8-8V115.31445L363.31445,88H392a8.00039,8.00039,0,0,0,8-8V51.31445L419.31348,32H496V16H416A8.00235,8.00235,0,0,0,410.34277,18.34277Zm-284.45019,424.334L69.32324,386.10742l43.04395-43.042a169.30277,169.30277,0,0,0,56.56738,56.56738ZM216,480V419.17554a167.97791,167.97791,0,0,0,80-.01514V480Zm226.67676-93.89258-56.56934,56.56934-43.032-43.03369A168.05664,168.05664,0,0,0,381.20654,368h43.36182ZM432,96h48V352H432V96Zm-64,64h48V352H368V160Zm-64,48h48V352H304V208Zm-64,56h48v88H256a96.21362,96.21362,0,0,1-16-1.34082V264Zm-16,40v42.509A96.52,96.52,0,0,1,172.887,304Zm32-104H240V184h16Zm64-64H304V120h16Zm64-64H368V56h16Z" />
                 </svg>
               </div>
+              <a href="/services/content-marketing">
               <div className="card-two-content">
                 <div>
                   <div className="card-title">
@@ -96,9 +99,10 @@ const Marketing = () => {
                     </h3>
                   </div>
                   <p className="app__text">
-                  Introducing people to a new product can be challenging, which is why it&apos;s essential to use engaging content that educates your audience about what you offer. Utilize infographics and maps to clearly and effectively communicate your product&apos;s features and benefits.                  </p>
+                  Introducing people to a new product requires engaging content that educates your audience. Utilize infographics, maps, and other engaging content to clearly communicate your product&apos;s features and benefits.                  </p>
                 </div>
               </div>
+              </a>
             </div>
           </div>
 
@@ -170,6 +174,7 @@ const Marketing = () => {
                   </g>
                 </svg>
               </div>
+              <a href="/services/seo-service">
               <div className="card-two-content animate get-bottom">
                 <div>
                   <div className="card-title">
@@ -178,10 +183,11 @@ const Marketing = () => {
                     </h3>
                   </div>
                   <p className="app__text">
-                  Over 70% of online experiences begin with a search engine, making SEO critical for increasing visibility and driving website traffic. Enhancing your website&apos;s SEO means your product is the first thing potential customers find when they search relevant keywords. Mitochon Digital optimizes your online presence to improve search rankings and attract more qualified leads to your site
-                  </p>
+                  With over 70% of online experiences beginning with a search engine, SEO is critical for increasing visibility and driving website traffic. Mitochon Digital optimizes your online presence to improve search rankings and attract more qualified leads to your site.
+                                    </p>
                 </div>
               </div>
+              </a>
             </div>
           </div>
 
@@ -203,6 +209,7 @@ const Marketing = () => {
                   </g>
                 </svg>
               </div>
+              <a href="/services/analytics-and-reporting">
               <div className="card-two-content">
                 <div>
                   <div className="card-title">
@@ -211,10 +218,11 @@ const Marketing = () => {
                     </h3>
                   </div>
                   <p className="app__text">
-                  Informed decision-making is key to successful marketing strategies. At Mitochon Digital, we provide comprehensive analytics and reporting that track your campaigns&apos; performance across various channels. This enables you to see what&apos;s working and what isn&apos;t, allowing for data-driven adjustments that boost efficiency and ROI.
+                  Informed decision-making is key to successful marketing strategies. At Mitochon Digital, we provide comprehensive analytics and reporting that track your campaigns&apos; performance, allowing for data-driven adjustments that boost efficiency and ROI.
                   </p>
                 </div>
               </div>
+              </a>
             </div>
           </div>
         </div>
