@@ -27,7 +27,7 @@ const Footer = () => {
 
         <div className="grid grid-cols-1 md:grid-cols-4 ld:grid-cols-4 gap-y-8 pt-20">
         <div className="lg:pr-8 text-center md:text-start ">
-        <Image src={image.webdevWhite} alt="WebDev" className="mx-auto md:mx-0" width={150} height={150}/>
+        <Link href="/"><Image src={image.webdevWhite} alt="Mitochon Digital" className="mx-auto md:mx-0" width={150} height={150}/></Link> 
         <p className="text-base mt-4 text-slate-200 hover:text-white transition-all duration-300">With extensive expertise in digital marketing, Mitochon Digital has successfully completed over six projects, making a notable impact across the internet landscape.</p>
         </div>
           <div className="mx-auto text-center md:text-start">
