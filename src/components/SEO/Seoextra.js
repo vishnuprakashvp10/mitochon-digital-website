@@ -35,7 +35,7 @@ const WeHelp = ({ name }) => {
               <h4 className="primary-heading">WHAT WE <span className="highlight">DO</span></h4>
             </div>
             <div>
-              <h2>At Mitochon Digital, our expertise in PPC and social media management services ensures that your business reaches its full potential in the competitive digital landscape. As one of the best social media marketing companies in the United Kingdom, we offer a range of social media advertising services including social media ad campaigns, social media growth strategies, and social media content management. Our comprehensive approach helps businesses effectively optimize their social media marketing campaigns for maximum conversion and engagement. As a top-rated paid social agency, we specialize in creating impactful, data-driven social media marketing services packages. From social media marketing for realtors to B2B social media marketing, our goal is to maximize your ROI while building a strong, authentic connection between your brand and your audience.</h2>
+              <h2>services ensures that your business reaches its full potential in the competitive digital landscape. As one of the best social media marketing companies in the United Kingdom, we offer a range of social media advertising services including social media ad campaigns, social media growth strategies, and social media content management. Our comprehensive approach helps businesses effectively optimize their social media marketing campaigns for maximum conversion and engagement. As a top-rated paid social agency, we specialize in creating impactful, data-driven social media marketing services packages. From social media marketing for realtors to B2B social media marketing, our goal is to maximize your ROI while building a strong, authentic connection between your brand and your audience.</h2>
             </div>
           </div>
         </div>
@@ -54,10 +54,10 @@ const WeHelp = ({ name }) => {
               </svg>
             </div>
             <div className="card-title">
-              <h3 className="pb-6 text-xl font-bold">PPC Advertising Strategy</h3>
+              <h3 className="pb-6 text-xl font-bold">Social Media Strategy</h3>
             </div>
             <p className='app__text'>
-            he digital landscape is constantly evolving, and at Mitochon Digital, our PPC ad agency ensures that your product or service remains highly visible to your target audience. We design PPC advertising campaigns that are optimized for performance across the best PPC advertising platforms, providing you with the highest return on investment.        </p>
+            The ever-evolving landscape of social media digital marketing demands that your strategy remains innovative and adaptable. At Mitochon Digital, we ensure your product stays highly visible with our expertise as a leading social media content agency.   </p>
           </div>
         </motion.div>  
         
@@ -78,10 +78,10 @@ const WeHelp = ({ name }) => {
               </svg>
             </div>
             <div className="card-title">
-              <h3 className="pb-6 text-xl font-bold">Engaging PPC Campaigns for Social Media</h3>
+              <h3 className="pb-6 text-xl font-bold">Social Media Engagement</h3>
             </div>
             <p className='app__text'>
-            At Mitochon Digital, we go beyond traditional ad creation by building social media PPC advertising campaigns that showcase your brand&apos;s personality while driving meaningful engagement. Our PPC management agency focuses on creating strategies that reflect your brand&apos;s core values, allowing your business to form deeper connections with your customers.
+            Our social media advertising and PPC advertising strategies go beyond crafting visually appealing ads. We focus on building meaningful relationships with your customers through effective social media influencer marketing and targeted advertising on social media. 
             </p>
           </div>
         </motion.div>
@@ -114,10 +114,10 @@ const WeHelp = ({ name }) => {
               </svg>
             </div>
             <div className="card-title">
-              <h3 className="pb-6 text-xl font-bold">Optimizing Your PPC Campaigns</h3>
+              <h3 className="pb-6 text-xl font-bold">Social Media Optimization</h3>
             </div>
             <p className='app__text'>
-            Optimization is key in ensuring long-term success in pay-per-click advertising. Mitochon Digital offers comprehensive PPC campaign management that includes regular updates, performance tracking, and PPC campaign optimization strategies. As a trusted pay-per-click advertising company, we ensure your brand remains competitive in the ever-changing digital marketing environment.
+            Maintaining a consistent and engaging presence on social media is key to long-term success. Our social media management services at Mitochon Digital ensure that your brand&apos;s voice stays relevant.  
             </p>
           </div>
         </motion.div>

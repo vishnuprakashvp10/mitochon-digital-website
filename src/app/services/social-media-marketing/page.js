@@ -1,7 +1,7 @@
 import { PageWrapper } from "@/app/page-wrapper"
 import Breadcrumbs from "@/components/Breadcrumbs/Breadcrumbs"
 import ContactForm from "@/components/ContactPage/ContactForm"
-import WeHelp from "@/components/PPC/WeHelp"
+import Seoextra from "@/components/SEO/Seoextra"
 import NeedService from "@/components/SocialMarketing/NeedService"
 import Social from "@/components/SocialMarketing/Social"
 
@@ -14,7 +14,7 @@ const sections = [
     section: <Social/>
   },
   {
-    section: <WeHelp name={"Social Media Marketing"}/>
+    section: <Seoextra name={"Social Media Marketing"}/>
   },
   {
     section: <NeedService/>

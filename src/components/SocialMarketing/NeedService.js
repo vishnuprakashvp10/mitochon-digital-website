@@ -20,18 +20,18 @@ const NeedService = () => {
             </h2>
           </div>
 
-          <p className='app__text'>
-          Do you want to know the secret behind the magic of marketing and the science of sales? Yes, you heard it right: social media marketing is behind every magic that happens in the world of businesses.
+          <p className='app__text text-justify'>
+          The secret behind successful social media marketing for businesses is simple: building a strong connection with your audience. At Mitochon Digital, we leverage the power of social media marketing to build your brand&apos;s voice and create meaningful conversations around your products. Our social media marketing experts employ techniques like social listening to monitor conversations about your brand, identifying the trends that matter most to your audience.
           </p>
 
-          <ul role="list" className="mt-8 space-y-8 app__text">
+          <ul role="list" className="mt-8 text-justify space-y-8 app__text">
             <li className="flex gap-x-3">
               <CheckCircleIcon
                 className="mt-1 h-5 w-5 flex-none text-indigo-600"
                 aria-hidden="true"
               />
               
-              <span><strong className="font-semibold text-gray-900">Build Your Brand&apos;s Voice:</strong> Social media has a benefit over traditional media because it can get your brand in front of people much more quickly and easily. Furthermore, it gets your audience to look at your brand even when they are not thinking about your brand or product.</span>
+              <span><strong className="font-semibold text-gray-900">Build Your Brand&apos;s Voice:</strong> Social media marketing allows you to showcase your brand across various platforms, reaching your audience even when they aren&apos;t thinking about your product.</span>
             </li>
             <li className="flex gap-x-3">
               <CheckCircleIcon
@@ -39,7 +39,7 @@ const NeedService = () => {
                 aria-hidden="true"
               />
               
-              <span><strong className="font-semibold text-gray-900"> Conversations About Brand:</strong> We generate gossip among society about your brand and your products, which helps to gain the attention of customers.</span>
+              <span><strong className="font-semibold text-gray-900"> Conversations About Brand:</strong> We generate positive buzz around your brand, encouraging customer engagement and loyalty.</span>
             </li>
             <li className="flex gap-x-3">
               <CheckCircleIcon
@@ -55,7 +55,7 @@ const NeedService = () => {
                 aria-hidden="true"
               />
              
-              <span><strong className="font-semibold text-gray-900">Responsible Customer Service:</strong> We build meaningful relationships between your company and your customers. Social media allows for immediate interaction and customer feedback. Businesses can also respond to their customers right away.</span>
+              <span><strong className="font-semibold text-gray-900">Responsible Customer Service:</strong> With social media management, we provide timely customer support, building meaningful relationships through immediate interaction and feedback.</span>
             </li>
           </ul>
         </div>

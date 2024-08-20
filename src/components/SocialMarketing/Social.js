@@ -3,20 +3,20 @@ import Image from "next/image"
 
 const Social = () => {
   return (
-    <section className="we-are-area py-16 md:py-32 flex items-center">
+    <section className="we-are-area flex items-center">
     <div className="app__container grid grid-cols-1 md:grid-cols-2 gap-8 relative">
       <div className="my-auto order-2 md:order-1">
         <div className="we-are-content">
           <div className="section-title">
             <h2 className="pb-12 primary-heading">
-            SOCIAL <span className="highlight">MARKETING</span>
+            <span className="highlight">SOCIAL MEDIA </span>MARKETING
             </h2>
           </div>
 
-          <p className="app__text">
-          Social media marketing requires both strategy and creativity. It&apos;s so important that around 92% of marketers use social media as part of their marketing efforts. In addition to that, 78% of salespeople engaged in social media are outselling their peers who are not. And nearly 40% of small businesses do not use social media. Even more concerning is that an additional 16% are unlikely to use social media for business at all.<br/><br/>
+          <p className="app__text text-justify">
+          At Mitochon Digital, a premier social media digital agency in the United Kingdom, we understand that social media marketing requires a blend of strategy and creativity. With around 92% of marketers leveraging social platforms, it&apos;s clear that a powerful social media presence is essential for business success. For those not utilizing social media for business, there&apos;s a huge missed opportunity, as 78% of salespeople engaged in social marketing outsell their peers. Despite these compelling numbers, nearly 40% of small businesses are still not using social media marketing services to grow their brand.<br/><br/>
 
-          We create miracles in an instant. We provide top-notch service in exchange for your trust and help you gain the upper hand among competitors. We know how to change the market&apos;s course and drive customers toward you.
+          We at Mitochon Digital provide top-notch social media marketing services that help you outperform competitors. Whether you&apos;re looking for a social media agency near me or the best social media marketing agency in the United Kingdom, we create tailored strategies to transform your market presence and drive customer engagement.
           </p>
         </div>
       </div>
