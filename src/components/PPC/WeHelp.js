@@ -35,7 +35,7 @@ const WeHelp = ({ name }) => {
               <h4 className="primary-heading">WHAT WE <span className="highlight">DO</span></h4>
             </div>
             <div>
-              <h2>How We Help Your {name}</h2>
+              <h2>At Mitochon Digital, our expertise in PPC management services ensures that your business reaches its full potential in the competitive world of PPC advertising. As one of the best PPC agencies in the United Kingdom, we offer comprehensive PPC services, including campaign optimization, PPC ad campaign management, and social media PPC advertising. We are a trusted pay per click management agency, guiding businesses through the process of optimizing their ad spend while maximizing conversions. {name}</h2>
             </div>
           </div>
         </div>
@@ -57,7 +57,7 @@ const WeHelp = ({ name }) => {
               <h3 className="pb-6 text-xl font-bold">Social Media Strategy</h3>
             </div>
             <p className='app__text'>
-            Your product showcased on social media platforms should evolve and adapt over time, reflecting its unique personality and the social media trends.            </p>
+            With the ever-changing landscape of social media, our PPC agency services ensure that your product or service remains highly visible and relevant. As a top digital marketing PPC advertising firm, we make sure your brand&apos;s unique personality shines across various platforms.            </p>
           </div>
         </motion.div>  
         
@@ -81,7 +81,7 @@ const WeHelp = ({ name }) => {
               <h3 className="pb-6 text-xl font-bold">Social Media Engagement</h3>
             </div>
             <p className='app__text'>
-            Social media design goes beyond visual appeal; it is a critical tool for conveying the identity, essence, and character of your brand.
+            The PPC advertising strategies we develop go beyond creating visually appealing ads. We focus on building social media PPC advertising campaigns that convey your brand&apos;s core values, allowing for deeper customer connections.
             </p>
           </div>
         </motion.div>
@@ -117,8 +117,8 @@ const WeHelp = ({ name }) => {
               <h3 className="pb-6 text-xl font-bold">Social Media Optimization</h3>
             </div>
             <p className='app__text'>
-            Consistent updates and strategic content alignment demonstrate dedication and commitment to your brand&quot;s presence on social media.
-                        </p>
+            Regular updates and PPC advertising services are key to ensuring your brand maintains a strong presence. Our PPC marketing experts work tirelessly to align your advertising strategies with your audience&apos;s expectations, positioning your business for long-term success.
+            </p>
           </div>
         </motion.div>
         </motion.div>
