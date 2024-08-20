@@ -28,22 +28,22 @@ const items = {
 
 const SeoServices = () => {
   const services = [{
-    heading: "Good Quality Optimized",
-    desc: "Each page on the website needs to have unique, optimized copy that focuses on specific keywords in order to rank highly on Google. The copy needs to be well-written and easy to understand.",
+    heading: "Good Quality Optimized Content",
+    desc: "Every page needs unique, well-optimized copy that is designed to target relevant keywords. Whether you need a SEO copywriting agency or support from search engine marketing agencies, Mitochon Digital ensures that your content is written to rank highly on Google.",
     imgUrl: SpeakerWaveIcon,
     hoverBg: "pink-hover",
     iconColor:"pink-text"
   },
   {
     heading: "Link Building",
-    desc: "Link building is a part of SEO that aims to gain links to your website from reputable sources. The aim of link building is, therefore, to gain high-quality links in order to improve the ranking position of the website.",
+    desc: "As a reputable backlink building agency, we understand the importance of gaining links from high-quality sources. Our link building specialists work diligently to ensure your website's ranking improves through strategic link acquisition. High-quality backlinks are essential for your SEO content marketing agency strategy.",
     imgUrl: ShareIcon,
     hoverBg: "paste-hover",
     iconColor:"paste-text"
   },
   {
-    heading: "Site Optimization",
-    desc: "Surprised we did I village now, a just on five just through I were the one that finds poetic.",
+    heading: "Keyword Planning:",
+    desc: "A well-defined keyword strategy is crucial to ensuring that your website pages don't compete with each other. As a leading SEO content agency, we ensure each page has a specific purpose and is optimized for targeted keywords like search engine optimisation specialist and local SEO provider.",
     imgUrl: WrenchScrewdriverIcon,
     hoverBg: "yellow-hover",
     iconColor:"yellow-text"
@@ -51,21 +51,21 @@ const SeoServices = () => {
 
   const benefits = [{
     heading: "Brand Building",
-    desc: "SMO helps brands in regularly engaging with their audience on social media. The more the engagement on social media, the users begin to trust and recommend your brand, product or service.",
+    desc: "Our SEO services help build your brand by improving visibility across search engines and social media. As a digital marketing SEO agency, we ensure that your business consistently engages with your audience, which builds trust and loyalty.",
     imgUrl: CheckBadgeIcon,
     hoverBg: "pink-hover",
     iconColor:"pink-text"
   },
   {
     heading: "Strong Online Presence",
-    desc: "With the large percentage of online activity happening on social media platforms, social media usage is always high. A strong smo strategy is hence extremely important for building and maintaining a solid online presence.",
+    desc: "With a robust SEO and social media strategy, your online presence becomes stronger than ever. We are not just an SEO agency, but also a digital agency SEO provider that can help you thrive in the competitive online marketplace.",
     imgUrl: PresentationChartLineIcon,
     hoverBg: "paste-hover",
     iconColor:"paste-text"
   },
   {
     heading: "Improve Search Engine Ranking",
-    desc: "Your social media presence complements your seo efforts. Websites that have a high number of back-links from high-quality sources are more likely to be viewed by search engines.",
+    desc: "A strong SEO strategy complements your social media presence. At Mitochon Digital, our goal is to improve your search engine rankings by building high-quality backlinks from reputable sources. As a top SEO and digital marketing provider, we make sure your site remains visible and competitive.",
     imgUrl: MagnifyingGlassIcon,
     hoverBg: "yellow-hover",
     iconColor:"yellow-text"
@@ -75,10 +75,10 @@ const SeoServices = () => {
     <div className="app__container">
         <div className="row">
                 <div className="pb-12 text-center">
-                    <h2 className='primary-heading mb-4'>SEO Service <br/>We Provide
-                    <span className='highlight'> Special For You</span></h2>
-                    <p className='app__text'>Keyword Planning: A clear keyword strategy means pages will not compete.<br/>
-                    With one another for the same search terms. Each page will have a specific purpose.</p>
+                    <h2 className='primary-heading mb-4'>SEO Service <br/>
+                    <span className='highlight'> Tailored to Your Needs</span></h2>
+                    <p className='app__text'>
+                    At Mitochon Digital, we offer a variety of SEO services to cater to your business&apos;s unique requirements. Whether you need local SEO services for small business, link building services, or professional SEO services agency support, we have you covered. Our SEO audit agency team will perform a deep analysis of your website, identifying areas of improvement to maximize your visibility.</p>
                 </div>
                 
         </div>
@@ -102,7 +102,7 @@ const SeoServices = () => {
             }
         </motion.div>
         <div className="text-3xl font-extrabold pt-12 pb-8 text-center">
-        <h2>Benefits</h2>
+        <h2>Benefits of SEO with Mitochon Digital</h2>
         </div>
         <motion.div variants={variants} initial="hidden" whileInView="show" className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
         {
