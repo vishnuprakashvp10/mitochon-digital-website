@@ -39,6 +39,7 @@ const PortfolioIsoTop = () => {
           {images.map((i, k) => {
             return (
               <div key={k}>
+                 
                 <div className="isotop-wrapper relative">
                   <div className="full-width">
                     <div
@@ -46,13 +47,14 @@ const PortfolioIsoTop = () => {
                       data-lightbox="example-1"
                       
                     >
+                      <a href="https://athlefy.co.uk/ " target="_blank">
                       <Image
                         className="example-image"
                         src={i.imgUrl}
                         alt="gallery"
                         title="gallery"
                         onClick={() => handleImageClick(k)}
-                      />
+                      /></a>
                       {selectedImage === k && (
                         <div className="fixed z-10 inset-0 overflow-y-auto">
                           <div className="flex items-center justify-center min-h-screen text-center sm:block">
@@ -85,7 +87,9 @@ const PortfolioIsoTop = () => {
                               </div>
                             </div>
                           </div>
+                         
                         </div>
+                        
                       )}
                     </div>
                   </div>
