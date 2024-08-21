@@ -23,7 +23,7 @@ const Ppc = () => {
             </p>
             <Link href="/contact-us">
             <button className='primary-btn mt-12 shadow-lg'>Reach Us</button>
-						</Link>
+						</Link> 
           </div>
         </div>
       </div>

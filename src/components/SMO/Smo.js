@@ -4,7 +4,7 @@ import Image from "next/image";
 
 const Smo = () => {
   return (
-    <section className="we-are-area py-16 md:py-32 flex items-center">
+    <section className="we-are-area flex items-center">
       <div className="app__container grid grid-cols-1 md:grid-cols-2 gap-8 relative">
 
         <div className="my-auto order-2 md:order-1">
@@ -15,38 +15,24 @@ const Smo = () => {
               </h2>
             </div>
 
-            <p className="app__text">
-            Analytics and Reporting is a critical component of digital marketing that focuses on collecting, analyzing, and reporting data to enhance the effectiveness of your marketing strategies. Some of the major roles of Analytics and Reporting are:              -
+            <p className="text-justify app__text">
+            Analytics and Reporting is a critical component of digital marketing that focuses on collecting, analyzing, and reporting data to enhance the effectiveness of your marketing strategies. At Mitochon Digital, based in the United Kingdom, web analytics and reporting play a critical role in digital marketing by gathering, analyzing, and presenting data to improve your online strategies. Our web analytics services provide real-time insights into user engagement, conversion tracking, and behavior analysis, helping you stay ahead in the digital landscape. By utilizing advanced tools like website analytics dashboards, heatmap website analytics, and competitor web analytics, we ensure your marketing efforts are optimized for success.
             </p>
 
-            <ul role="list" className="mt-8 space-y-8 app__text">
+            <ul role="list" className="mt-8 space-y-8 text-justify app__text">
               <li className="flex gap-x-3">
                 <CheckCircleIcon
                   className="mt-1 h-5 w-5 flex-none text-indigo-600"
                   aria-hidden="true"
                 />
-                <span>Tracking User Engagement</span>
+                <span>Real-time website analytics from Mitochon Digital provide insights into how users interact with your website, highlighting key engagement metrics such as clicks, time spent on pages, and heatmap analytics. Using advanced web analytics tools like heatmap website analytics and competitor web analytics, we track user behavior to optimize the user journey. Our website analytics dashboard allows you to monitor user engagement data in real time, ensuring a seamless experience for your audience.</span>
               </li>
               <li className="flex gap-x-3">
                 <CheckCircleIcon
                   className="mt-1 h-5 w-5 flex-none text-indigo-600"
                   aria-hidden="true"
                 />
-                <span>Conversion Tracking</span>
-              </li>
-              <li className="flex gap-x-3">
-                <CheckCircleIcon
-                  className="mt-1 h-5 w-5 flex-none text-indigo-600"
-                  aria-hidden="true"
-                />
-                <span>Behavior Analysis</span>
-              </li>
-              <li className="flex gap-x-3">
-                <CheckCircleIcon
-                  className="mt-1 h-5 w-5 flex-none text-indigo-600"
-                  aria-hidden="true"
-                />
-                <span>Market Trends and Consumer Insights</span>
+                <span>Our web analytics services include in-depth conversion tracking to measure the success of your marketing efforts. By leveraging ecommerce web analytics and SEO web analytics, we help identify which marketing strategies lead to higher conversion rates. Our web reporting tools provide detailed website analytics reports, offering insights into which aspects of your campaign drive conversions.</span>
               </li>
             </ul>
           </div>

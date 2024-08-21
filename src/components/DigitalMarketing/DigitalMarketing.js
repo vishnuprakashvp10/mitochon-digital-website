@@ -3,7 +3,7 @@ import { CheckCircleIcon } from '@heroicons/react/24/outline'
 import Image from 'next/image'
 
 export default function DigitalMarketing() {
-  return (
+  return ( 
     <section>
     <div className="app__container relative isolate overflow-hidden bg-white px-6  mb-64 lg:overflow-visible lg:px-0">
       <div className="absolute inset-0 -z-10 overflow-hidden">

@@ -29,27 +29,27 @@ const items = {
 const ServiceInclude = () => {
   const services = [{
     heading: "Account Setup",
-    desc: "Everything was he's help designer, she's something cat that lively. In then to written to period, stand understood.",
+    desc: "We configure all necessary tools to track your website analytics efficiently.",
     imgUrl: UserCircleIcon,
     hoverBg: "pink-hover",
     iconColor:"pink-text"
   },
   {
     heading: "Keyword Selection",
-    desc: "Everything was he's help designer, she's something cat that lively. In then to written to period, stand understood.",
+    desc: "Our experts help choose the best keywords based on web analytics in digital marketing for high-performing campaigns.",
     imgUrl: MagnifyingGlassIcon,
     hoverBg: "paste-hover",
     iconColor:"paste-text"
   },
   {
     heading: "Bid Management",
-    desc: "Everything was he's help designer, she's something cat that lively. In then to written to period, stand understood.",
+    desc: "With smart bid strategies driven by web analytics metrics, we ensure you get the best return on investment.",
     imgUrl: ChartBarIcon,
     hoverBg: "yellow-hover",
     iconColor:"yellow-text"
   },{
     heading: "Analysis & Reporting",
-    desc: "Everything was he's help designer, she's something cat that lively. In then to written to period, stand understood.",
+    desc: "We provide in-depth web reporting and insights with the help of advanced tools like enterprise web analytics and website analytics comparison reports.",
     imgUrl: DocumentMagnifyingGlassIcon,
     hoverBg: "purple-hover",
     iconColor:"purple-text"

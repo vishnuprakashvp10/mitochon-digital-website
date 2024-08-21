@@ -1,9 +1,10 @@
 import image from '@/constant/Images/image'
 import Image from 'next/image'
+import Link from "next/link";
 
 const Ppc = () => {
   return (
-    <section className="we-are-area py-16 md:py-32 flex items-center">
+    <section className="we-are-area flex items-center">
     <div className="app__container grid grid-cols-1 md:grid-cols-2 gap-8 relative">
       <div className="we-are-img">
         <div className="we-are-banner-img">
@@ -16,12 +17,14 @@ const Ppc = () => {
               <h2 className="pb-12 primary-heading">What is <span className='highlight'>Conversion Rate Optimization </span> (CRO)?</h2>
             </div>
 
-            <p className='app__text'>
-            <strong>Conversion Rate Optimization (CRO) is a method of digital marketing focused on increasing the percentage of visitors to a website who take a desired action.</strong><br/><br/>
-            CRO typically involves a detailed analysis of how users interact with a website, followed by implementing changes to improve the user experience and guide visitors towards making a conversion. This process often includes A/B testing different versions of a page, optimizing landing pages, and refining the overall site navigation to enhance user flow and reduce friction points.            </p>
+            <p className='app__text text-justify'>
+            <strong>Conversion Rate Optimization is a method of digital marketing focused on increasing the percentage of visitors to a website who take a desired action.</strong><br/><br/>
+            At Mitochon Digital, a leading digital marketing agency based in the United Kingdom, we offer conversion rate optimization services designed to maximize your website&apos;s effectiveness and drive conversions. Our approach to CRO involves detailed analysis through website usability testing, evaluating how users interact with your site and identifying opportunities for improvement. We utilize methods such as unmoderated usability testing, mobile usability tests, and remote usability testing to understand your audience&apos;s behavior and enhance their user experience. This thorough evaluation allows us to make data-driven decisions to improve conversion rates across the site.           </p>
 
+            <Link href="/contact-us">
             <button className='primary-btn mt-12 shadow-lg'>Reach Us</button>
-          </div>
+						</Link>           
+            </div>
         </div>
       </div>
   </section>
