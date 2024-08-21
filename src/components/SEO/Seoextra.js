@@ -35,7 +35,7 @@ const WeHelp = ({ name }) => {
               <h4 className="primary-heading">WHAT WE <span className="highlight">DO</span></h4>
             </div>
             <div>
-              <h2>services ensures that your business reaches its full potential in the competitive digital landscape. As one of the best social media marketing companies in the United Kingdom, we offer a range of social media advertising services including social media ad campaigns, social media growth strategies, and social media content management. Our comprehensive approach helps businesses effectively optimize their social media marketing campaigns for maximum conversion and engagement. As a top-rated paid social agency, we specialize in creating impactful, data-driven social media marketing services packages. From social media marketing for realtors to B2B social media marketing, our goal is to maximize your ROI while building a strong, authentic connection between your brand and your audience.</h2>
+              <h2>At Mitochon Digital, our social media management services ensures that your business reaches its full potential in the competitive digital landscape. As one of the best social media marketing companies in the United Kingdom, we offer a range of social media advertising services including social media ad campaigns, social media growth strategies, and social media content management. Our comprehensive approach helps businesses effectively optimize their social media marketing campaigns for maximum conversion and engagement. As a top-rated paid social agency, we specialize in creating impactful, data-driven social media marketing services packages. From social media marketing for realtors to B2B social media marketing, our goal is to maximize your ROI while building a strong, authentic connection between your brand and your audience.</h2>
             </div>
           </div>
         </div>
@@ -57,7 +57,7 @@ const WeHelp = ({ name }) => {
               <h3 className="pb-6 text-xl font-bold">Social Media Strategy</h3>
             </div>
             <p className='app__text'>
-            The ever-evolving landscape of social media digital marketing demands that your strategy remains innovative and adaptable. At Mitochon Digital, we ensure your product stays highly visible with our expertise as a leading social media content agency.   </p>
+            At Mitochon Digital, we develop a tailored social media strategy that aligns with your business goals. By leveraging targeted social media advertising and paid social advertising, we ensure your brand reaches the right audience. Our social media marketing packages are designed to maximize visibility, engagement, and ROI. </p>
           </div>
         </motion.div>  
         
@@ -81,7 +81,7 @@ const WeHelp = ({ name }) => {
               <h3 className="pb-6 text-xl font-bold">Social Media Engagement</h3>
             </div>
             <p className='app__text'>
-            Our social media advertising and PPC advertising strategies go beyond crafting visually appealing ads. We focus on building meaningful relationships with your customers through effective social media influencer marketing and targeted advertising on social media. 
+            Our approach to social media engagement focuses on creating meaningful interactions with your audience. Through strategic social network advertising and content-driven social media marketing, we build authentic connections, encouraging conversations and long-term customer loyalty.
             </p>
           </div>
         </motion.div>
@@ -117,7 +117,7 @@ const WeHelp = ({ name }) => {
               <h3 className="pb-6 text-xl font-bold">Social Media Optimization</h3>
             </div>
             <p className='app__text'>
-            Maintaining a consistent and engaging presence on social media is key to long-term success. Our social media management services at Mitochon Digital ensure that your brand&apos;s voice stays relevant.  
+            We specialize in social media optimization to enhance your online presence. By optimizing your social media advertising campaigns, we ensure your brand remains visible and relevant. Our social media marketing experts use data-driven insights to fine-tune your content, driving organic growth and improving overall engagement across platforms.
             </p>
           </div>
         </motion.div>
