@@ -21,7 +21,7 @@ const Home = () => {
 							<Link href="/contact-us" className="primary-btn shadow-lg">
 								Reach Us
 							</Link>
-							<Link href="/about-us" className="secondary-btn shadow-lg">
+							<Link href="/about-us" className="hover:scale-110 secondary-btn shadow-lg">
 								Know More
 							</Link>
 						</div>
