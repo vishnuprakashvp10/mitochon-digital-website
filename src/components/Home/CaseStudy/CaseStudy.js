@@ -3,55 +3,64 @@ import React, { useEffect, useRef, useState } from "react";
 import { motion, useAnimation } from "framer-motion";
 import image from "@/constant/Images/image";
 import Image from "next/image";
+import Link from 'next/link'; // Import Link
 
 const services = [
 	{
 		heading: "Branding",
 		imgUrl: image.digitalMarketing,
 		hoverBg: "pink-hover",
-		iconColor: "pink-text",
+		iconColor: "pink-text", 
+		link:"/services/branding"
 	},
 	{
 		heading: "Website Development",
 		imgUrl: image.wd,
 		hoverBg: "paste-hover",
 		iconColor: "paste-text",
+		link:"/services/website-development"
 	},
 	{
 		heading: "Content Marketing",
 		imgUrl: image.smo,
 		hoverBg: "yellow-hover",
 		iconColor: "yellow-text",
+		link:"/services/content-marketing"
 	},
 	{
 		heading: "SEO Service",
 		imgUrl: image.seo,
 		hoverBg: "purple-hover",
 		iconColor: "purple-text",
+		link:"/services/seo-service"
 	},
 	{
 		heading: "Paid Online Advertising",
 		imgUrl: image.wo,
 		hoverBg: "purple-hover",
 		iconColor: "pink-text",
+		link:"/services/paid-online-advertising"
 	},
 	{
 		heading: "Social Media Marketing",
 		imgUrl: image.socialMarketing,
 		hoverBg: "paste-hover",
 		iconColor: "paste-text",
+		link:"/services/social-media-marketing"
 	},
 	{
 		heading: "Analytics and Reporting",
 		imgUrl: image.ppc,
 		hoverBg: "yellow-hover",
 		iconColor: "yellow-text",
+		link:"/services/analytics-and-reporting"
 	},
 	{
 		heading: "CRO and Usability",
 		imgUrl: image.ppc,
 		hoverBg: "yellow-hover",
 		iconColor: "yellow-text",
+		link:"/services/cro-and-usability"
 	},
 ];
 
@@ -106,27 +115,29 @@ const CaseStudy = () => {
 							animate={controls}
 						>
 							{services.map((service, key) => (
-								<motion.div key={key} className="mx-2">
-									<div
-										className={`common-single-card flex flex-col py-8 md:py-12 px-16 md:px-20  ${service.hoverBg}`}
-									>
+								<Link key={key} href={service.link} passHref>
+									<motion.div className="mx-2">
 										<div
-											className={`mx-auto w-44 md:w-52 h-44 md:h-52 ${service.iconColor}`}
+											className={`common-single-card flex flex-col py-8 md:py-12 px-16 md:px-20 ${service.hoverBg}`}
 										>
-											<Image
-												src={service.imgUrl}
-												height={400}
-												width={400}
-												alt=""
-											/>
+											<div
+												className={`mx-auto w-44 md:w-52 h-44 md:h-52 ${service.iconColor}`}
+											>
+												<Image
+													src={service.imgUrl}
+													height={400}
+													width={400}
+													alt={service.heading}
+												/>
+											</div>
+											<div className="text-center">
+												<h3 className="text-xl font-bold mt-8 mb-4">
+													{service.heading}
+												</h3>
+											</div>
 										</div>
-										<div className="text-center">
-											<h3 className="text-xl font-bold mt-8 mb-4">
-												{service.heading}
-											</h3>
-										</div>
-									</div>
-								</motion.div>
+									</motion.div>
+								</Link>
 							))}
 						</motion.div>
 					</motion.div>

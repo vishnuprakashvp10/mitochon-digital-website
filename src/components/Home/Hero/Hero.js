@@ -14,7 +14,7 @@ const Home = () => {
 						<h1 className="text-4xl lg:text-6xl text-white font-extrabold mb-4 capitalize">
 							Mitochon Digital - Making your digital dreams a reality !
 						</h1>
-						<p className="text-base text-white mb-4">
+						<p className="text-base  text-justify text-white mb-4">
 						At Mitochon Digital, we craft targeted digital marketing strategies to boost your online presence and drive measurable results across the United Kingdom. Our team excels in branding, website development, content marketing, SEO services, and paid online advertising, ensuring your business stands out. We also specialize in social media marketing, analytics and reporting, and CRO and usability, helping you connect with the right audience and achieve sustainable growth by highlighting your brand&apos;s unique strengths.
 						</p>
 						<div className="flex gap-5">
@@ -56,3 +56,5 @@ const Home = () => {
 };
 
 export default Home;
+
+

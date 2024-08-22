@@ -15,7 +15,7 @@ const HomeStats = () => {
     <Stats
       stats={stats}
       heading="Digital Marketing SEO Solutions!"
-      para="At Mitochon Digital, our digital marketing solutions integrate both PPC (Pay-Per-Click) and SEO (Search Engine Optimization) strategies, expertly designed to maximize your online visibility and engagement. By leveraging these powerful tools, we help businesses tap into new audiences and significantly boost their digital footprint."
+      para="Our services include comprehensive SEO management, website SEO, and SEO audit solutions. As one of the best SEO companies in the world, we excel in SEO website design, link building, and international SEO. Partner with Mitochon Digital to leverage our expertise as the best search engine optimization company and achieve outstanding results in your SEO development and optimization efforts."
       connectHref="/contact-us"
       knowMoreHref="/services/seo-service"
     />

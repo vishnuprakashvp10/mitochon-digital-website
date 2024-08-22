@@ -13,16 +13,16 @@ import ContactForm from "@/components/ContactPage/ContactForm";
 export default function Home() { 
   const content = [{
     heading: "Search Engine Optimization",
-    description: "Mitochon Digital takes a 360-degree approach to SEO, ensuring that on-page and technical SEO are working in tandem to provide the best possible organic outcomes for our clients.",
+    description: "At Mitochon Digital, we offer a comprehensive, 360-degree approach to SEO marketing, ensuring that both on-page and technical SEO work seamlessly together to provide the best organic outcomes for our clients. As one of the best SEO marketing companies in the United Kingdom, we specialize in SEO and digital marketing.",
   },{
     heading: "Paid Online Advertising Strategy",
-    description: "Mitochon Digital understand how to use online advertising efficiently to target the right users with the right messages at the right time, all the while spending budgets efficiently and effectively."
+    description: "At Mitochon Digital, we excel as a leading PPC agency, utilizing pay-per-click (PPC) advertising to target the right users with tailored messages at the perfect moment, ensuring every budget is spent efficiently. As one of the best PPC agencies in the United Kingdom, we offer a range of PPC agency services that are designed to drive high-quality traffic and maximize conversions.",
   },{
     heading: "Website Content and Development",
-    description: "Mitochon Digital specializes in website content and development, employing a comprehensive strategy to ensure clients' online presence is engaging, informative, and optimized for maximum visibility and conversion."
+    description: "We understand the unique needs of every business, which is why we offer flexible website development packages, from affordable options for small businesses to comprehensive plans for large enterprises. Whether you're looking for cheap website development or need a quotation for an advanced, custom website development project, we ensure transparency in all our services, including website development costs.",
   }]
 
- 
+  
 
   const homeSections = [
     {
