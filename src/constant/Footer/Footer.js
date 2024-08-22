@@ -50,6 +50,15 @@ const Footer = () => {
                 <li className="my-2 text-sm text-slate-200 hover:text-white transition-all duration-300">
                   <Link href="/our-clients">Our Clients</Link>
                 </li>
+                <li className="my-2 text-sm text-slate-200 hover:text-white transition-all duration-300">
+                  <Link href="/blog-post">Blog Post</Link>
+                </li>
+                <li className="my-2 text-sm text-slate-200 hover:text-white transition-all duration-300">
+                  <Link href="/faq">FAQ</Link>
+                </li>
+                <li className="my-2 text-sm text-slate-200 hover:text-white transition-all duration-300">
+                  <Link href="/privacy-policy">Privacy Policy</Link>
+                </li>
               </ul>
             </div>
           <div className="mx-auto text-center md:text-start">
