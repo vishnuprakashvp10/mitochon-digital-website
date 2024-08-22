@@ -64,7 +64,7 @@ const Footer = () => {
           <div className="mx-auto text-center md:text-start">
               <div>
                 <h3 className="text-white text-capital text-xl font-medium mb-6">
-                  Our Services
+                  Services
                 </h3>
               </div>
               <ul className=" list-disc list-inside list-none">

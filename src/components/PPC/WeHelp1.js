@@ -56,7 +56,7 @@ const WeHelp = ({ name }) => {
             <div className="card-title">
               <h3 className="pb-6 text-xl font-bold">CRO Strategy</h3>
             </div>
-            <p className='app__text'>
+            <p className='app__text'> 
             At Mitochon Digital, we develop robust CRO strategies that evolve with the latest trends in consumer behavior. Our website usability audits and usability research identify friction points, ensuring your website conversion optimization services reflect your brands unique personality while maximizing your conversion rate and overall success.
                         </p>
           </div>

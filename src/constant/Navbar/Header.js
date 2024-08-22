@@ -157,7 +157,7 @@ const Header = () => {
 							onClick={() => setToggle(!toggle)}
 							onMouseEnter={handleHover}
 						>
-							Our Services
+							Services
 							<ChevronDownIcon
 								className={`h-5 w-5 flex-none ${toggle ? "rotate-180" : ""}`}
 								aria-hidden="true"

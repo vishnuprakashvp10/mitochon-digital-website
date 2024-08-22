@@ -6,7 +6,7 @@ import { useEffect, useRef, useState } from 'react';
 import {
     SpeakerWaveIcon,
     CurrencyDollarIcon,
-    ChartBarIcon,
+    ChartBarIcon, 
     ComputerDesktopIcon,
     RocketLaunchIcon,
     CommandLineIcon,
@@ -152,6 +152,7 @@ const BottomBar = () => {
      aria-hidden="true"/>
      <span className='text-xs'>Contact</span>
     </Link>
+    
     </div>
     </nav>
   )
