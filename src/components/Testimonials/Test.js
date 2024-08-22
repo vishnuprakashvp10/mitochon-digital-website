@@ -79,7 +79,7 @@ const Test = () => {
               <p>&ldquo; {testimonial.message} &rdquo;</p>
               <div className="flex items-center justify-start gap-4 mt-6">
                 <Image src={testimonial.imgUrl} height={50} width={50} alt="" />
-                <h3 className="text-xl font-semibold">{testimonial.name}</h3>
+                <h3 className="text-xl  font-semibold">{testimonial.name}</h3>
               </div>
             </div>
           ))}
