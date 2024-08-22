@@ -19,6 +19,11 @@ const Feature = ({ content, mainHeading }) => {
                   <h3 className="text-2xl text-center font-bold py-7">{content[0].heading}</h3>
                 </div>
                 <p className="pb-6 app__text">{content[0].description}</p>
+                <button
+                    className="navbar-btn hover:scale-110 shadow-lg"
+                  > 
+                    Read More
+                  </button>
               </div>
             </div>
              
@@ -35,6 +40,11 @@ const Feature = ({ content, mainHeading }) => {
                   <h3 className="text-2xl text-center font-bold py-7">{content[1].heading}</h3>
                 </div>
                 <p className="pb-6 app__text">{content[1].description}</p>
+                <button
+                    className="navbar-btn hover:scale-110 shadow-lg"
+                  > 
+                    Read More
+                  </button>
               </div>
             </div>
           </div>
@@ -59,6 +69,11 @@ const Feature = ({ content, mainHeading }) => {
                   <h3 className="text-2xl text-center font-bold py-7">{content[2].heading}</h3>
                 </div>
                 <p className="pb-6 app__text">{content[2].description}</p>
+                <button
+                    className="navbar-btn hover:scale-110 shadow-lg"
+                  > 
+                    Read More
+                  </button>
               </div>
             </div>
           </div>
@@ -95,6 +110,11 @@ const Feature = ({ content, mainHeading }) => {
                   <h3 className="text-2xl text-center font-bold py-7">{content[3].heading}</h3>
                 </div>
                 <p className="pb-6 app__text">{content[3].description}</p>
+                <button
+                    className="navbar-btn hover:scale-110 shadow-lg"
+                  > 
+                    Read More
+                  </button>
               </div>
             </div>
              
@@ -117,7 +137,13 @@ const Feature = ({ content, mainHeading }) => {
                   <h3 className="text-2xl text-center font-bold py-7">{content[4].heading}</h3>
                 </div>
                 <p className="pb-6 app__text">{content[4].description}</p>
+                <button
+                    className="navbar-btn hover:scale-110 shadow-lg"
+                  > 
+                    Read More
+                  </button>
               </div>
+              
             </div>
           </div>
           </a>       
@@ -143,6 +169,11 @@ const Feature = ({ content, mainHeading }) => {
                   <h3 className="text-2xl text-center font-bold py-7">{content[5].heading}</h3>
                 </div>
                 <p className="pb-6 app__text">{content[5].description}</p>
+                <button
+                    className="navbar-btn hover:scale-110 shadow-lg"
+                  > 
+                    Read More
+                  </button>
               </div>
             </div>
           </div>
@@ -158,6 +189,11 @@ const Feature = ({ content, mainHeading }) => {
                   <h3 className="text-2xl text-center font-bold py-7">{content[6].heading}</h3>
                 </div>
                 <p className="pb-6 app__text">{content[6].description}</p>
+                <button
+                    className="navbar-btn hover:scale-110 shadow-lg"
+                  > 
+                    Read More
+                  </button>
               </div>
             </div>
              
@@ -173,6 +209,11 @@ const Feature = ({ content, mainHeading }) => {
                   <h3 className="text-2xl text-center font-bold py-7">{content[7].heading}</h3>
                 </div>
                 <p className="pb-6 app__text">{content[7].description}</p>
+                <button
+                    className="navbar-btn hover:scale-110 shadow-lg"
+                  > 
+                    Read More
+                  </button>
               </div>
             </div>
           </div>
