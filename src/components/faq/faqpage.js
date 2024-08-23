@@ -1,5 +1,4 @@
-"use client"; // Add this at the top to mark it as a Client Component
-
+"use client"; 
 import Image from "next/image";
 import React, { useState } from "react";
 import { BsPlusLg } from "react-icons/bs";
