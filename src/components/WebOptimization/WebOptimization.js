@@ -1,7 +1,7 @@
 import image from "@/constant/Images/image";
 import Image from "next/image";
 import React from "react";
-
+ 
 const WebOptimization = () => {
   return (
     <section className="we-are-area">
@@ -12,7 +12,7 @@ const WebOptimization = () => {
               <h2 className="pb-12 primary-heading">
                 Content <span className="highlight">Marketing</span>
               </h2>
-            </div>
+            </div> 
 
             <p className="app__text text-justify">
             At Mitochon Digital, based in the United Kingdom, we specialize in crafting content that delivers informative and well-researched material, establishing your brand as an authoritative voice in your industry. This approach builds trust and fosters customer loyalty, which is essential for both B2B content marketing services and SaaS content marketing services.              <br />
