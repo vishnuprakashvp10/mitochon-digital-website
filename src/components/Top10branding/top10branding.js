@@ -29,32 +29,7 @@ export const table = [
     answers: ["Casagrand Builder Pvt. Ltd.", "L&T Infrastructure Ltd.", "Infratech Builders", "Arun Excello", "Akshaya Pvt. Ltd", "India Builders Limited", "Appaswamy Real Estates", "KG Foundations Pvt. Ltd.", "Alliance Group", "Shriram Properties"],
   },
 ];
-
-export const questions = [
-  {
-    question: "How can I evaluate the credibility of these builders before making a decision?",
-    answer: "To assess credibility, research their track record, read customer reviews, visit completed projects, and check their legal compliance and approvals."  
-  },
-  {
-    question: "Do these builders work on both residential and commercial properties in Chennai?",
-    answer: "Yes, many of these builders have experience in both residential and commercial projects. Their portfolios often include a range of luxury apartments, villas, townships, and commercial spaces. For detailed information, review their individual project listings on their websites."
-  },
-  {
-    question: "How do these builders incorporate sustainable and eco-friendly practices in their projects?",
-    answer: "Several of these builders emphasize sustainability by using green building practices, energy-efficient designs, and eco-friendly materials. Visit their websites for more details on their sustainable initiatives and certifications, such as LEED or IGBC ratings."
-  },
-  {
-    question: "Are customization options available for villas and luxury apartments from these builders?",
-    answer: "Yes, many top builders offer customization options to suit various preferences. They often provide choices in layout, finishes, and amenities to ensure your residence meets your specific vision and needs."
-  },
-  {
-    question: "What should I consider when choosing between luxury apartments and villas from these builders?",
-    answer: "Consider personal preferences, lifestyle, space requirements, and amenities. Villas offer more privacy and space, while apartments may provide convenience and shared facilities."
-  },
-];
-
 const top10branding = () => {
-    const [cards] = useState(questions);
     return (
         <div className="ml-4">
             <div className="we-are-content">
@@ -311,45 +286,9 @@ Choosing the right and highly qualified top 10 construction companies in Chennai
       </p>
       </div>
       </div>
-      <p className="text-center py-2 mb-8 text-2xl md:ml-4 max-w-[1400px] text-2xl mt-2 font-bold" style={{color: 'orange'}}>
-        Frequently Asked Questions:
-      </p>
-      <section className="max-w-xl mx-auto mb-8 px-4 grid grid-cols-1 gap-8">
-        {cards.map((card, index) => (
-          <SingleQuestion {...card} key={index} />
-        ))}
-      </section>
-    </div>
-
-  );
-}
-
-const SingleQuestion = ({ question, answer }) => {
-  const [showAnswer, setShowAnswer] = useState(false);
-
-  return (
-    <div className="border border-black rounded-lg bg-white">
-      <article className="flex items-center justify-between p-4 lg:p-6">
-        <h2
-          className="cursor-pointer border-gray-400"
-          onClick={() => setShowAnswer(!showAnswer)}
-        >
-          {question}
-        </h2>
-        <button onClick={() => setShowAnswer(!showAnswer)}>
-          {showAnswer ? <BiMinus /> : <BsPlusLg />}
-        </button>
-      </article>
-
-      {showAnswer && (
-        <article className="border-t border-gray-400 p-4 lg:p-6">
-          <p>{answer}</p>
-        </article>
-      )}
     </div>
   );
 }
-
 
 const SingleQuestion2 = ({ question, answers }) => {
   const [showAnswer, setShowAnswer] = useState(true); // Default state is true to keep answers always opened
