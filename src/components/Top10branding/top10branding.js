@@ -297,18 +297,18 @@ const SingleQuestion2 = ({ question, answers }) => {
     <div className="border border-black rounded-lg bg-primary md:width-320px width-500px">
       <article className="flex items-center justify-between p-4 lg:p-6">
         <h2
-          className="cursor-pointer text-center font-bold text-white"
+          className="cursor-pointer text-center font-bold"
           onClick={() => setShowAnswer(!showAnswer)}
         >
           {question}
         </h2>
         <button onClick={() => setShowAnswer(!showAnswer)}>
-          {showAnswer ? <BiMinus className="text-white" /> : <BsPlusLg className="text-white" />}
+          {showAnswer ? <BiMinus className="text-white" /> : <BsPlusLg className="" />}
         </button>
       </article>
 
       {showAnswer && (
-        <article className="border-t border-black p-4 lg:p-6 font-bold text-white">
+        <article className="border-t border-black p-4 lg:p-6 font-bold ">
           <ul>
             {answers.map((answer, index) => (
               <li
