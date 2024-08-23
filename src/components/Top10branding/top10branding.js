@@ -114,10 +114,10 @@ const top10branding = () => {
   </div>
 </div>
       <p className='text-justify ml-2 md:ml-4 mr-4 max-w-[1400px]'>
-      L&T Infrastructure Ltd., India's largest construction company, boasts a robust global presence spanning over 50 countries. Established in 1938 and headquartered in Mumbai, L&T operates as a multinational corporation specializing in EPC projects and high-tech manufacturing. The company undertakes a diverse array of projects, including ports, marine projects, coastal and model studies, bridges, roads, airports, railways, metros, and transport planning.
+      L&T Infrastructure Ltd., India&apos;s largest construction company, boasts a robust global presence spanning over 50 countries. Established in 1938 and headquartered in Mumbai, L&T operates as a multinational corporation specializing in EPC projects and high-tech manufacturing. The company undertakes a diverse array of projects, including ports, marine projects, coastal and model studies, bridges, roads, airports, railways, metros, and transport planning.
       </p>
       <p className='text-justify ml-2 md:ml-4 mr-4 max-w-[1400px]'>
-      L&T's business encompasses several key sectors, such as buildings and factories, transport infrastructure, heavy civil infrastructure, smart world and communication, water and renewable energy, and power transmission and distribution. Adhering to rigorous industry standards, L&T ensures the structural integrity and safety of its constructions. With decades of experience, the company consistently delivers dependable, reliable, and aesthetically pleasing results, making it a cornerstone of the construction industry in India and securing its place among the top 10 construction companies in Chennai.
+      L&T&apos;s business encompasses several key sectors, such as buildings and factories, transport infrastructure, heavy civil infrastructure, smart world and communication, water and renewable energy, and power transmission and distribution. Adhering to rigorous industry standards, L&T ensures the structural integrity and safety of its constructions. With decades of experience, the company consistently delivers dependable, reliable, and aesthetically pleasing results, making it a cornerstone of the construction industry in India and securing its place among the top 10 construction companies in Chennai.
       </p>
       <ul className='list-disc ml-6 md:ml-8 mr-4 max-w-[1400px]'>
         <li><span className='font-bold'>Founder:</span>  Søren Kristian Toubro, Henning Holck-Larsen</li>
@@ -137,10 +137,10 @@ const top10branding = () => {
   </div>
 </div>
       <p className='text-justify ml-2 md:ml-4 mr-4 max-w-[1400px]'>
-      Infratech Builders, a prominent name in Chennai's construction industry, boasts over a decade of expertise. Specializing in turf building, renovation, construction, interior design, and painting, our experienced team has completed more than 70 projects, demonstrating our dedication to excellence. With over 10 years in construction and 5+ years in interior design, Infratech Builders is a trusted partner in creating dynamic and innovative spaces.
+      Infratech Builders, a prominent name in Chennai&apos;s construction industry, boasts over a decade of expertise. Specializing in turf building, renovation, construction, interior design, and painting, our experienced team has completed more than 70 projects, demonstrating our dedication to excellence. With over 10 years in construction and 5+ years in interior design, Infratech Builders is a trusted partner in creating dynamic and innovative spaces.
       </p>
       <p className='text-justify ml-2 md:ml-4 mr-4 max-w-[1400px]'>
-      Infratech Builders offers a comprehensive range of landscaping services. From crafting lush landscapes with turf building to executing transformative renovations, constructing durable structures, and enhancing aesthetics with interior design, our decade-long legacy of quality and precision ensures each project reflects our commitment to perfection. Whether it’s meticulous interior design or robust construction, Infratech Builders leverages its extensive industry experience to exceed expectations, making us the preferred choice in Chennai's construction landscape.
+      Infratech Builders offers a comprehensive range of landscaping services. From crafting lush landscapes with turf building to executing transformative renovations, constructing durable structures, and enhancing aesthetics with interior design, our decade-long legacy of quality and precision ensures each project reflects our commitment to perfection. Whether it&apos;s meticulous interior design or robust construction, Infratech Builders leverages its extensive industry experience to exceed expectations, making us the preferred choice in Chennai&apos;s construction landscape.
       </p>
       <ul className='list-disc ml-6 md:ml-8 mr-4 max-w-[1400px]'>
         <li><span className='font-bold'>Founder:</span>  Suresh, Laxmanan</li>
