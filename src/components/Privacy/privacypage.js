@@ -76,7 +76,7 @@ const privacypolicy = () => {
             <p className='mb-10 ml-2 md:ml-4 mr-4 max-w-[1400px] text-lg'>Phone: +44-7442005437 (United Kingdom) 
                 <br></br>Phone: +91-7904445263 (India)
             </p>
-            <p className='text-justify mb-10 ml-2 md:ml-4 mr-4 max-w-[1400px] text-lg'>
+            <p className='mb-10 ml-2 md:ml-4 mr-4 max-w-[1400px] text-lg'>
                 <strong>Thank you for visiting <span className="highlight">Mitochon Digital!</span></strong>
             </p>
         </div>
