@@ -63,6 +63,7 @@ import wo from '../../assets/new/services/wo.png'
 import wd from '../../assets/new/services/wd.png'
 import whatsapp from '../../assets/new/whatsapp.png'
 import webdevWhite from '../../assets/logo/logo.png'
+import digitalmarketinghero from '../../assets/blogs/digital-marketing-blog-hero.jpg'
 
 const image = {
   logo,
@@ -130,6 +131,7 @@ const image = {
     portfolio2,
     portfolio3,
     portfolio4,
+    digitalmarketinghero,
  }
 
  export default image;
