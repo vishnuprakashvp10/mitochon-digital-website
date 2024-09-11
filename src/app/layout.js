@@ -14,7 +14,7 @@ const nunito = Nunito({
 });
 
 export const metadata = {
-	title: "Digital Marketing Agency / Expert at SEO, SMO",
+	title: "Mitochon Digital | Digital Marketing Company in United Kingdom",
 	description:
 		"All digital marketing services, seo, smo, PPC, web development.",
 };
