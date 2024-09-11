@@ -64,6 +64,17 @@ import wd from '../../assets/new/services/wd.png'
 import whatsapp from '../../assets/new/whatsapp.png'
 import webdevWhite from '../../assets/logo/logo.png'
 import digitalmarketinghero from '../../assets/blogs/digital-marketing-blog-hero.jpg'
+import koozai from '../../assets/blogs/koozai.jpg'
+import impression from '../../assets/blogs/impression.jpg'
+import seoworks from '../../assets/blogs/seoworks.jpg'
+import mitochondigital from '../../assets/blogs/mitochondigital.jpg'
+import blueclaw from '../../assets/blogs/blueclaw.jpg'
+import croud from '../../assets/blogs/croud.jpg'
+import addpeople from '../../assets/blogs/addpeople.jpg'
+import propellernet from '../../assets/blogs/propellernet.jpg'
+import clickconsult from '../../assets/blogs/clickconsult.jpg'
+import absolute from '../../assets/blogs/absolute.jpg'
+
 
 const image = {
   logo,
@@ -132,6 +143,16 @@ const image = {
     portfolio3,
     portfolio4,
     digitalmarketinghero,
+    koozai,
+    impression,
+    seoworks,
+    mitochondigital,
+    blueclaw,
+    croud,
+    addpeople,
+    propellernet,
+    clickconsult,
+    absolute,
  }
 
  export default image;

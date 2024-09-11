@@ -4,31 +4,10 @@ import { BiMinus } from "react-icons/bi";
 import { BsPlusLg } from "react-icons/bs";
 import Image from 'next/image';
 import image from "@/constant/Images/image";
-import Image1 from '@/constant/Images/image';
-import Image2 from '@/constant/Images/image';
-import Image3 from "@/constant/Images/image";
-import Image4 from "@/constant/Images/image";
-import Image5 from "@/constant/Images/image";
 import Image6 from "@/constant/Images/image";
 import Image7 from "@/constant/Images/image";
-import Image8 from "@/constant/Images/image";
 import Image9 from "@/constant/Images/image";
 import Image10 from "@/constant/Images/image";
-
-const BannerImg = () => {
-    return (
-      <div
-        style={{
-          backgroundPosition: 'center',
-          backgroundRepeat: 'no-repeat',
-          backgroundSize: 'cover',
-          height: '100%',
-          width: '100%',
-        }}
-      >
-      </div>
-    );
-};
 
 export const table = [
   {
@@ -71,11 +50,14 @@ const top10digitalmarketing = () => {
   ))}
 </section>
 <h1 className="font-bold hover:underline ml-2 md:ml-4 text-2xl mt-2 highlight"> <a href="https://www.impressiondigital.com">1. Impression</a></h1>
-<div className='md:max-w-[780px] md:h-[480px] max-w-[1300px] h-[265px] w-full m-auto py-6 px-4 relative group'>
+<div className='md:max-w-[780px] md:h-[550px] max-w-[1300px] h-[265px] w-full m-auto py-6 px-4 relative group'>
   <div
     className='w-full h-full rounded-2xl bg-center bg-cover duration-500 relative'
-    style={{ backgroundImage: `url(${Image1})` }}
   >
+              <Image
+        src={image.impression}
+        alt="Impression"
+    />
   </div>
 </div>
 <p className='text-justify ml-2 md:ml-4 mr-4 max-w-[1400px]'>
@@ -90,11 +72,15 @@ const top10digitalmarketing = () => {
 </ul>
 
 <h1 className="font-bold hover:underline ml-2 md:ml-4 text-2xl mt-2 highlight"> <a href="https://www.seoworks.co.uk/">2. The SEO Works</a></h1>
-<div className='md:max-w-[780px] md:h-[480px] max-w-[1300px] h-[265px] w-full m-auto py-6 px-4 relative group'>
+<div className='md:max-w-[780px] md:h-[550px] max-w-[1300px] h-[265px] w-full m-auto py-6 px-4 relative group'>
   <div
     className='w-full h-full rounded-2xl bg-center bg-cover duration-500 relative'
-    style={{ backgroundImage: `url(${Image2})` }}
   >
+                  <Image
+        src={image.seoworks}
+        alt="Seo Works"
+    />
+
   </div>
 </div>
 <p className='text-justify ml-2 md:ml-4 mr-4 max-w-[1400px]'>
@@ -110,11 +96,14 @@ const top10digitalmarketing = () => {
 
 
 <h1 className="font-bold hover:underline ml-2 md:ml-4 text-2xl mt-2 highlight"> <a href="https://www.mitochondigital.com/">3. Mitochon Digital</a></h1>
-<div className='md:max-w-[780px] md:h-[480px] max-w-[1300px] h-[265px] w-full m-auto py-6 px-4 relative group'>
+<div className='md:max-w-[780px] md:h-[550px] max-w-[1300px] h-[265px] w-full m-auto py-6 px-4 relative group'>
   <div
     className='w-full h-full rounded-2xl bg-center bg-cover duration-500 relative'
-    style={{ backgroundImage: `url(${Image3})` }}
   >
+                      <Image
+        src={image.mitochondigital}
+        alt="Mitochon Digital"
+    />
   </div>
 </div>
 <p className='text-justify ml-2 md:ml-4 mr-4 max-w-[1400px]'>
@@ -130,11 +119,14 @@ const top10digitalmarketing = () => {
 
 
 <h1 className="font-bold hover:underline ml-2 md:ml-4 text-2xl mt-2 highlight"> <a href="https://www.koozai.com/">4. Koozai</a></h1>
-<div className='md:max-w-[780px] md:h-[480px] max-w-[1300px] h-[265px] w-full m-auto py-6 px-4 relative group'>
+<div className='md:max-w-[780px] md:h-[550px] max-w-[1300px] h-[265px] w-full m-auto py-6 px-4 relative group'>
   <div
-    className='w-full h-full rounded-2xl bg-center bg-cover duration-500 relative'
-    style={{ backgroundImage: `url(${Image4})` }}
+    className='rounded-2xl bg-center bg-cover duration-500 relative'
   >
+          <Image
+        src={image.koozai}
+        alt="Koozai"
+    />
   </div>
 </div>
 <p className='text-justify ml-2 md:ml-4 mr-4 max-w-[1400px]'>
@@ -149,11 +141,14 @@ const top10digitalmarketing = () => {
 </ul>
 
 <h1 className="font-bold hover:underline ml-2 md:ml-4 text-2xl mt-2 highlight"> <a href="https://www.blueclaw.co.uk/">5. Blueclaw</a></h1>
-<div className='md:max-w-[780px] md:h-[480px] max-w-[1300px] h-[265px] w-full m-auto py-6 px-4 relative group'>
+<div className='md:max-w-[780px] md:h-[550px] max-w-[1300px] h-[265px] w-full m-auto py-6 px-4 relative group'>
   <div
     className='w-full h-full rounded-2xl bg-center bg-cover duration-500 relative'
-    style={{ backgroundImage: `url(${Image5})` }}
   >
+              <Image
+        src={image.blueclaw}
+        alt="Blueclaw"
+    />
   </div>
 </div>
 <p className='text-justify ml-2 md:ml-4 mr-4 max-w-[1400px]'>
@@ -168,11 +163,14 @@ const top10digitalmarketing = () => {
 </ul>
 
 <h1 className="font-bold hover:underline ml-2 md:ml-4 text-2xl mt-2 highlight"> <a href="https://croud.com/en-gb/">6. Croud</a></h1>
-<div className='md:max-w-[780px] md:h-[480px] max-w-[1300px] h-[265px] w-full m-auto py-6 px-4 relative group'>
+<div className='md:max-w-[780px] md:h-[550px] max-w-[1300px] h-[265px] w-full m-auto py-6 px-4 relative group'>
   <div
     className='w-full h-full rounded-2xl bg-center bg-cover duration-500 relative'
-    style={{ backgroundImage: `url(${Image6})` }}
   >
+                  <Image
+        src={image.croud}
+        alt="Blueclaw"
+    />
   </div>
 </div>
 <p className='text-justify ml-2 md:ml-4 mr-4 max-w-[1400px]'>
@@ -187,11 +185,14 @@ const top10digitalmarketing = () => {
 </ul>
 
 <h1 className="font-bold hover:underline ml-2 md:ml-4 text-2xl mt-2 highlight"> <a href="https://www.addpeople.co.uk/">7. Add People</a></h1>
-<div className='md:max-w-[780px] md:h-[480px] max-w-[1300px] h-[265px] w-full m-auto py-6 px-4 relative group'>
+<div className='md:max-w-[780px] md:h-[550px] max-w-[1300px] h-[265px] w-full m-auto py-6 px-4 relative group'>
   <div
     className='w-full h-full rounded-2xl bg-center bg-cover duration-500 relative'
-    style={{ backgroundImage: `url(${Image7})` }}
   >
+                      <Image
+        src={image.addpeople}
+        alt="Add People"
+    />
   </div>
 </div>
 <p className='text-justify ml-2 md:ml-4 mr-4 max-w-[1400px]'>
@@ -206,12 +207,40 @@ const top10digitalmarketing = () => {
 </ul>
 
 
-<h1 className="font-bold hover:underline ml-2 md:ml-4 text-2xl mt-2 highlight"> <a href="https://www.propellernet.co.uk/">9. Propellernet</a></h1>
-<div className='md:max-w-[780px] md:h-[480px] max-w-[1300px] h-[265px] w-full m-auto py-6 px-4 relative group'>
+<h1 className="font-bold hover:underline ml-2 md:ml-4 text-2xl mt-2 highlight"> <a href="https://www.absolutedigitalmedia.com/">8. Absolute Digital Media</a></h1>
+<div className='md:max-w-[780px] md:h-[550px] max-w-[1300px] h-[265px] w-full m-auto py-6 px-4 relative group'>
   <div
     className='w-full h-full rounded-2xl bg-center bg-cover duration-500 relative'
-    style={{ backgroundImage: `url(${Image9})` }}
   >
+                      <Image
+        src={image.absolute}
+        alt="Absolute Digital Media"
+    />
+  </div>
+</div>
+<p className='text-justify ml-2 md:ml-4 mr-4 max-w-[1400px]'>
+  Absolute Digital Media is an award-winning digital marketing agency based in London, offering a full suite of services including SEO, PPC, and web design. Their team of digital experts is dedicated to creating tailored strategies that drive growth and deliver measurable results. Absolute Digital Media works with businesses across various industries, helping them improve their online presence and achieve long-term success.
+</p>
+<ul className='list-disc ml-6 md:ml-8 mr-4 max-w-[1400px]'>
+  <li><span className='font-bold'>Founder:</span> Ben Austin</li>
+  <li><span className='font-bold'>Year of Establishment:</span> 2008</li>
+  <li><span className='font-bold'>Headquarters:</span> London, United Kingdom</li>
+  <li><span className='font-bold'>Website:</span> <span className='underline'><a href="https://www.absolutedigitalmedia.com">https://www.absolutedigitalmedia.com</a></span></li>
+  <li><span className='font-bold'>Address:</span> 32 Blackfriars Rd, London SE1 8PB, United Kingdom</li>
+</ul>
+
+
+
+
+<h1 className="font-bold hover:underline ml-2 md:ml-4 text-2xl mt-2 highlight"> <a href="https://www.propellernet.co.uk/">9. Propellernet</a></h1>
+<div className='md:max-w-[780px] md:h-[550px] max-w-[1300px] h-[265px] w-full m-auto py-6 px-4 relative group'>
+  <div
+    className='w-full h-full rounded-2xl bg-center bg-cover duration-500 relative'
+  >
+                         <Image
+        src={image.propellernet}
+        alt="Propellernet"
+    />
   </div>
 </div>
 <p className='text-justify ml-2 md:ml-4 mr-4 max-w-[1400px]'>
@@ -226,11 +255,14 @@ const top10digitalmarketing = () => {
 </ul>
 
 <h1 className="font-bold hover:underline ml-2 md:ml-4 text-2xl mt-2 highlight"> <a href="https://www.click.co.uk/">10. Click Consult</a></h1>
-<div className='md:max-w-[780px] md:h-[480px] max-w-[1300px] h-[265px] w-full m-auto py-6 px-4 relative group'>
+<div className='md:max-w-[780px] md:h-[550px] max-w-[1300px] h-[265px] w-full m-auto py-6 px-4 relative group'>
   <div
     className='w-full h-full rounded-2xl bg-center bg-cover duration-500 relative'
-    style={{ backgroundImage: `url(${Image10})` }}
   >
+                             <Image
+        src={image.clickconsult}
+        alt="Click Consult"
+    />
   </div>
 </div>
 <p className='text-justify ml-2 md:ml-4 mr-4 max-w-[1400px]'>
