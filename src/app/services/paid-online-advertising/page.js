@@ -6,8 +6,8 @@ import Trend from "@/components/PPC/Trend"
 import WeHelp from "@/components/PPC/WeHelp"
 import Link from "next/link";
 export const metadata = {
-  title: 'Paid Online Advertising - Expert in PPC Campaigns',
-  description: 'we offer comprehensive services including PPC, display ads, and social media marketing to enhance your visibility.',
+  title: 'Paid Online Advertising Company in UK | Mitochon Digital',
+  description: 'Mitochon Digital, specializing in creating effective ad campaigns across various platforms to maximize your return on investment.',
 }
 const sections = [ 
   {

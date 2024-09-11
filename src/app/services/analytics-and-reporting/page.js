@@ -6,8 +6,8 @@ import ServiceInclude from "@/components/SMO/ServiceInclude"
 import Smo from "@/components/SMO/Smo"
 
 export const metadata = {
-  title: 'Analytics and Reporting - Expert in Web Analytics',
-  description: 'All digital marketing services, seo, PPC, Web analytics and development.',
+  title: 'Analytics and Reporting Company in UK | Mitochon Digital',
+  description: 'Mitochon Digital, providing in-depth analysis and detailed reports to help you understand your digital performance.',
 }
 const sections = [
   {

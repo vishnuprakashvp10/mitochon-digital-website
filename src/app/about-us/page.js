@@ -8,8 +8,8 @@ import { PageWrapper } from "../page-wrapper"
 import ContactForm from "@/components/ContactPage/ContactForm"
 
 export const metadata = {
-  title: 'About - Digital Marketing Agency / Expert at SEO, SMO',
-  description: 'All digital marketing services, seo, smo, PPC, web development.',
+  title: 'About Us | Mitochon Digital in United Kingdom',
+  description: 'Mitochon Digital, a leading digital marketing agency in the United Kingdom, offering expertise in SEO, PPC, web design and more.',
 }
 const aboutSections = [
   {

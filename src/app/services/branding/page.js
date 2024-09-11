@@ -8,8 +8,8 @@ import Influencer from '@/components/DigitalMarketing/Influencer'
 import Marketing from '@/components/DigitalMarketing/Marketing'
 
 export const metadata = {
-  title: 'Branding - Professional Brand Identity Development',
-  description: "Elevate your brand with Mitochon Digital's expert branding services.",
+  title: 'Branding Company in United Kingdom | Mitochon Digital',
+  description: "Mitochon Digital, helping businesses in the United Kingdom establish a strong brand identity through creative design, strategy, and digital presence.",
 }
 const sections = [
   {

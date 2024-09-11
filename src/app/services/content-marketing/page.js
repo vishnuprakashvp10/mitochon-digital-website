@@ -5,8 +5,8 @@ import ContactForm from "@/components/ContactPage/ContactForm"
 import WebOptimization from "@/components/WebOptimization/WebOptimization"
 
 export const metadata = {
-  title: 'Content Marketing - Expert at Creating Engaging Content',
-  description: "We leverage SEO, SMO, and other digital marketing strategies to enhance your content's reach.",
+  title: 'Content Marketing Company in UK | Mitochon Digital',
+  description: "Mitochon Digital, specializing in creating and distributing valuable, relevant, and consistent content to attract and engage your target audience.",
 }
 const WebsiteOptimization = () => {
   return (
