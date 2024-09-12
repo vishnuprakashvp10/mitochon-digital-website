@@ -17,7 +17,7 @@ export const table = [
 ];
 const top10digitalmarketing = () => {
     return (
-        <div className="ml-4">
+        <div className="ml-0">
             <div className="we-are-content">
                 <div className="section-title text-center">
                     <h2 className="pb-12 primary-heading">
@@ -40,7 +40,7 @@ const top10digitalmarketing = () => {
           </div>
         </div>
       </div>
-      <div className="mr-2">
+      <div className="">
       <p className='text-justify ml-2 md:ml-4 mr-4 max-w-[1400px]'>
       In today&apos;s fast-paced digital landscape, choosing the right digital marketing partner can make all the difference in achieving your business goals. The UK boasts a diverse array of digital marketing firms, each offering unique expertise and innovative strategies. This list highlights the top 10 digital marketing companies across the UK, renowned for their cutting-edge techniques, proven results, and exceptional client service. <span className='highlight'>Whether you&apos;re looking for expertise in SEO, social media, content marketing, or comprehensive digital campaigns, these industry leaders are equipped to drive your brand&apos;s success in an increasingly competitive market. </span>
       </p>
