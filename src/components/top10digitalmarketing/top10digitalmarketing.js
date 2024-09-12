@@ -17,7 +17,7 @@ export const table = [
 ];
 const top10digitalmarketing = () => {
     return (
-        <div className="mr-4">
+        <div className="ml-0">
             <div className="we-are-content">
                 <div className="section-title text-center">
                     <h2 className="pb-12 primary-heading">
@@ -27,7 +27,7 @@ const top10digitalmarketing = () => {
             </div>
  
             <div className='text-xl' >
-      <div className="mr-2 text-black">
+      <div className=" text-black">
       <Image
         src={image.digitalmarketinghero}
         alt="Digital Marketing"
