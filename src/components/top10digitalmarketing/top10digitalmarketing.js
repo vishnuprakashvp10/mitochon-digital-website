@@ -34,11 +34,6 @@ const top10digitalmarketing = () => {
         layout='responsive'
         className="object-cover"
     />
-  
-          <div className="container py-4 ">
-          <div className="space-y-6 mx-auto">
-          </div>
-        </div>
       </div>
       <div className="">
       <p className='text-justify ml-2 md:ml-4 mr-4 max-w-[1400px]'>
