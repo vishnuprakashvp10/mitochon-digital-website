@@ -17,7 +17,7 @@ export const table = [
 ];
 const top10digitalmarketing = () => {
     return (
-        <div className="ml-0">
+        <div className="mr-4">
             <div className="we-are-content">
                 <div className="section-title text-center">
                     <h2 className="pb-12 primary-heading">
