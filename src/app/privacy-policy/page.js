@@ -5,8 +5,8 @@ import ContactForm from "@/components/ContactPage/ContactForm"
 import Privacypage from "@/components/Privacy/privacypage"
 
 export const metadata = {
-  title: 'Content Marketing - Expert at Creating Engaging Content',
-  description: "We leverage SEO, SMO, and other digital marketing strategies to enhance your content's reach.",
+  title: 'Privacy Policy | Mitochon Digital in United Kingdom',
+  description: "Our Privacy Policy outlines how we collect, use, and protect your personal information when you interact with our services.",
 }
 const WebsiteOptimization = () => {
   return (

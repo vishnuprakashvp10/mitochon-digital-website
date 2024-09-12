@@ -5,8 +5,8 @@ import ContactForm from "@/components/ContactPage/ContactForm"
 import Faqpage from "@/components/faq/faqpage.js"
 
 export const metadata = {
-  title: 'Content Marketing - Expert at Creating Engaging Content',
-  description: "We leverage SEO, SMO, and other digital marketing strategies to enhance your content's reach.",
+  title: 'FAQ | Mitochon Digital in United Kingdom',
+  description: "Whether you're curious about our process, pricing, or how we can help your business grow, our FAQ section provides the information you need.",
 }
 const WebsiteOptimization = () => {
   return (

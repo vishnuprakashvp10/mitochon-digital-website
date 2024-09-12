@@ -6,8 +6,8 @@ import PortfolioIsoTop4 from "@/components/Portfolio/PortfolioIsoTop4"
 
 
 export const metadata = {
-  title: 'Clients - Digital Marketing Agency / Expert at SEO, SMO',
-  description: 'All digital marketing services, seo, smo, PPC, web development.',
+  title: 'Our Clients | Mitochon Digital in United Kingdom',
+  description: 'At Mitochon Digital, from small businesses to large enterprises, we provide tailored digital marketing solutions that drive success.',
 }
 
 const Portfolio = () => {

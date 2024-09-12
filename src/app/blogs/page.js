@@ -7,8 +7,8 @@ import Breadcrumbs from "@/components/Breadcrumbs/Breadcrumbs"
 
 
 export const metadata = {
-  title: 'Web Development - Expert at SEO and Content Marketing',
-  description: 'All digital marketing services, SEO, Content Marketing, PPC, Web development.',
+  title: 'Blogs | Mitochon Digital in United Kingdom',
+  description: 'Stay updated with the latest trends and insights in digital marketing through the Mitochon Digital blog. Explore our expert advice and tips to grow your presence.',
 }
 const ourservices = () => {
   const content = [

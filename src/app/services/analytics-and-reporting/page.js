@@ -6,7 +6,7 @@ import ServiceInclude from "@/components/SMO/ServiceInclude"
 import Smo from "@/components/SMO/Smo"
 
 export const metadata = {
-  title: 'Analytics and Reporting Company in UK | Mitochon Digital',
+  title: 'Analytics and Reporting Services in UK | Mitochon Digital',
   description: 'Mitochon Digital, providing in-depth analysis and detailed reports to help you understand your digital performance.',
 }
 const sections = [

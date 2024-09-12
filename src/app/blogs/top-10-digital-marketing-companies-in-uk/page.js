@@ -5,8 +5,8 @@ import ContactForm from "@/components/ContactPage/ContactForm"
 import Top10digitalmarketing from "@/components/top10digitalmarketing/top10digitalmarketing"
 
 export const metadata = {
-  title: 'Content Marketing - Expert at Creating Engaging Content',
-  description: "We leverage SEO, SMO, and other digital marketing strategies to enhance your content's reach.",
+  title: 'Top 10 Digital Marketing Companies in UK | Mitochon Digital',
+  description: "Discover the top 10 digital marketing companies in the UK, these companies help businesses grow their online presence and achieve measurable results.",
 }
 const Top10Branding = () => {
   return (
