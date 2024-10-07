@@ -12,16 +12,28 @@ import Image10 from "@/constant/Images/image";
 export const table = [
   {
     question: "TABLE OF CONTENTS",
-    answers: ["Impression", "The SEO Works", "Mitochon Digital", "Koozai", "Blueclaw", "Croud", "Add People", "Absolute Digital Media", "Propellernet", "Click Consult"],
+    answers: [
+      "Wolf Ollins",
+      "DesignStudio",
+      "Mitochon Digital",
+      "Landor",
+      "Pentagram",
+      "BrandOpus",
+      "Interbrand",
+      "Superunion",
+      "FutureBrand",
+      "The Clearing",
+    ],
   },
 ];
+
 const top10branding = () => {
     return (
         <div className="ml-4">
             <div className="we-are-content">
                 <div className="section-title text-center">
                     <h2 className="pb-12 primary-heading">
-                        Top 10 Digital Marketing Companies <span className="highlight">in UK</span>
+                        Top 10 Branding Companies <span className="highlight">in UK</span>
                     </h2>
                 </div>
             </div>
@@ -42,57 +54,52 @@ const top10branding = () => {
       </div>
       <div className="ml-0">
       <p className='text-justify ml-2 md:ml-4 mr-4 max-w-[1400px]'>
-      In today&apos;s fast-paced digital landscape, choosing the right digital marketing partner can make all the difference in achieving your business goals. The UK boasts a diverse array of digital marketing firms, each offering unique expertise and innovative strategies. This list highlights the top 10 digital marketing companies across the UK, renowned for their cutting-edge techniques, proven results, and exceptional client service. <span className='highlight'>Whether you&apos;re looking for expertise in SEO, social media, content marketing, or comprehensive digital campaigns, these industry leaders are equipped to drive your brand&apos;s success in an increasingly competitive market. </span>
+      selecting the right branding agency is crucial for building a distinctive and lasting brand presence. The UK is home to a range of top-tier branding firms, each known for their creative strategies and innovative approaches. This list features the top 10 branding companies in the UK, recognized for their ability to transform businesses through impactful brand development, design, and storytelling. 
+      <span className='highlight'> Whether you are seeking expertise in brand identity, strategy, design, or full-service brand development, these industry leaders are well-equipped to elevate your brand and help it thrive in an ever-evolving market. </span>
       </p>
 <section className="mb-8 py-6 px-4 grid grid-cols-1 gap-8">
   {table.map((item, index) => (
     <SingleQuestion2 {...item} key={index} />
   ))}
 </section>
-<h1 className="font-bold hover:underline ml-2 md:ml-4 text-2xl mt-2 highlight"> <a href="https://www.impressiondigital.com">1. Impression</a></h1>
+<h1 className="font-bold hover:underline ml-2 md:ml-4 text-2xl mt-2 highlight">
+  <a href="https://www.wolffolins.com">1. Wolf Ollins</a>
+</h1>
 <div className='md:max-w-[780px] md:h-[550px] max-w-[1300px] h-[265px] w-full m-auto py-6 px-4 relative group'>
-  <div
-    className='w-full h-full rounded-2xl bg-center bg-cover duration-500 relative'
-  >
-              <Image
-        src={image.impression}
-        alt="Impression"
-    />
+  <div className='w-full h-full rounded-2xl bg-center bg-cover duration-500 relative'>
+    <Image src={image.seoworks} alt="Wolf Ollins" />
   </div>
 </div>
 <p className='text-justify ml-2 md:ml-4 mr-4 max-w-[1400px]'>
-  Impression is a multi-award-winning digital marketing agency that specializes in SEO, PPC, digital PR, and content marketing. Based in Nottingham, they are known for delivering data-driven strategies to help businesses grow online. Their expert team works with clients across various industries to enhance digital presence and drive measurable results. Impression has established itself as a leading player in the UK digital marketing landscape.
+  Wolf Ollins is a globally recognized branding consultancy that has worked with some of the world biggest brands. They specialize in brand strategy, design, and innovation, with a mission to create powerful, purposeful brands that drive success. Their holistic approach combines creativity and business insight to solve complex brand challenges.
 </p>
 <ul className='list-disc ml-6 md:ml-8 mr-4 max-w-[1400px]'>
-  <li><span className='font-bold'>Founder:</span> Aaron Dicks & Tom Craig</li>
-  <li><span className='font-bold'>Year of Establishment:</span> 2012</li>
-  <li><span className='font-bold'>Headquarters:</span> Nottingham, United Kingdom</li>
-  <li><span className='font-bold'>Website:</span> <span className='underline'><a href="https://www.impressiondigital.com">https://www.impressiondigital.com</a></span></li>
-  <li><span className='font-bold'>Address:</span> Fothergill House, 16 King Street, Nottingham, NG1 2AS, United Kingdom</li>
+  <li><span className='font-bold'>Founder:</span> Wally Olins & Michael Wolff</li>
+  <li><span className='font-bold'>Year of Establishment:</span> 1965</li>
+  <li><span className='font-bold'>Headquarters:</span> London, United Kingdom</li>
+  <li><span className='font-bold'>Website:</span> <span className='underline'><a href="https://www.wolffolins.com">https://www.wolffolins.com</a></span></li>
+  <li><span className='font-bold'>Address:</span> 10 Regents Wharf, All Saints Street, London, N1 9RL, United Kingdom</li>
 </ul>
 
-<h1 className="font-bold hover:underline ml-2 md:ml-4 text-2xl mt-2 highlight"> <a href="https://www.seoworks.co.uk/">2. The SEO Works</a></h1>
+<h1 className="font-bold hover:underline ml-2 md:ml-4 text-2xl mt-2 highlight">
+  <a href="https://www.wearedesignstudio.com">2. DesignStudio</a>
+</h1>
 <div className='md:max-w-[780px] md:h-[550px] max-w-[1300px] h-[265px] w-full m-auto py-6 px-4 relative group'>
-  <div
-    className='w-full h-full rounded-2xl bg-center bg-cover duration-500 relative'
-  >
-                  <Image
-        src={image.seoworks}
-        alt="Seo Works"
-    />
-
+  <div className='w-full h-full rounded-2xl bg-center bg-cover duration-500 relative'>
+    <Image src={image.seoworks} alt="DesignStudio" />
   </div>
 </div>
 <p className='text-justify ml-2 md:ml-4 mr-4 max-w-[1400px]'>
-  The SEO Works is a Sheffield-based digital marketing agency specializing in SEO, PPC, and web development services. Known for their expertise in search marketing, they have been recognized with multiple awards for delivering significant results to clients across different sectors. The agency focuses on helping businesses improve their online visibility and achieve sustainable growth through tailored digital strategies.
+  DesignStudio is a creative branding agency known for delivering bold and innovative designs. They specialize in branding, product design, and user experience, working with clients to create compelling visual identities that resonate with audiences. DesignStudio’s focus is on producing impactful and engaging designs across multiple platforms.
 </p>
 <ul className='list-disc ml-6 md:ml-8 mr-4 max-w-[1400px]'>
-  <li><span className='font-bold'>Founder:</span> Ben Foster</li>
+  <li><span className='font-bold'>Founder:</span> Ben Wright & Paul Stafford</li>
   <li><span className='font-bold'>Year of Establishment:</span> 2009</li>
-  <li><span className='font-bold'>Headquarters:</span> Sheffield, United Kingdom</li>
-  <li><span className='font-bold'>Website:</span> <span className='underline'><a href="https://www.seoworks.co.uk/">https://www.seoworks.co.uk/</a></span></li>
-  <li><span className='font-bold'>Address:</span> Metis, 22 Kingfield Road, Sheffield, S11 9AU, United Kingdom</li>
+  <li><span className='font-bold'>Headquarters:</span> London, United Kingdom</li>
+  <li><span className='font-bold'>Website:</span> <span className='underline'><a href="https://www.wearedesignstudio.com">https://www.wearedesignstudio.com</a></span></li>
+  <li><span className='font-bold'>Address:</span> 55B All Saints Rd, London, W11 1HE, United Kingdom</li>
 </ul>
+
 
 
 <h1 className="font-bold hover:underline ml-2 md:ml-4 text-2xl mt-2 highlight"> <a href="https://www.mitochondigital.com/">3. Mitochon Digital</a></h1>
@@ -118,169 +125,144 @@ const top10branding = () => {
 </ul>
 
 
-<h1 className="font-bold hover:underline ml-2 md:ml-4 text-2xl mt-2 highlight"> <a href="https://www.koozai.com/">4. Koozai</a></h1>
+<h1 className="font-bold hover:underline ml-2 md:ml-4 text-2xl mt-2 highlight">
+  <a href="https://landor.com">4. Landor</a>
+</h1>
 <div className='md:max-w-[780px] md:h-[550px] max-w-[1300px] h-[265px] w-full m-auto py-6 px-4 relative group'>
-  <div
-    className='rounded-2xl bg-center bg-cover duration-500 relative'
-  >
-          <Image
-        src={image.koozai}
-        alt="Koozai"
-    />
+  <div className='w-full h-full rounded-2xl bg-center bg-cover duration-500 relative'>
+    <Image src={image.landor} alt="Landor" />
   </div>
 </div>
 <p className='text-justify ml-2 md:ml-4 mr-4 max-w-[1400px]'>
-  Koozai is an award-winning digital marketing agency that offers SEO, PPC, and content marketing services. Based in London and Southampton, Koozai prides itself on delivering bespoke digital strategies tailored to client needs. They work with a wide range of businesses, from startups to established brands, helping them maximize their online presence and achieve long-term success.
+  Landor is one of the most established branding agencies globally, helping companies build their brands through strategy, design, and creative thinking. They work across sectors to craft brands that stand out, developing innovative solutions to brand challenges and helping businesses grow their influence.
 </p>
 <ul className='list-disc ml-6 md:ml-8 mr-4 max-w-[1400px]'>
-  <li><span className='font-bold'>Founder:</span> Ben Norman</li>
-  <li><span className='font-bold'>Year of Establishment:</span> 2006</li>
+  <li><span className='font-bold'>Founder:</span> Walter Landor</li>
+  <li><span className='font-bold'>Year of Establishment:</span> 1941</li>
   <li><span className='font-bold'>Headquarters:</span> London, United Kingdom</li>
-  <li><span className='font-bold'>Website:</span> <span className='underline'><a href="https://www.koozai.com/">https://www.koozai.com/</a></span></li>
-  <li><span className='font-bold'>Address:</span> 11-15 Betterton St, London WC2H 9BP, United Kingdom</li>
+  <li><span className='font-bold'>Website:</span> <span className='underline'><a href="https://landor.com">https://landor.com</a></span></li>
+  <li><span className='font-bold'>Address:</span> 6 More London Place, London, SE1 2DA, United Kingdom</li>
 </ul>
 
-<h1 className="font-bold hover:underline ml-2 md:ml-4 text-2xl mt-2 highlight"> <a href="https://www.blueclaw.co.uk/">5. Blueclaw</a></h1>
+<h1 className="font-bold hover:underline ml-2 md:ml-4 text-2xl mt-2 highlight">
+  <a href="https://www.pentagram.com">5. Pentagram</a>
+</h1>
 <div className='md:max-w-[780px] md:h-[550px] max-w-[1300px] h-[265px] w-full m-auto py-6 px-4 relative group'>
-  <div
-    className='w-full h-full rounded-2xl bg-center bg-cover duration-500 relative'
-  >
-              <Image
-        src={image.blueclaw}
-        alt="Blueclaw"
-    />
+  <div className='w-full h-full rounded-2xl bg-center bg-cover duration-500 relative'>
+    <Image src={image.pentagram} alt="Pentagram" />
   </div>
 </div>
 <p className='text-justify ml-2 md:ml-4 mr-4 max-w-[1400px]'>
-  Blueclaw is a performance-driven digital marketing agency specializing in SEO, PPC, and content marketing. Based in Leeds, they have a strong reputation for delivering effective digital strategies that boost online performance. Blueclaw’s team of experts works with clients across various sectors to enhance their digital presence and achieve significant business results.
+  Pentagram is one of the world’s most iconic design consultancies. Known for their minimalist approach and groundbreaking designs, they specialize in brand identity, graphics, and architecture. Pentagram is unique for its cooperative structure where its partners are also the main designers of the firm.
 </p>
 <ul className='list-disc ml-6 md:ml-8 mr-4 max-w-[1400px]'>
-  <li><span className='font-bold'>Founder:</span> Fergus Clawson</li>
+  <li><span className='font-bold'>Founder:</span> Alan Fletcher, Theo Crosby, Colin Forbes, Kenneth Grange, Mervyn Kurlansky</li>
+  <li><span className='font-bold'>Year of Establishment:</span> 1972</li>
+  <li><span className='font-bold'>Headquarters:</span> London, United Kingdom</li>
+  <li><span className='font-bold'>Website:</span> <span className='underline'><a href="https://www.pentagram.com">https://www.pentagram.com</a></span></li>
+  <li><span className='font-bold'>Address:</span> 11 Needham Road, London, W11 2RP, United Kingdom</li>
+</ul>
+
+<h1 className="font-bold hover:underline ml-2 md:ml-4 text-2xl mt-2 highlight">
+  <a href="https://www.brandopus.com">6. BrandOpus</a>
+</h1>
+<div className='md:max-w-[780px] md:h-[550px] max-w-[1300px] h-[265px] w-full m-auto py-6 px-4 relative group'>
+  <div className='w-full h-full rounded-2xl bg-center bg-cover duration-500 relative'>
+    <Image src={image.brandopus} alt="BrandOpus" />
+  </div>
+</div>
+<p className='text-justify ml-2 md:ml-4 mr-4 max-w-[1400px]'>
+  BrandOpus is a global branding agency specializing in brand creation, brand strategy, and packaging design. With a deep understanding of consumer psychology and visual storytelling, they help businesses transform their brand identity and connect emotionally with their audiences.
+</p>
+<ul className='list-disc ml-6 md:ml-8 mr-4 max-w-[1400px]'>
+  <li><span className='font-bold'>Founder:</span> Nir Wegrzyn</li>
   <li><span className='font-bold'>Year of Establishment:</span> 2007</li>
-  <li><span className='font-bold'>Headquarters:</span> Leeds, United Kingdom</li>
-  <li><span className='font-bold'>Website:</span> <span className='underline'><a href="https://www.blueclaw.co.uk/">https://www.blueclaw.co.uk/</a></span></li>
-  <li><span className='font-bold'>Address:</span> 46 The Calls, Leeds, LS2 7EY, United Kingdom</li>
-</ul>
-
-<h1 className="font-bold hover:underline ml-2 md:ml-4 text-2xl mt-2 highlight"> <a href="https://croud.com/en-gb/">6. Croud</a></h1>
-<div className='md:max-w-[780px] md:h-[550px] max-w-[1300px] h-[265px] w-full m-auto py-6 px-4 relative group'>
-  <div
-    className='w-full h-full rounded-2xl bg-center bg-cover duration-500 relative'
-  >
-                  <Image
-        src={image.croud}
-        alt="Blueclaw"
-    />
-  </div>
-</div>
-<p className='text-justify ml-2 md:ml-4 mr-4 max-w-[1400px]'>
-  Croud is a global digital marketing agency that provides innovative solutions in PPC, SEO, content, and programmatic advertising. Founded in London, Croud has grown to become a leader in the digital marketing space, with a unique network of freelancers known as “Croudies” who deliver top-tier results for clients worldwide. Their collaborative approach ensures scalable and flexible digital marketing strategies.
-</p>
-<ul className='list-disc ml-6 md:ml-8 mr-4 max-w-[1400px]'>
-  <li><span className='font-bold'>Founder:</span> Luke Smith & Ben Knight</li>
-  <li><span className='font-bold'>Year of Establishment:</span> 2011</li>
   <li><span className='font-bold'>Headquarters:</span> London, United Kingdom</li>
-  <li><span className='font-bold'>Website:</span> <span className='underline'><a href="https://croud.com/en-gb/">https://croud.com/en-gb/</a></span></li>
-  <li><span className='font-bold'>Address:</span> 107-111 Fleet Street, London EC4A 2AB, United Kingdom</li>
+  <li><span className='font-bold'>Website:</span> <span className='underline'><a href="https://www.brandopus.com">https://www.brandopus.com</a></span></li>
+  <li><span className='font-bold'>Address:</span> 1st Floor, 222 Grays Inn Rd, London, WC1X 8HB, United Kingdom</li>
 </ul>
 
-<h1 className="font-bold hover:underline ml-2 md:ml-4 text-2xl mt-2 highlight"> <a href="https://www.addpeople.co.uk/">7. Add People</a></h1>
+<h1 className="font-bold hover:underline ml-2 md:ml-4 text-2xl mt-2 highlight">
+  <a href="https://www.interbrand.com">7. Interbrand</a>
+</h1>
 <div className='md:max-w-[780px] md:h-[550px] max-w-[1300px] h-[265px] w-full m-auto py-6 px-4 relative group'>
-  <div
-    className='w-full h-full rounded-2xl bg-center bg-cover duration-500 relative'
-  >
-                      <Image
-        src={image.addpeople}
-        alt="Add People"
-    />
+  <div className='w-full h-full rounded-2xl bg-center bg-cover duration-500 relative'>
+    <Image src={image.interbrand} alt="Interbrand" />
   </div>
 </div>
 <p className='text-justify ml-2 md:ml-4 mr-4 max-w-[1400px]'>
-  Add People is a digital marketing agency focused on helping small to medium-sized businesses grow online. Based in Altrincham, they specialize in affordable SEO, PPC, and social media marketing services. With a client-first approach, Add People ensures that businesses can effectively reach their target audiences and achieve measurable growth through tailored digital strategies.
+  Interbrand is a global brand consultancy known for their work in brand strategy, analytics, and design. They help businesses develop their brand identity, positioning, and value through innovative and data-driven approaches. Its expertise spans across industries, from technology to retail.
 </p>
 <ul className='list-disc ml-6 md:ml-8 mr-4 max-w-[1400px]'>
-  <li><span className='font-bold'>Founder:</span> David Roberts</li>
-  <li><span className='font-bold'>Year of Establishment:</span> 2002</li>
-  <li><span className='font-bold'>Headquarters:</span> Altrincham, United Kingdom</li>
-  <li><span className='font-bold'>Website:</span> <span className='underline'><a href="https://www.addpeople.co.uk">https://www.addpeople.co.uk</a></span></li>
-  <li><span className='font-bold'>Address:</span> Mansion House, Manchester Road, Altrincham WA14 4RW, United Kingdom</li>
-</ul>
-
-
-<h1 className="font-bold hover:underline ml-2 md:ml-4 text-2xl mt-2 highlight"> <a href="https://www.absolutedigitalmedia.com/">8. Absolute Digital Media</a></h1>
-<div className='md:max-w-[780px] md:h-[550px] max-w-[1300px] h-[265px] w-full m-auto py-6 px-4 relative group'>
-  <div
-    className='w-full h-full rounded-2xl bg-center bg-cover duration-500 relative'
-  >
-                      <Image
-        src={image.absolute}
-        alt="Absolute Digital Media"
-    />
-  </div>
-</div>
-<p className='text-justify ml-2 md:ml-4 mr-4 max-w-[1400px]'>
-  Absolute Digital Media is an award-winning digital marketing agency based in London, offering a full suite of services including SEO, PPC, and web design. Their team of digital experts is dedicated to creating tailored strategies that drive growth and deliver measurable results. Absolute Digital Media works with businesses across various industries, helping them improve their online presence and achieve long-term success.
-</p>
-<ul className='list-disc ml-6 md:ml-8 mr-4 max-w-[1400px]'>
-  <li><span className='font-bold'>Founder:</span> Ben Austin</li>
-  <li><span className='font-bold'>Year of Establishment:</span> 2008</li>
+  <li><span className='font-bold'>Founder:</span> John Murphy</li>
+  <li><span className='font-bold'>Year of Establishment:</span> 1974</li>
   <li><span className='font-bold'>Headquarters:</span> London, United Kingdom</li>
-  <li><span className='font-bold'>Website:</span> <span className='underline'><a href="https://www.absolutedigitalmedia.com">https://www.absolutedigitalmedia.com</a></span></li>
-  <li><span className='font-bold'>Address:</span> 32 Blackfriars Rd, London SE1 8PB, United Kingdom</li>
+  <li><span className='font-bold'>Website:</span> <span className='underline'><a href="https://www.interbrand.com">https://www.interbrand.com</a></span></li>
+  <li><span className='font-bold'>Address:</span> 7-8 Agar Street, London, WC2N 4HN, United Kingdom</li>
 </ul>
 
-
-
-
-<h1 className="font-bold hover:underline ml-2 md:ml-4 text-2xl mt-2 highlight"> <a href="https://www.propellernet.co.uk/">9. Propellernet</a></h1>
+<h1 className="font-bold hover:underline ml-2 md:ml-4 text-2xl mt-2 highlight">
+  <a href="https://www.superunion.com">8. Superunion</a>
+</h1>
 <div className='md:max-w-[780px] md:h-[550px] max-w-[1300px] h-[265px] w-full m-auto py-6 px-4 relative group'>
-  <div
-    className='w-full h-full rounded-2xl bg-center bg-cover duration-500 relative'
-  >
-                         <Image
-        src={image.propellernet}
-        alt="Propellernet"
-    />
+  <div className='w-full h-full rounded-2xl bg-center bg-cover duration-500 relative'>
+    <Image src={image.superunion} alt="Superunion" />
   </div>
 </div>
 <p className='text-justify ml-2 md:ml-4 mr-4 max-w-[1400px]'>
-  Propellernet is a Brighton-based digital marketing agency specializing in SEO, PPC, and content marketing. With a focus on delivering ethical and impactful digital strategies, Propellernet works with a wide range of clients to enhance their online presence and drive business growth. The agency is known for its innovative approach and commitment to achieving long-term success for its clients.
+  Superunion is a brand agency specializing in brand strategy, identity, and brand experience. The agency works to create disruptive and compelling brands that help businesses stand out. They have partnered with clients across various sectors to build meaningful brands that inspire and engage audiences.
 </p>
 <ul className='list-disc ml-6 md:ml-8 mr-4 max-w-[1400px]'>
-  <li><span className='font-bold'>Founder:</span> Jack Hubbard</li>
-  <li><span className='font-bold'>Year of Establishment:</span> 2003</li>
-  <li><span className='font-bold'>Headquarters:</span> Brighton, United Kingdom</li>
-  <li><span className='font-bold'>Website:</span> <span className='underline'><a href="https://www.propellernet.co.uk/">https://www.propellernet.co.uk</a></span></li>
-  <li><span className='font-bold'>Address:</span> 14 Frederick Pl, Brighton BN1 4EA, United Kingdom</li>
+  <li><span className='font-bold'>Founder:</span> Merger of five WPP agencies</li>
+  <li><span className='font-bold'>Year of Establishment:</span> 2018</li>
+  <li><span className='font-bold'>Headquarters:</span> London, United Kingdom</li>
+  <li><span className='font-bold'>Website:</span> <span className='underline'><a href="https://www.superunion.com">https://www.superunion.com</a></span></li>
+  <li><span className='font-bold'>Address:</span> 6 Brewhouse Yard, London, EC1V 4DG, United Kingdom</li>
 </ul>
 
-<h1 className="font-bold hover:underline ml-2 md:ml-4 text-2xl mt-2 highlight"> <a href="https://www.click.co.uk/">10. Click Consult</a></h1>
+<h1 className="font-bold hover:underline ml-2 md:ml-4 text-2xl mt-2 highlight">
+  <a href="https://www.futurebrand.com">9. FutureBrand</a>
+</h1>
 <div className='md:max-w-[780px] md:h-[550px] max-w-[1300px] h-[265px] w-full m-auto py-6 px-4 relative group'>
-  <div
-    className='w-full h-full rounded-2xl bg-center bg-cover duration-500 relative'
-  >
-                             <Image
-        src={image.clickconsult}
-        alt="Click Consult"
-    />
+  <div className='w-full h-full rounded-2xl bg-center bg-cover duration-500 relative'>
+    <Image src={image.futurebrand} alt="FutureBrand" />
   </div>
 </div>
 <p className='text-justify ml-2 md:ml-4 mr-4 max-w-[1400px]'>
-  Click Consult is a leading digital marketing agency based in Cheshire, specializing in SEO, PPC, and content marketing. With a focus on data-driven strategies, Click Consult has helped numerous businesses achieve better online visibility and increased conversions. Their team of experts works closely with clients to deliver tailored digital solutions that drive measurable results.
+  FutureBrand is a leading global brand consultancy offering expertise in brand strategy, innovation, and experience. They help clients reinvent their brands through creative and strategic solutions that align with their business goals. FutureBrand’s approach integrates cultural insights and market research to develop powerful brand experiences.
 </p>
 <ul className='list-disc ml-6 md:ml-8 mr-4 max-w-[1400px]'>
-  <li><span className='font-bold'>Founder:</span> Matt Bullas</li>
-  <li><span className='font-bold'>Year of Establishment:</span> 2003</li>
-  <li><span className='font-bold'>Headquarters:</span> Hooton, Cheshire, United Kingdom</li>
-  <li><span className='font-bold'>Website:</span> <span className='underline'><a href="https://www.click.co.uk/">https://www.click.co.uk</a></span></li>
-  <li><span className='font-bold'>Address:</span> Unit B1, Willow House, Oaklands Office Park, Hooton, Cheshire CH66 7NZ, United Kingdom</li>
+  <li><span className='font-bold'>Founder:</span> Interpublic Group</li>
+  <li><span className='font-bold'>Year of Establishment:</span> 1999</li>
+  <li><span className='font-bold'>Headquarters:</span> London, United Kingdom</li>
+  <li><span className='font-bold'>Website:</span> <span className='underline'><a href="https://www.futurebrand.com">https://www.futurebrand.com</a></span></li>
+  <li><span className='font-bold'>Address:</span> 10 Bloomsbury Way, London, WC1A 2SL, United Kingdom</li>
 </ul>
+
+<h1 className="font-bold hover:underline ml-2 md:ml-4 text-2xl mt-2 highlight">
+  <a href="https://theclearing.co.uk">10. The Clearing</a>
+</h1>
+<div className='md:max-w-[780px] md:h-[550px] max-w-[1300px] h-[265px] w-full m-auto py-6 px-4 relative group'>
+  <div className='w-full h-full rounded-2xl bg-center bg-cover duration-500 relative'>
+    <Image src={image.theclearing} alt="The Clearing" />
+  </div>
+</div>
+<p className='text-justify ml-2 md:ml-4 mr-4 max-w-[1400px]'>
+  The Clearing is an award-winning branding agency focused on brand strategy and design. They partner with businesses to redefine their brand purpose and deliver effective brand experiences. Known for their strategic approach, The Clearing helps brands become more meaningful to their audiences through creative storytelling.
+</p>
+<ul className='list-disc ml-6 md:ml-8 mr-4 max-w-[1400px]'>
+  <li><span className='font-bold'>Founder:</span> Richard Buchanan</li>
+  <li><span className='font-bold'>Year of Establishment:</span> 2010</li>
+  <li><span className='font-bold'>Headquarters:</span> London, United Kingdom</li>
+  <li><span className='font-bold'>Website:</span> <span className='underline'><a href="https://theclearing.co.uk">https://theclearing.co.uk</a></span></li>
+  <li><span className='font-bold'>Address:</span> 7 Boundary Row, London, SE1 8HP, United Kingdom</li>
+</ul>
+
 
 
       <p className="text-justify ml-2 md:ml-4  max-w-[1400px] text-2xl mt-2 font-bold highlight">Conclusion:</p>
 <p className='text-justify ml-2 md:ml-4 mr-4 max-w-[1400px]'>
-Selecting the right digital marketing agency can profoundly impact your business&apos;s online success. By partnering with one of the top digital marketing firms listed here, you are aligning yourself with experts who can elevate your brand&apos;s online presence and drive measurable growth. These agencies are renowned for their innovative strategies, data-driven insights, and commitment to delivering results. Ultimately, investing in a reputable digital marketing agency will save you time and resources while achieving significant returns. Their expertise will ensure your digital campaigns are effective, and their strategic approach will help your business thrive in the competitive online landscape.
-      </p>
+Choosing the right branding agency is crucial for establishing a strong, memorable identity that resonates with your audience. The top branding companies listed here are known for their expertise in brand strategy, design, and innovation, ensuring your brand not only stands out but thrives in todays competitive market. By partnering with these industry leaders, you gain access to creative solutions and proven methodologies that can transform your brand. Whether you are looking to refresh your existing brand or build something entirely new, these agencies offer the insights and creativity needed to help your business grow and succeed.      </p>
       </div>
       </div>
     </div>

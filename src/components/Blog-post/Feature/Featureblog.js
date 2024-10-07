@@ -49,7 +49,7 @@ const Feature = ({ content, mainHeading }) => {
             </div>
           </div>
           </a>
-          <a href="/services/content-marketing">
+          <a href="/blogs/top-10-website-development-companies-in-uk">
           <div className="single-feature-two blue-shape">
             <div className="h2-feature-icon d-center shadow-lg blue-shadow bg-blue mb-40 mb-sm-25 animate get-bottom">
             <svg xmlns="http://www.w3.org/2000/svg" height="512pt" version="1.1" viewBox="-7 0 511 512" width="512pt">
@@ -78,7 +78,7 @@ const Feature = ({ content, mainHeading }) => {
             </div>
           </div>
           </a>
-          <a href="/services/seo-service">
+          <a href="/blogs/top-10-content-marketing-companies-in-uk">
           <div className="single-feature-two sky-shape">
             <div className="h2-feature-icon shadow-lg mb-40 mb-sm-25 sky-shadow bg-sky">
             <svg
