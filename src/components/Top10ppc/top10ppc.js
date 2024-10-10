@@ -10,31 +10,32 @@ import Image9 from "@/constant/Images/image";
 import Image10 from "@/constant/Images/image";
 
 export const table = [
-    {
-      question: "TABLE OF CONTENTS",
-      answers: [
-          "Brafton",
-          "The Brains",
-          "Mitochon Digital",
-          "Stickyeyes",
-          "Builtvisible",
-          "Red Hot Penny",
-          "Zazzle Media",
-          "Greenlight Digital",
-          "Digital Uncut",
-          "Click Consult",
-      ],
-    },
-  ];
+  {
+    question: "TABLE OF CONTENTS",
+    answers: [
+      "Jellyfish",
+      "Brainlabs",
+      "Mitochon Digital",
+      "Croud",
+      "Greenlight Digital",
+      "Space & Time",
+      "iCrossing",
+      "MediaCom",
+      "The Brains",
+      "Hallam",
+    ],
+  },
+];
+
   
 
-const top10websitedev = () => {
+const top10seoservice = () => {
     return (
         <div className="ml-4">
             <div className="we-are-content">
                 <div className="section-title text-center">
                     <h2 className="pb-12 primary-heading">
-                        Top 10 Content Marketing Companies <span className="highlight">in UK</span>
+                        Top 10 Paid Online Advertising Companies <span className="highlight">in UK</span>
                     </h2>
                 </div>
             </div>
@@ -55,8 +56,8 @@ const top10websitedev = () => {
       </div>
       <div className="ml-0">
       <p className='text-justify ml-2 md:ml-4 mr-4 max-w-[1400px]'>
-      Selecting the right content marketing company is crucial for building a strong and engaging online presence. The UK boasts a diverse range of top content marketing agencies, each recognized for their creative strategies and expertise in delivering impactful content. 
-                  <span className='highlight'> This list highlights the top 10 content marketing companies in the UK, known for their ability to craft compelling, SEO-optimized content that drives brand awareness, boosts audience engagement, and generates measurable results for businesses across various industries </span>
+      The UK is home to some of the most innovative and successful paid online advertising companies that are shaping the future of digital marketing. These companies offer a variety of services, such as pay-per-click (PPC), programmatic advertising, display ads, and paid social media campaigns. 
+           <span className='highlight'> By leveraging data-driven strategies and industry-leading tools, these agencies help brands maximize their online visibility, increase conversions, and improve their return on investment (ROI).</span>
       </p>
 <section className="mb-8 py-6 px-4 grid grid-cols-1 gap-8">
   {table.map((item, index) => (
@@ -64,42 +65,44 @@ const top10websitedev = () => {
   ))}
 </section>
 <h1 className="font-bold hover:underline ml-2 md:ml-4 text-2xl mt-2 highlight">
-  <a href="https://www.brafton.co.uk">1. Brafton</a>
+  <a href="https://www.jellyfish.com">1. Jellyfish</a>
 </h1>
 <div className='md:max-w-[780px] md:h-[550px] max-w-[1300px] h-[265px] w-full m-auto py-6 px-4 relative group'>
   <div className='w-full h-full rounded-2xl bg-center bg-cover duration-500 relative'>
-    <Image src={image.brafton} alt="Brafton" />
+    <Image src={image.jellyfish} alt="Jellyfish" />
   </div>
 </div>
 <p className='text-justify ml-2 md:ml-4 mr-4 max-w-[1400px]'>
-  Brafton is a full-service content marketing agency known for providing data-driven strategies to enhance online visibility, brand engagement, and lead generation. Their services include content creation, SEO, social media marketing, and video production.
+  Jellyfish is a global digital marketing agency that specializes in paid media, including PPC, programmatic advertising, and display ads. They help brands maximize their online advertising budgets for optimal performance.
 </p>
 <ul className='list-disc ml-6 md:ml-8 mr-4 max-w-[1400px]'>
-  <li><span className='font-bold'>Founder:</span> Tom Agnew</li>
-  <li><span className='font-bold'>Year of Establishment:</span> 2008</li>
+  <li><span className='font-bold'>Founder:</span> Rob Pierre</li>
+  <li><span className='font-bold'>Year of Establishment:</span> 2005</li>
   <li><span className='font-bold'>Headquarters:</span> London, United Kingdom</li>
-  <li><span className='font-bold'>Website:</span> <span className='underline'><a href="https://www.brafton.co.uk">https://www.brafton.co.uk</a></span></li>
-  <li><span className='font-bold'>Address:</span> 131 Finsbury Pavement, London, EC2A 1NT, United Kingdom</li>
+  <li><span className='font-bold'>Website:</span> <span className='underline'><a href="https://www.jellyfish.com">https://www.jellyfish.com</a></span></li>
+  <li><span className='font-bold'>Address:</span> 31-35 Kirby Street, London, EC1N 8TE, United Kingdom</li>
 </ul>
 
 <h1 className="font-bold hover:underline ml-2 md:ml-4 text-2xl mt-2 highlight">
-  <a href="https://thebrainsmarketing.co.uk">2. The Brains</a>
+  <a href="https://www.brainlabsdigital.com">2. Brainlabs</a>
 </h1>
 <div className='md:max-w-[780px] md:h-[550px] max-w-[1300px] h-[265px] w-full m-auto py-6 px-4 relative group'>
   <div className='w-full h-full rounded-2xl bg-center bg-cover duration-500 relative'>
-    <Image src={image.theBrains} alt="The Brains" />
+    <Image src={image.brainlabs} alt="Brainlabs" />
   </div>
 </div>
 <p className='text-justify ml-2 md:ml-4 mr-4 max-w-[1400px]'>
-  The Brains is a digital marketing and content strategy agency that specializes in developing intelligent marketing campaigns to drive growth. They offer content marketing, SEO, paid search, and web development services.
+  Brainlabs is a digital marketing agency that focuses on paid search, programmatic advertising, and paid social media campaigns. Their data-driven approach helps businesses scale their online advertising efforts.
 </p>
 <ul className='list-disc ml-6 md:ml-8 mr-4 max-w-[1400px]'>
-  <li><span className='font-bold'>Founder:</span> Jonathan Lemer</li>
-  <li><span className='font-bold'>Year of Establishment:</span> 2015</li>
+  <li><span className='font-bold'>Founder:</span> Daniel Gilbert</li>
+  <li><span className='font-bold'>Year of Establishment:</span> 2012</li>
   <li><span className='font-bold'>Headquarters:</span> London, United Kingdom</li>
-  <li><span className='font-bold'>Website:</span> <span className='underline'><a href="https://thebrainsmarketing.co.uk">https://thebrainsmarketing.co.uk</a></span></li>
-  <li><span className='font-bold'>Address:</span> 15 Worship Street, London, EC2A 2DT, United Kingdom</li>
+  <li><span className='font-bold'>Website:</span> <span className='underline'><a href="https://www.brainlabsdigital.com">https://www.brainlabsdigital.com</a></span></li>
+  <li><span className='font-bold'>Address:</span> 2 Old Street Yard, London, EC1Y 8AF, United Kingdom</li>
 </ul>
+
+
 
 
 
@@ -127,91 +130,34 @@ const top10websitedev = () => {
 
 
 <h1 className="font-bold hover:underline ml-2 md:ml-4 text-2xl mt-2 highlight">
-  <a href="https://www.stickyeyes.com">4. Stickyeyes</a>
+  <a href="https://www.croud.com">4. Croud</a>
 </h1>
 <div className='md:max-w-[780px] md:h-[550px] max-w-[1300px] h-[265px] w-full m-auto py-6 px-4 relative group'>
   <div className='w-full h-full rounded-2xl bg-center bg-cover duration-500 relative'>
-    <Image src={image.stickyeyes} alt="Stickyeyes" />
+    <Image src={image.croud} alt="Croud" />
   </div>
 </div>
 <p className='text-justify ml-2 md:ml-4 mr-4 max-w-[1400px]'>
-  Stickyeyes is a digital marketing agency that offers content marketing, SEO, and digital PR. Their focus is on data-led, high-performance content strategies to grow brands online.
+  Croud offers a unique paid media solution powered by their global network of experts. Their paid advertising services include PPC, paid social, and programmatic ads, with a focus on driving conversions.
 </p>
 <ul className='list-disc ml-6 md:ml-8 mr-4 max-w-[1400px]'>
-  <li><span className='font-bold'>Founder:</span> Paul Hill</li>
-  <li><span className='font-bold'>Year of Establishment:</span> 1998</li>
-  <li><span className='font-bold'>Headquarters:</span> Leeds, United Kingdom</li>
-  <li><span className='font-bold'>Website:</span> <span className='underline'><a href="https://www.stickyeyes.com">https://www.stickyeyes.com</a></span></li>
-  <li><span className='font-bold'>Address:</span> West One, 114 Wellington Street, Leeds, LS1 1BA, United Kingdom</li>
-</ul>
-
-<h1 className="font-bold hover:underline ml-2 md:ml-4 text-2xl mt-2 highlight">
-  <a href="https://builtvisible.com">5. Builtvisible</a>
-</h1>
-<div className='md:max-w-[780px] md:h-[550px] max-w-[1300px] h-[265px] w-full m-auto py-6 px-4 relative group'>
-  <div className='w-full h-full rounded-2xl bg-center bg-cover duration-500 relative'>
-    <Image src={image.builtvisible} alt="Builtvisible" />
-  </div>
-</div>
-<p className='text-justify ml-2 md:ml-4 mr-4 max-w-[1400px]'>
-  Builtvisible is a content marketing and SEO agency specializing in organic search growth and content development. They focus on delivering measurable results and increasing visibility for their clients.
-</p>
-<ul className='list-disc ml-6 md:ml-8 mr-4 max-w-[1400px]'>
-  <li><span className='font-bold'>Founder:</span> Richard Baxter</li>
-  <li><span className='font-bold'>Year of Establishment:</span> 2009</li>
+  <li><span className='font-bold'>Founder:</span> Luke Smith</li>
+  <li><span className='font-bold'>Year of Establishment:</span> 2011</li>
   <li><span className='font-bold'>Headquarters:</span> London, United Kingdom</li>
-  <li><span className='font-bold'>Website:</span> <span className='underline'><a href="https://builtvisible.com">https://builtvisible.com</a></span></li>
-  <li><span className='font-bold'>Address:</span> 12-18 Hoxton Street, London, N1 6NG, United Kingdom</li>
+  <li><span className='font-bold'>Website:</span> <span className='underline'><a href="https://www.croud.com">https://www.croud.com</a></span></li>
+  <li><span className='font-bold'>Address:</span> 1-3 Strand, London, WC2N 5EH, United Kingdom</li>
 </ul>
 
 <h1 className="font-bold hover:underline ml-2 md:ml-4 text-2xl mt-2 highlight">
-  <a href="https://www.redhotpenny.com">6. Red Hot Penny</a>
+  <a href="https://www.greenlightdigital.com">5. Greenlight Digital</a>
 </h1>
 <div className='md:max-w-[780px] md:h-[550px] max-w-[1300px] h-[265px] w-full m-auto py-6 px-4 relative group'>
   <div className='w-full h-full rounded-2xl bg-center bg-cover duration-500 relative'>
-    <Image src={image.redhotpenny} alt="Red Hot Penny" />
+    <Image src={image.greenlight} alt="Greenlight Digital" />
   </div>
 </div>
 <p className='text-justify ml-2 md:ml-4 mr-4 max-w-[1400px]'>
-  Red Hot Penny specializes in content marketing, SEO, and eCommerce. They create campaigns that focus on brand growth, online performance, and lead generation.
-</p>
-<ul className='list-disc ml-6 md:ml-8 mr-4 max-w-[1400px]'>
-  <li><span className='font-bold'>Founder:</span> Joe Russell</li>
-  <li><span className='font-bold'>Year of Establishment:</span> 2000</li>
-  <li><span className='font-bold'>Headquarters:</span> Reading, United Kingdom</li>
-  <li><span className='font-bold'>Website:</span> <span className='underline'><a href="https://www.redhotpenny.com">https://www.redhotpenny.com</a></span></li>
-  <li><span className='font-bold'>Address:</span> Soane Point, 6-8 Market Place, Reading, RG1 2EG, United Kingdom</li>
-</ul>
-
-<h1 className="font-bold hover:underline ml-2 md:ml-4 text-2xl mt-2 highlight">
-  <a href="https://www.zazzlemedia.co.uk">7. Zazzle Media</a>
-</h1>
-<div className='md:max-w-[780px] md:h-[550px] max-w-[1300px] h-[265px] w-full m-auto py-6 px-4 relative group'>
-  <div className='w-full h-full rounded-2xl bg-center bg-cover duration-500 relative'>
-    <Image src={image.zazzlemedia} alt="Zazzle Media" />
-  </div>
-</div>
-<p className='text-justify ml-2 md:ml-4 mr-4 max-w-[1400px]'>
-  Zazzle Media is a leading content marketing agency with expertise in SEO, digital PR, and data analysis. They focus on creating compelling content that drives organic growth and brand awareness.
-</p>
-<ul className='list-disc ml-6 md:ml-8 mr-4 max-w-[1400px]'>
-  <li><span className='font-bold'>Founder:</span> Simon Penson</li>
-  <li><span className='font-bold'>Year of Establishment:</span> 2009</li>
-  <li><span className='font-bold'>Headquarters:</span> Peterborough, United Kingdom</li>
-  <li><span className='font-bold'>Website:</span> <span className='underline'><a href="https://www.zazzlemedia.co.uk">https://www.zazzlemedia.co.uk</a></span></li>
-  <li><span className='font-bold'>Address:</span> Lynch Wood Park, Peterborough, PE2 6GG, United Kingdom</li>
-</ul>
-
-<h1 className="font-bold hover:underline ml-2 md:ml-4 text-2xl mt-2 highlight">
-  <a href="https://www.greenlightdigital.com">8. Greenlight Digital</a>
-</h1>
-<div className='md:max-w-[780px] md:h-[550px] max-w-[1300px] h-[265px] w-full m-auto py-6 px-4 relative group'>
-  <div className='w-full h-full rounded-2xl bg-center bg-cover duration-500 relative'>
-    <Image src={image.greenlightdigital} alt="Greenlight Digital" />
-  </div>
-</div>
-<p className='text-justify ml-2 md:ml-4 mr-4 max-w-[1400px]'>
-  Greenlight Digital offers a range of digital marketing services, including content marketing, SEO, and digital advertising. They help brands maximize visibility through creative and data-driven content strategies.
+  Greenlight Digital is a digital marketing agency specializing in paid media services, including PPC and programmatic advertising. They provide data-driven strategies to maximize ad spend.
 </p>
 <ul className='list-disc ml-6 md:ml-8 mr-4 max-w-[1400px]'>
   <li><span className='font-bold'>Founder:</span> Warren Cowan</li>
@@ -222,48 +168,106 @@ const top10websitedev = () => {
 </ul>
 
 <h1 className="font-bold hover:underline ml-2 md:ml-4 text-2xl mt-2 highlight">
-  <a href="https://www.digitaluncut.com">9. Digital Uncut</a>
+  <a href="https://spaceandtime.co.uk">6. Space & Time</a>
 </h1>
 <div className='md:max-w-[780px] md:h-[550px] max-w-[1300px] h-[265px] w-full m-auto py-6 px-4 relative group'>
   <div className='w-full h-full rounded-2xl bg-center bg-cover duration-500 relative'>
-    <Image src={image.digitaluncut} alt="Digital Uncut" />
+    <Image src={image.space_time} alt="Space & Time" />
   </div>
 </div>
 <p className='text-justify ml-2 md:ml-4 mr-4 max-w-[1400px]'>
-  Digital Uncut is a content marketing and SEO agency dedicated to helping startups and scaleups grow with tailored marketing strategies and SEO-optimized content.
+  Space & Time Media is a digital marketing agency offering a range of paid advertising services, including Google Ads, social media ads, and display campaigns. They help businesses optimize their paid media strategies.
 </p>
 <ul className='list-disc ml-6 md:ml-8 mr-4 max-w-[1400px]'>
-  <li><span className='font-bold'>Founder:</span> Chris Liversidge</li>
-  <li><span className='font-bold'>Year of Establishment:</span> 2016</li>
+  <li><span className='font-bold'>Founder:</span> Peter Jones</li>
+  <li><span className='font-bold'>Year of Establishment:</span> 2000</li>
   <li><span className='font-bold'>Headquarters:</span> London, United Kingdom</li>
-  <li><span className='font-bold'>Website:</span> <span className='underline'><a href="https://www.digitaluncut.com">https://www.digitaluncut.com</a></span></li>
-  <li><span className='font-bold'>Address:</span> 50 Eastcastle Street, London, W1W 8EA, United Kingdom</li>
+  <li><span className='font-bold'>Website:</span> <span className='underline'><a href="https://spaceandtime.co.uk">https://spaceandtime.co.uk</a></span></li>
+  <li><span className='font-bold'>Address:</span> 123 Victoria Street, London, SW1E 6DE, United Kingdom</li>
 </ul>
 
 <h1 className="font-bold hover:underline ml-2 md:ml-4 text-2xl mt-2 highlight">
-  <a href="https://www.click.co.uk">10. Click Consult</a>
+  <a href="https://www.icrossing.co.uk">7. iCrossing</a>
 </h1>
 <div className='md:max-w-[780px] md:h-[550px] max-w-[1300px] h-[265px] w-full m-auto py-6 px-4 relative group'>
   <div className='w-full h-full rounded-2xl bg-center bg-cover duration-500 relative'>
-    <Image src={image.clickconsult} alt="Click Consult" />
+    <Image src={image.icrossing} alt="iCrossing" />
   </div>
 </div>
 <p className='text-justify ml-2 md:ml-4 mr-4 max-w-[1400px]'>
-  Click Consult provides integrated search and content marketing services. They specialize in SEO, PPC, content strategy, and digital PR to deliver impactful marketing campaigns.
+  iCrossing provides integrated paid media services, including PPC and paid social campaigns. They work with clients to create customized paid advertising strategies that focus on driving measurable results.
 </p>
 <ul className='list-disc ml-6 md:ml-8 mr-4 max-w-[1400px]'>
-  <li><span className='font-bold'>Founder:</span> Matt Bullas</li>
-  <li><span className='font-bold'>Year of Establishment:</span> 2003</li>
-  <li><span className='font-bold'>Headquarters:</span> Cheshire, United Kingdom</li>
-  <li><span className='font-bold'>Website:</span> <span className='underline'><a href="https://www.click.co.uk">https://www.click.co.uk</a></span></li>
-  <li><span className='font-bold'>Address:</span> Hooton House, Hooton Road, Cheshire, CH66 7NZ, United Kingdom</li>
+  <li><span className='font-bold'>Founder:</span> Antony Mayfield</li>
+  <li><span className='font-bold'>Year of Establishment:</span> 1998</li>
+  <li><span className='font-bold'>Headquarters:</span> London, United Kingdom</li>
+  <li><span className='font-bold'>Website:</span> <span className='underline'><a href="https://www.icrossing.co.uk">https://www.icrossing.co.uk</a></span></li>
+  <li><span className='font-bold'>Address:</span> 5th Floor, 40 Bernard Street, London, WC1N 1LE, United Kingdom</li>
 </ul>
+
+<h1 className="font-bold hover:underline ml-2 md:ml-4 text-2xl mt-2 highlight">
+  <a href="https://www.mediacom.com">8. MediaCom</a>
+</h1>
+<div className='md:max-w-[780px] md:h-[550px] max-w-[1300px] h-[265px] w-full m-auto py-6 px-4 relative group'>
+  <div className='w-full h-full rounded-2xl bg-center bg-cover duration-500 relative'>
+    <Image src={image.mediacom} alt="MediaCom" />
+  </div>
+</div>
+<p className='text-justify ml-2 md:ml-4 mr-4 max-w-[1400px]'>
+  MediaCom is one of the UK’s leading media agencies, offering paid advertising services across digital channels like search, social media, and display advertising. Their focus is on maximizing brand visibility and ROI.
+</p>
+<ul className='list-disc ml-6 md:ml-8 mr-4 max-w-[1400px]'>
+  <li><span className='font-bold'>Founder:</span> Stephen Allan</li>
+  <li><span className='font-bold'>Year of Establishment:</span> 1986</li>
+  <li><span className='font-bold'>Headquarters:</span> London, United Kingdom</li>
+  <li><span className='font-bold'>Website:</span> <span className='underline'><a href="https://www.mediacom.com">https://www.mediacom.com</a></span></li>
+  <li><span className='font-bold'>Address:</span> 124 Theobalds Road, London, WC1X 8RX, United Kingdom</li>
+</ul>
+
+<h1 className="font-bold hover:underline ml-2 md:ml-4 text-2xl mt-2 highlight">
+  <a href="https://thebrainsmarketing.co.uk">9. The Brains</a>
+</h1>
+<div className='md:max-w-[780px] md:h-[550px] max-w-[1300px] h-[265px] w-full m-auto py-6 px-4 relative group'>
+  <div className='w-full h-full rounded-2xl bg-center bg-cover duration-500 relative'>
+    <Image src={image.the_brains} alt="The Brains" />
+  </div>
+</div>
+<p className='text-justify ml-2 md:ml-4 mr-4 max-w-[1400px]'>
+  The Brains offers comprehensive paid media services, including PPC, paid social, and programmatic advertising. They use data-driven strategies to create high-performing advertising campaigns that drive conversions.
+</p>
+<ul className='list-disc ml-6 md:ml-8 mr-4 max-w-[1400px]'>
+  <li><span className='font-bold'>Founder:</span> Jonathan Lemer</li>
+  <li><span className='font-bold'>Year of Establishment:</span> 2015</li>
+  <li><span className='font-bold'>Headquarters:</span> London, United Kingdom</li>
+  <li><span className='font-bold'>Website:</span> <span className='underline'><a href="https://thebrainsmarketing.co.uk">https://thebrainsmarketing.co.uk</a></span></li>
+  <li><span className='font-bold'>Address:</span> 15 Worship Street, London, EC2A 2DT, United Kingdom</li>
+</ul>
+
+<h1 className="font-bold hover:underline ml-2 md:ml-4 text-2xl mt-2 highlight">
+  <a href="https://www.hallaminternet.com">10. Hallam</a>
+</h1>
+<div className='md:max-w-[780px] md:h-[550px] max-w-[1300px] h-[265px] w-full m-auto py-6 px-4 relative group'>
+  <div className='w-full h-full rounded-2xl bg-center bg-cover duration-500 relative'>
+    <Image src={image.hallam} alt="Hallam" />
+  </div>
+</div>
+<p className='text-justify ml-2 md:ml-4 mr-4 max-w-[1400px]'>
+  Hallam is a digital marketing agency offering paid advertising services, including Google Ads, Bing Ads, and social media ads. They focus on using strategic paid media campaigns to drive traffic and increase conversions.
+</p>
+<ul className='list-disc ml-6 md:ml-8 mr-4 max-w-[1400px]'>
+  <li><span className='font-bold'>Founder:</span> Susan Hallam</li>
+  <li><span className='font-bold'>Year of Establishment:</span> 1999</li>
+  <li><span className='font-bold'>Headquarters:</span> Nottingham, United Kingdom</li>
+  <li><span className='font-bold'>Website:</span> <span className='underline'><a href="https://www.hallaminternet.com">https://www.hallaminternet.com</a></span></li>
+  <li><span className='font-bold'>Address:</span> 40 St Marys Gate, Nottingham, NG1 1QA, United Kingdom</li>
+</ul>
+
 
 
 
       <p className="text-justify ml-2 md:ml-4  max-w-[1400px] text-2xl mt-2 font-bold highlight">Conclusion:</p>
 <p className='text-justify ml-2 md:ml-4 mr-4 max-w-[1400px]'>
-Choosing the right content marketing company can significantly boost your brand&apos;s visibility and drive customer engagement. By working with one of the top content marketing agencies listed here, you will partner with professionals who excel at creating compelling, data-driven content strategies tailored to your business goals. These agencies are recognized for their creativity, expertise in SEO, and ability to deliver measurable results through content that resonates with your audience. Investing in a reputable content marketing firm will help you save time, enhance your digital presence, and ensure that your brand stands out in the competitive online landscape.
+These top 10 paid online advertising companies in the UK provide a diverse range of services aimed at helping businesses succeed in the highly competitive digital space. By combining cutting-edge technology, strategic insights, and expert knowledge, they offer customized solutions that maximize ad spend and drive business growth. Whether you are a small business looking for targeted PPC campaigns or a large enterprise in need of programmatic advertising and paid social strategies, these agencies can help you achieve measurable results. Their expertise ensures that your brand stays ahead in the fast-evolving world of online advertising.
       </p>
       </div>
       </div>
@@ -306,4 +310,4 @@ const SingleQuestion2 = ({ question, answers }) => {
   );
 };
 
-export default top10websitedev;
+export default top10seoservice;
