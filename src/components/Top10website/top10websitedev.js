@@ -42,7 +42,7 @@ const top10websitedev = () => {
             <div className='text-xl' >
       <div className="mr-2 text-black">
       <Image
-        src={image.digitalmarketinghero}
+        src={image.webdevhero}
         alt="Digital Marketing"
         layout='responsive'
         className="object-cover"
@@ -68,7 +68,7 @@ const top10websitedev = () => {
 </h1>
 <div className='md:max-w-[780px] md:h-[550px] max-w-[1300px] h-[265px] w-full m-auto py-6 px-4 relative group'>
   <div className='w-full h-full rounded-2xl bg-center bg-cover duration-500 relative'>
-    <Image src={image.cyberDuck} alt="Cyber-Duck" />
+    <Image src={image.cyberduck} alt="Cyber-Duck" />
   </div>
 </div>
 <p className='text-justify ml-2 md:ml-4 mr-4 max-w-[1400px]'>
@@ -87,7 +87,7 @@ const top10websitedev = () => {
 </h1>
 <div className='md:max-w-[780px] md:h-[550px] max-w-[1300px] h-[265px] w-full m-auto py-6 px-4 relative group'>
   <div className='w-full h-full rounded-2xl bg-center bg-cover duration-500 relative'>
-    <Image src={image.lighthouseLondon} alt="Lighthouse London" />
+    <Image src={image.lighthouselondon} alt="Lighthouse London" />
   </div>
 </div>
 <p className='text-justify ml-2 md:ml-4 mr-4 max-w-[1400px]'>
@@ -131,7 +131,7 @@ const top10websitedev = () => {
 </h1>
 <div className='md:max-w-[780px] md:h-[550px] max-w-[1300px] h-[265px] w-full m-auto py-6 px-4 relative group'>
   <div className='w-full h-full rounded-2xl bg-center bg-cover duration-500 relative'>
-    <Image src={image.webChoice} alt="Web Choice" />
+    <Image src={image.webchoice} alt="Web Choice" />
   </div>
 </div>
 <p className='text-justify ml-2 md:ml-4 mr-4 max-w-[1400px]'>
@@ -150,7 +150,7 @@ const top10websitedev = () => {
 </h1>
 <div className='md:max-w-[780px] md:h-[550px] max-w-[1300px] h-[265px] w-full m-auto py-6 px-4 relative group'>
   <div className='w-full h-full rounded-2xl bg-center bg-cover duration-500 relative'>
-    <Image src={image.kdWeb} alt="KD Web" />
+    <Image src={image.kdweb} alt="KD Web" />
   </div>
 </div>
 <p className='text-justify ml-2 md:ml-4 mr-4 max-w-[1400px]'>
@@ -169,7 +169,7 @@ const top10websitedev = () => {
 </h1>
 <div className='md:max-w-[780px] md:h-[550px] max-w-[1300px] h-[265px] w-full m-auto py-6 px-4 relative group'>
   <div className='w-full h-full rounded-2xl bg-center bg-cover duration-500 relative'>
-    <Image src={image.studioGraphene} alt="Studio Graphene" />
+    <Image src={image.studiographene} alt="Studio Graphene" />
   </div>
 </div>
 <p className='text-justify ml-2 md:ml-4 mr-4 max-w-[1400px]'>
@@ -188,7 +188,7 @@ const top10websitedev = () => {
 </h1>
 <div className='md:max-w-[780px] md:h-[550px] max-w-[1300px] h-[265px] w-full m-auto py-6 px-4 relative group'>
   <div className='w-full h-full rounded-2xl bg-center bg-cover duration-500 relative'>
-    <Image src={image.dcslGuideSmiths} alt="DCSL GuideSmiths" />
+    <Image src={image.dcslguidesmiths} alt="DCSL GuideSmiths" />
   </div>
 </div>
 <p className='text-justify ml-2 md:ml-4 mr-4 max-w-[1400px]'>
@@ -207,7 +207,7 @@ const top10websitedev = () => {
 </h1>
 <div className='md:max-w-[780px] md:h-[550px] max-w-[1300px] h-[265px] w-full m-auto py-6 px-4 relative group'>
   <div className='w-full h-full rounded-2xl bg-center bg-cover duration-500 relative'>
-    <Image src={image.fatMedia} alt="Fat Media" />
+    <Image src={image.fatmedia} alt="Fat Media" />
   </div>
 </div>
 <p className='text-justify ml-2 md:ml-4 mr-4 max-w-[1400px]'>
@@ -246,7 +246,7 @@ const top10websitedev = () => {
 </h1>
 <div className='md:max-w-[780px] md:h-[550px] max-w-[1300px] h-[265px] w-full m-auto py-6 px-4 relative group'>
   <div className='w-full h-full rounded-2xl bg-center bg-cover duration-500 relative'>
-    <Image src={image.theclearing} alt="Squareball" />
+    <Image src={image.squareball} alt="Squareball" />
   </div>
 </div>
 <p className='text-justify ml-2 md:ml-4 mr-4 max-w-[1400px]'>

@@ -74,6 +74,35 @@ import addpeople from '../../assets/blogs/addpeople.jpg'
 import propellernet from '../../assets/blogs/propellernet.jpg'
 import clickconsult from '../../assets/blogs/clickconsult.jpg'
 import absolute from '../../assets/blogs/absolute.jpg'
+import brandingbloghero from '../../assets/blogs/branding-blog-hero.jpg'
+import wolfollins from '../../assets/blogs/wolfollins.jpg'
+import designstudio from '../../assets/blogs/designstudio.jpg'
+import landor from '../../assets/blogs/landor.jpg'
+import pentagram from '../../assets/blogs/pentagram.jpg'
+import brandopus from '../../assets/blogs/brandopus.jpg'
+import interbrand from '../../assets/blogs/interbrand.jpg'
+import superunion from '../../assets/blogs/superunion.jpg'
+import futurebrand from '../../assets/blogs/futurebrand.jpg'
+import theclearing from '../../assets/blogs/theclearing.jpg'
+import webdevhero from '../../assets/blogs/web-dev-hero.jpg'
+import cyberduck from '../../assets/blogs/cyberduck.jpg' 
+import lighthouselondon from '../../assets/blogs/lighthouselondon.jpg'
+import webchoice from '../../assets/blogs/webchoice.jpg'
+import kdweb from '../../assets/blogs/kdweb.jpg'
+import studiographene from '../../assets/blogs/studiographene.jpg'
+import dcslguidesmiths from '../../assets/blogs/dcslguidesmiths.jpg'
+import fatmedia from '../../assets/blogs/fatmedia.jpg'
+import crowdform from '../../assets/blogs/crowdform.jpg'
+import squareball from '../../assets/blogs/squareball.jpg'
+import contentmarketinghero from '../../assets/blogs/content-marketing-hero.jpg'
+import brafton from '../../assets/blogs/brafton.jpg' 
+import thebrains from '../../assets/blogs/thebrains.jpg'
+import stickyeyes from '../../assets/blogs/stickyeyes.jpg'
+import builtvisible from '../../assets/blogs/builtvisible.jpg'
+import redhotpenny from '../../assets/blogs/redhotpenny.jpg'
+import zazzlemedia from '../../assets/blogs/zazzlemedia.jpg'
+import greenlightdigital from '../../assets/blogs/greenlightdigital.jpg'
+import digitaluncut from '../../assets/blogs/digitaluncut.jpg'
 
 
 const image = {
@@ -87,8 +116,8 @@ const image = {
   smo,
   ppc,
   digitalMarketing,
-   client,
-   quote,
+  client,
+  quote,
   announcementIcon,
   dm,
   dm2,
@@ -153,6 +182,37 @@ const image = {
     propellernet,
     clickconsult,
     absolute,
+    brandingbloghero,
+    wolfollins,
+    designstudio,
+    landor,
+    pentagram,
+    brandopus,
+    interbrand,
+    superunion,
+    futurebrand,
+    theclearing,
+    webdevhero,
+    cyberduck,
+    lighthouselondon,
+    webchoice,
+    kdweb,
+    studiographene,
+    dcslguidesmiths,
+    fatmedia,
+    crowdform,
+    squareball,
+    contentmarketinghero,
+    brafton,
+    thebrains,
+    stickyeyes,
+    builtvisible,
+    redhotpenny,
+    zazzlemedia,
+    greenlightdigital,
+    digitaluncut,
+
+
  }
 
  export default image;

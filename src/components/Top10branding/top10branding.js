@@ -41,8 +41,8 @@ const top10branding = () => {
             <div className='text-xl' >
       <div className="mr-2 text-black">
       <Image
-        src={image.digitalmarketinghero}
-        alt="Digital Marketing"
+        src={image.brandingbloghero}
+        alt="Branding"
         layout='responsive'
         className="object-cover"
     />
@@ -67,7 +67,7 @@ const top10branding = () => {
 </h1>
 <div className='md:max-w-[780px] md:h-[550px] max-w-[1300px] h-[265px] w-full m-auto py-6 px-4 relative group'>
   <div className='w-full h-full rounded-2xl bg-center bg-cover duration-500 relative'>
-    <Image src={image.seoworks} alt="Wolf Ollins" />
+    <Image src={image.wolfollins} alt="Wolf Ollins" />
   </div>
 </div>
 <p className='text-justify ml-2 md:ml-4 mr-4 max-w-[1400px]'>
@@ -86,7 +86,7 @@ const top10branding = () => {
 </h1>
 <div className='md:max-w-[780px] md:h-[550px] max-w-[1300px] h-[265px] w-full m-auto py-6 px-4 relative group'>
   <div className='w-full h-full rounded-2xl bg-center bg-cover duration-500 relative'>
-    <Image src={image.seoworks} alt="DesignStudio" />
+    <Image src={image.designstudio} alt="DesignStudio" />
   </div>
 </div>
 <p className='text-justify ml-2 md:ml-4 mr-4 max-w-[1400px]'>
