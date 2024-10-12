@@ -153,7 +153,7 @@ const top10seoservice = () => {
 </h1>
 <div className='md:max-w-[780px] md:h-[550px] max-w-[1300px] h-[265px] w-full m-auto py-6 px-4 relative group'>
   <div className='w-full h-full rounded-2xl bg-center bg-cover duration-500 relative'>
-    <Image src={image.social_chain} alt="Social Chain" />
+    <Image src={image.socialchain} alt="Social Chain" />
   </div>
 </div>
 <p className='text-justify ml-2 md:ml-4 mr-4 max-w-[1400px]'>
@@ -172,7 +172,7 @@ const top10seoservice = () => {
 </h1>
 <div className='md:max-w-[780px] md:h-[550px] max-w-[1300px] h-[265px] w-full m-auto py-6 px-4 relative group'>
   <div className='w-full h-full rounded-2xl bg-center bg-cover duration-500 relative'>
-    <Image src={image.born_social} alt="Born Social" />
+    <Image src={image.bornsocial} alt="Born Social" />
   </div>
 </div>
 <p className='text-justify ml-2 md:ml-4 mr-4 max-w-[1400px]'>
@@ -191,7 +191,7 @@ const top10seoservice = () => {
 </h1>
 <div className='md:max-w-[780px] md:h-[550px] max-w-[1300px] h-[265px] w-full m-auto py-6 px-4 relative group'>
   <div className='w-full h-full rounded-2xl bg-center bg-cover duration-500 relative'>
-    <Image src={image.disrupt_marketing} alt="Disrupt Marketing" />
+    <Image src={image.disruptmarketing} alt="Disrupt Marketing" />
   </div>
 </div>
 <p className='text-justify ml-2 md:ml-4 mr-4 max-w-[1400px]'>
@@ -229,7 +229,7 @@ const top10seoservice = () => {
 </h1>
 <div className='md:max-w-[780px] md:h-[550px] max-w-[1300px] h-[265px] w-full m-auto py-6 px-4 relative group'>
   <div className='w-full h-full rounded-2xl bg-center bg-cover duration-500 relative'>
-    <Image src={image.giraffe_social_media} alt="Giraffe Social Media" />
+    <Image src={image.giraffesocialmedia} alt="Giraffe Social Media" />
   </div>
 </div>
 <p className='text-justify ml-2 md:ml-4 mr-4 max-w-[1400px]'>
@@ -248,7 +248,7 @@ const top10seoservice = () => {
 </h1>
 <div className='md:max-w-[780px] md:h-[550px] max-w-[1300px] h-[265px] w-full m-auto py-6 px-4 relative group'>
   <div className='w-full h-full rounded-2xl bg-center bg-cover duration-500 relative'>
-    <Image src={image.loudmouth_media} alt="Loud Mouth Media" />
+    <Image src={image.loudmouthmedia} alt="Loud Mouth Media" />
   </div>
 </div>
 <p className='text-justify ml-2 md:ml-4 mr-4 max-w-[1400px]'>

@@ -119,22 +119,23 @@ import hallam from '../../assets/blogs/hallam.jpg'
 import socialmediahero from '../../assets/blogs/socialmediahero.jpg'
 import sociallyin from '../../assets/blogs/sociallyin.jpg'
 import thesocialshepherd from '../../assets/blogs/thesocialshepherd.jpg'
-// import spinbrands from '../../assets/blogs/spinbrands.jpg'
-// import socialchain from '../../assets/blogs/socialchain.jpg'
-// import bornsocial from '../../assets/blogs/bornsocial.jpg'
-// import disruptmarketing from '../../assets/blogs/disruptmarketing.jpg'
-// import heads from '../../assets/blogs/1000heads.jpg'
-// import giraffesocialmedia from '../../assets/blogs/giraffesocialmedia.jpg'
-// import loudmouthmedia from '../../assets/blogs/loudmouthmedia.jpg'
-// import deloitteDigital from '../../assets/blogs/deloittedigital.jpg'
-// import accenture from '../../assets/blogs/accenture.jpg'
-// import kpmg from '../../assets/blogs/kpmg.jpg'
-// import pwc from '../../assets/blogs/pwc.jpg'
-// import fticonsulting from '../../assets/blogs/fticonsulting.jpg'
-// import cognizant from '../../assets/blogs/cognizant.jpg'
-// import zsassociates from '../../assets/blogs/zsassociates.jpg'
-// import fractalanalytics from '../../assets/blogs/fractalanalytics.jpg'
-// import thedatalab from '../../assets/blogs/thedatalab.jpg'
+import spinbrands from '../../assets/blogs/spinbrands.jpg'
+import socialchain from '../../assets/blogs/socialchain.jpg'
+import bornsocial from '../../assets/blogs/bornsocial.jpg'
+import disruptmarketing from '../../assets/blogs/disruptmarketing.jpg'
+import hundred0heads from '../../assets/blogs/hundred0heads.jpg'
+import giraffesocialmedia from '../../assets/blogs/giraffesocialmedia.jpg'
+import loudmouthmedia from '../../assets/blogs/loudmouthmedia.jpg'
+import analyticsandreportinghero from '../../assets/blogs/analyticsandreportinghero.jpg'
+import deloittedigital from '../../assets/blogs/deloittedigital.jpg'
+import accenture from '../../assets/blogs/accenture.jpg'
+import kpmg from '../../assets/blogs/kpmg.jpg'
+import pwc from '../../assets/blogs/pwc.jpg'
+import fticonsulting from '../../assets/blogs/fticonsulting.jpg'
+import cognizant from '../../assets/blogs/cognizant.jpg'
+import zsassociates from '../../assets/blogs/zsassociates.jpg'
+import fractalanalytics from '../../assets/blogs/fractalanalytics.jpg'
+import thedatalab from '../../assets/blogs/thedatalab.jpg'
 
 
 
@@ -261,23 +262,23 @@ const image = {
     socialmediahero,
     sociallyin,
     thesocialshepherd,
-    // spinbrands,
-    // socialchain,
-    // bornsocial,
-    // disruptmarketing,
-    // heads,
-    // giraffesocialmedia,
-    // loudmouthmedia,
-    // deloitteDigital,
-    // accenture,
-    // mitochondigital,
-    // kpmg,
-    // pwc,
-    // fticonsulting,
-    // cognizant,
-    // zsassociates,
-    // fractalanalytics,
-    // thedatalab,
+    spinbrands,
+    socialchain,
+    bornsocial,
+    disruptmarketing,
+    hundred0heads,
+    giraffesocialmedia,
+    loudmouthmedia,
+    analyticsandreportinghero,
+    deloittedigital,
+    accenture,
+    kpmg,
+    pwc,
+    fticonsulting,
+    cognizant,
+    zsassociates,
+    fractalanalytics,
+    thedatalab,
 
 
 
