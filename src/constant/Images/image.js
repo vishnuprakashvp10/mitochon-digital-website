@@ -103,6 +103,40 @@ import redhotpenny from '../../assets/blogs/redhotpenny.jpg'
 import zazzlemedia from '../../assets/blogs/zazzlemedia.jpg'
 import greenlightdigital from '../../assets/blogs/greenlightdigital.jpg'
 import digitaluncut from '../../assets/blogs/digitaluncut.jpg'
+import seoservicehero from '../../assets/blogs/seoservicehero.jpg'
+import moz from '../../assets/blogs/moz.jpg'
+import seomonitor from '../../assets/blogs/seomonitor.jpg'
+import distilled from '../../assets/blogs/distilled.jpg'
+import vervesearch from '../../assets/blogs/vervesearch.jpg'
+import greengecko from '../../assets/blogs/greengecko.jpg'
+import ppchero from '../../assets/blogs/ppchero.jpg'
+import jellyfish from '../../assets/blogs/jellyfish.jpg'
+import brainlabs from '../../assets/blogs/brainlabs.jpg'
+import spaceandtime from '../../assets/blogs/spaceandtime.jpg'
+import icrossing from '../../assets/blogs/icrossing.jpg'
+import mediacom from '../../assets/blogs/mediacom.jpg'
+import hallam from '../../assets/blogs/hallam.jpg'
+import socialmediahero from '../../assets/blogs/socialmediahero.jpg'
+import sociallyin from '../../assets/blogs/sociallyin.jpg'
+import thesocialshepherd from '../../assets/blogs/thesocialshepherd.jpg'
+// import spinbrands from '../../assets/blogs/spinbrands.jpg'
+// import socialchain from '../../assets/blogs/socialchain.jpg'
+// import bornsocial from '../../assets/blogs/bornsocial.jpg'
+// import disruptmarketing from '../../assets/blogs/disruptmarketing.jpg'
+// import heads from '../../assets/blogs/1000heads.jpg'
+// import giraffesocialmedia from '../../assets/blogs/giraffesocialmedia.jpg'
+// import loudmouthmedia from '../../assets/blogs/loudmouthmedia.jpg'
+// import deloitteDigital from '../../assets/blogs/deloittedigital.jpg'
+// import accenture from '../../assets/blogs/accenture.jpg'
+// import kpmg from '../../assets/blogs/kpmg.jpg'
+// import pwc from '../../assets/blogs/pwc.jpg'
+// import fticonsulting from '../../assets/blogs/fticonsulting.jpg'
+// import cognizant from '../../assets/blogs/cognizant.jpg'
+// import zsassociates from '../../assets/blogs/zsassociates.jpg'
+// import fractalanalytics from '../../assets/blogs/fractalanalytics.jpg'
+// import thedatalab from '../../assets/blogs/thedatalab.jpg'
+
+
 
 
 const image = {
@@ -211,6 +245,44 @@ const image = {
     zazzlemedia,
     greenlightdigital,
     digitaluncut,
+    seoservicehero,
+    moz,
+    seomonitor,
+    distilled,
+    vervesearch,
+    greengecko,
+    ppchero,
+    jellyfish,
+    brainlabs,
+    spaceandtime,
+    icrossing,
+    mediacom,
+    hallam,
+    socialmediahero,
+    sociallyin,
+    thesocialshepherd,
+    // spinbrands,
+    // socialchain,
+    // bornsocial,
+    // disruptmarketing,
+    // heads,
+    // giraffesocialmedia,
+    // loudmouthmedia,
+    // deloitteDigital,
+    // accenture,
+    // mitochondigital,
+    // kpmg,
+    // pwc,
+    // fticonsulting,
+    // cognizant,
+    // zsassociates,
+    // fractalanalytics,
+    // thedatalab,
+
+
+
+    
+
 
 
  }
