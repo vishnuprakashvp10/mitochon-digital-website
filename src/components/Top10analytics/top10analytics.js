@@ -144,7 +144,7 @@ const top10seoservice = () => {
   <li><span className='font-bold'>Founder:</span> William Barclay Peat</li>
   <li><span className='font-bold'>Year of Establishment:</span> 1987</li>
   <li><span className='font-bold'>Headquarters:</span> London, United Kingdom</li>
-  <li><span className='font-bold'>Website:</span> <span className='underline'><a href="https://home.kpmg/uk/en/home/services/advisory/analytics.html">https://home.kpmg/uk/en/home/services/advisory/analytics.html</a></span></li>
+  <li><span className='font-bold'>Website:</span> <span className='underline'><a href="https://home.kpmg/uk">https://home.kpmg/uk</a></span></li>
   <li><span className='font-bold'>Address:</span> 15 Canada Square, London, E14 5GL, United Kingdom</li>
 </ul>
 
