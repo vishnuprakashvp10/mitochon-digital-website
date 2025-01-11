@@ -15,7 +15,7 @@ const HomeStats = () => {
     <Stats
       stats={stats}
       heading="Digital Marketing SEO Solutions!"
-      para="Our services include comprehensive SEO management, website SEO, and SEO audit solutions. As one of the best SEO companies in the world, we excel in SEO website design, link building, and international SEO. Partner with Mitochon Digital to leverage our expertise as the best search engine optimization company and achieve outstanding results in your SEO development and optimization efforts."
+      para="Our services cover the full works: SEO management, website SEO, and SEO audit solutions. As one of the top SEO companies globally, we’re aces at SEO website design, link building, and international SEO. Team up with Mitochon Digital to tap into our know-how as the best search engine optimisation company and smash your SEO development and optimisation goals."
       connectHref="/contact-us"
       knowMoreHref="/services/seo-service"
     />

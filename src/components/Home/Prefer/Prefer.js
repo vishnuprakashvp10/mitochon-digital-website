@@ -10,11 +10,11 @@ const Prefer = () => {
     </div>
     <div>
     <h1 className='primary-heading'>Do you remember the story of <span className='highlight'>the Lighthouse and the Ships?</span></h1>
-    <p className='pt-12 pb-6 app__text text-justify'>Imagine a bustling harbor where ships of all sizes navigate their unique paths every day. In this harbor stands Mitochon Digital, like a steadfast lighthouse, guiding businesses through the complex and often turbulent waters of digital marketing. We are the beacon for large enterprises and small startups alike, each seeking to reach their own distinct destination.</p>
+    <p className='pt-12 pb-6 app__text text-justify'>Picture a busy harbour where ships of all sizes chart their own courses every day. In this harbour, Mitochon Digital stands tall, like a steadfast lighthouse, guiding businesses through the tricky and often choppy waters of digital marketing. We&apos;re the beacon for both big enterprises and small startups, each aiming for their unique destination.</p>
     <ul className='list-inside list-disc text-justify app__text'>
-    <li>Our expertise in digital marketing, from PPC (Pay-Per-Click) to SEO (Search Engine Optimization), illuminates the path for these vessels. We highlight potential dangers and favorable currents, helping businesses navigate the digital landscape with precision and confidence.</li>
-    <li>As one of the best SEO companies and a leading PPC agency, our team creates strategic campaigns that not only attract attention but ensure meaningful engagement and conversion. Whether you&apos;re looking for local SEO services, PPC management, or digital marketing consulting, we offer comprehensive solutions tailored to your needs.</li>
-    <li>Through calm seas and storms, Mitochon Digital keeps your journey on course, ensuring your venture not only reaches but thrives in the desired harbor. We are here to light up your path in the digital marketplace, guaranteeing success through every phase of your business&apos;s voyage.</li>
+    <li>Our expertise in digital marketing, from Pay-Per-Click to Search Engine Optimisation, lights the way for these vessels. We point out hidden dangers and favourable currents, helping businesses navigate the digital landscape with confidence and precision.</li>
+    <li>As one of the top SEO companies and a leading PPC agency, our crew crafts strategic campaigns that don&apos;t just grab attention but also deliver meaningful engagement and conversions. Whether it&apos;s local SEO services, PPC management, or digital marketing consulting, we offer solutions tailored just for you.</li>
+    <li>Through smooth sailing and stormy weather, Mitochon Digital keeps your journey on track, ensuring your business not only reaches but thrives in its desired harbour. We&apos;re here to light up your path in the digital marketplace, guaranteeing success every step of the way.</li>
     </ul>
     </div>
 

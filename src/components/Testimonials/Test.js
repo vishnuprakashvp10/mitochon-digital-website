@@ -10,14 +10,14 @@ const Test = () => {
       id: 1,
       name: "Suresh Kumar - Infratech Builders",
       message:
-        "They took the reins on everything from crafting a clear content strategy to building a user-friendly website. Their online advertising expertise has been instrumental in attracting a significant number of potential leads.",
+        "They took charge of everything—from crafting a spot-on content strategy to building a website that’s a doddle to use. Their expertise in online advertising has been key to bringing in loads of potential leads.",
       imgUrl: image.client,
     },
     {
       id: 2,
       name: "Morgan Maxwell - Athlefy",
       message:
-        "They completely revamped our online presence, starting with a rock-solid content strategy and a user-friendly website that showcases our offerings perfectly. Sales have skyrocketed with remarkable growth!",
+        "They gave our online presence a total overhaul, starting with a cracking content strategy and a user-friendly website that perfectly showcases what we offer. Sales have soared, and the growth has been absolutely smashing!",
       imgUrl: image.client,
     },
     // {
@@ -41,7 +41,7 @@ const Test = () => {
   useEffect(() => {
     const interval = setInterval(() => {
       setActiveSlide((prevState) => (prevState + 1) % testimonials.length);
-    }, 3000);
+    }, 9000);
 
     return () => clearInterval(interval);
   }, [testimonials.length]);
@@ -58,7 +58,7 @@ const Test = () => {
               <span className="highlight">Client</span> Says
             </h1>
             <p className="mt-4 app__text">
-            Discover what our clients are saying about our digital marketing solutions. Read testimonials from satisfied customers and learn how Mitochon Digital has empowered businesses like yours to achieve their marketing goals.</p>
+            See what our clients have to say about our digital marketing solutions. Read testimonials from happy customers and find out how Mitochon Digital has helped businesses like yours smash their marketing goals.</p>
           </div>
         </div>
         <div className="relative bg-white h-80 shadow-lg px-6 py-12 rounded-xl">
