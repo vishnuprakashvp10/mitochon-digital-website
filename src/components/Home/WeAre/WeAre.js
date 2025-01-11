@@ -28,8 +28,7 @@ const WeAre = () => {
               </div>
 
               <p className="app__text text-justify pb-10">
-              In today&apos;s fast-paced digital landscape, the online realm has become the cornerstone of promoting work, business, and lifestyle. At Mitochon Digital, we are your trusted partner in navigating this ever-evolving world with our comprehensive digital marketing services in the UK. As one of the best digital marketing agencies in United Kingdom, we provide cutting-edge solutions tailored to your unique needs. Imagine the time and effort it takes to craft compelling slogans, design eye-catching digital posters, and create engaging layouts. Let us handle these tasks, allowing you to concentrate on what you excel at. Our expertise extends across the country, with top-tier digital marketing firms in the UK, ensuring that your digital strategy is both effective and innovative.
-              </p>
+              In today&apos;s lightning-fast digital world, the online space is the heart and soul of promoting work, business, and lifestyle. At Mitochon Digital, we&apos;re your go-to mates for navigating this ever-changing landscape with our top-notch digital marketing services across the UK. As one of the leading digital marketing agencies in the United Kingdom, we deliver cutting-edge solutions tailored to your needs. Think about the graft it takes to whip up catchy slogans, craft striking digital posters, and design engaging layouts. Let us crack on with those jobs so you can focus on what you do best. With our expertise spanning the UK, we ensure your digital strategy is bang-on and ahead of the curve.              </p>
               <div>
                 <Link href="/about-us">
                   <button className="primary-btn shadow-lg">Read More</button>
