@@ -27,10 +27,10 @@ export default function Cta({ heading, para, connectHref = "/contact-us", knowMo
                   href={connectHref}
                   className="primary-btn shadow-lg"
                 >
-                  Reach Us
+                  Contact Us
                 </Link>
                 <Link href={knowMoreHref} className="text-sm font-semibold leading-6 text-white">
-                  Know more <span aria-hidden="true">→</span>
+                  Learn more <span aria-hidden="true">→</span>
                 </Link>
               </div>
             </div>

@@ -18,10 +18,10 @@ const Home = () => {
 						At Mitochon Digital, we whip up bespoke digital marketing strategies to give your online presence a proper boost and deliver smashing results across the UK. Our crack team is top-notch at branding, website development, content marketing, SEO services, and paid online advertising, making sure your business gets the spotlight it deserves. We&apos;re also dab hands at social media marketing, analytics and reporting, and CRO and usability, helping you connect with the right crowd and achieve long-term growth by showcasing what makes your brand one of a kind.						</p>
 						<div className="flex gap-5">
 							<Link href="/contact-us" className="primary-btn shadow-lg">
-								Reach Us
+								Contact Us
 							</Link>
 							<Link href="/about-us" className="hover:scale-110 secondary-btn shadow-lg">
-								Know More
+								Learn More
 							</Link>
 						</div>
 					</div>

@@ -10,7 +10,7 @@ const AboutWorking = () => {
             <div>
                 <div className="text-center about-padding">
                     <div className="section-sub-title">
-                        <h4 className="text-lg pb-4 font-normal capitalize">know more about us</h4>
+                        <h4 className="text-lg pb-4 font-normal capitalize">Learn more about us</h4>
                     </div>
                     <div className="primary-heading">
                         <h2>Our working <span className="highlight">process</span></h2>
