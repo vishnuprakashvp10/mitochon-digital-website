@@ -18,8 +18,8 @@ const AboutWorking = () => {
             </div>
             </div>
         </div>
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
-            <div>
+        <div className=" grid grid-cols-1 md:grid-cols-4 gap-8">
+        <div>
                 <div className="h3-wc-area relative">
                 <a href="/services/website-development"> 
                     <div className="working-card">

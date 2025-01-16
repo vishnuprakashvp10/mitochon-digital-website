@@ -20,17 +20,25 @@ const Award = () => {
       <div className='app__container'>
       <div className='grid grid-cols-1 md:grid-cols-2'>
       <div>
-      <h1 className='primary-heading mb-8'>Top-Rated <br/><span className='highlight'>Digital Agency</span> We Are</h1>
+      <h1 className='primary-heading mb-8'>Top-Rated <br/><span className='highlight'>Digital Agency</span></h1>
       <p className='app__text text-justify'>At Mitochon Digital, we approach digital marketing like a master painter approaches a canvas. Just as the right colors must be chosen to perfectly capture different skies—from the orange hues of sunset, the soft pinks and yellows of sunrise, to the clear sky blue of midday, and the stormy dark blues every detail in digital marketing must be meticulously crafted for maximum impact. </p>
       </div>
-      <div className='mt-5 md:mt-0 md:ms-auto my-auto'>
-      <ul className='list-image-[url(yes.png)] list-inside app__text'>
-      <li>Crafting Engaging Content</li>
-      <li>Streamlining Content Sharing</li>
-      <li>Enhancing Shareability</li>
-      <li>Cultivating Brand Advocates</li>
-      </ul>
-      </div>
+      <div className="mt-5 md:mt-0 md:ms-auto my-auto">
+  <ul className="list-image-[url(yes.png)] list-inside app__text">
+    <li className="text-justify text-sm sm:text-base">Crafting Captivating and Highly Engaging Content.</li>
+    <li className="text-justify text-sm sm:text-base">Streamlining the Process of Seamless Content Sharing.</li>
+    <li className="text-justify text-sm sm:text-base">Enhancing the Natural Shareability of Your Content.</li>
+    <li className="text-justify text-sm sm:text-base">Cultivating a Loyal Community of Brand Advocates.</li>
+    <li className="text-justify text-sm sm:text-base">Driving Meaningful and Purposeful Audience Engagement.</li>
+    <li className="text-justify text-sm sm:text-base">Optimising the Strategic Distribution of Content.</li>
+    <li className="text-justify text-sm sm:text-base">Amplifying Your Brand’s Presence Across Social Media Platforms.</li>
+    <li className="text-justify text-sm sm:text-base">Utilising Advanced Data-Driven Insights for Content Strategy.</li>
+    <li className="text-justify text-sm sm:text-base">Fostering Strong and Inclusive Community Connections.</li>
+    <li className="text-justify text-sm sm:text-base">Promoting Thought Leadership to Establish Brand Authority.</li>
+  </ul>
+</div>
+
+
       </div>
       </div>
       <div className="flex items-center flex-col gap-y-12 pt-12">
