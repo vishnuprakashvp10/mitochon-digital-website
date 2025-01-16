@@ -5,11 +5,10 @@ const WhatsApp = () => {
   return (
     <>
       <a
-        className="fixed bottom-40 -right-10 py-2 px-3 rounded-lg bg-[#29A71A] text-white z-20 drop-shadow-lg font-semibold flex items-center gap-x-1 -rotate-90"
+        className="fixed bottom-20 -right-0 h-12 w-12 rounded-full bg-[#29A71A] flex items-center justify-center"
         href="https://wa.me/+447442005437"
       >
-        <Image src={image.whatsapp} height={25} width={25} alt="whats app" />
-       < p>What&apos;s App</p>
+        <Image src={image.whatsapp} height={45} width={45} alt="whats app" />
       </a>
     </>
   );

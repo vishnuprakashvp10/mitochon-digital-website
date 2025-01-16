@@ -73,7 +73,7 @@ const WeCan = () => {
         })
      }
     </div>
-    </div>
+    </div> 
     </section>
   )
 }
