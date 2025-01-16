@@ -87,7 +87,7 @@ export default function ContactForm({ heading, color }) {
                     htmlFor="name"
                     className="block text-sm font-medium leading-6 text-gray-900"
                   >
-                    Full Name
+                    Full Name*
                   </label>
                   <div className="mt-2">
                     <input
@@ -107,7 +107,7 @@ export default function ContactForm({ heading, color }) {
                     htmlFor="email"
                     className="block text-sm font-medium leading-6 text-gray-900"
                   >
-                    Email address
+                    Email address*
                   </label>
                   <div className="mt-2">
                     <input
@@ -127,7 +127,7 @@ export default function ContactForm({ heading, color }) {
                     htmlFor="number"
                     className="block text-sm font-medium leading-6 text-gray-900"
                   >
-                    Number
+                    Phone Number*
                   </label>
                   <div className="mt-2">
                     <input
@@ -147,7 +147,7 @@ export default function ContactForm({ heading, color }) {
                     htmlFor="form-services"
                     className="block text-sm font-medium leading-6 text-gray-900"
                   >
-                    What are your requirements?
+                    What are your requirements?*
                   </label>
                   <div className="mt-2">
                     <select
@@ -204,7 +204,7 @@ export default function ContactForm({ heading, color }) {
                     htmlFor="message"
                     className="block text-sm font-medium leading-6 text-gray-900"
                   >
-                    Message
+                    Message*
                   </label>
                   <div className="mt-2">
                     <textarea

@@ -58,7 +58,7 @@ const Test = () => {
               <span className="highlight">Client</span> Says
             </h1>
             <p className="mt-4 app__text">
-            See what our clients have to say about our digital marketing solutions. Read testimonials from happy customers and find out how Mitochon Digital has helped businesses like yours smash their marketing goals.</p>
+            See what our clients have to say about our digital marketing solutions.</p>
           </div>
         </div>
         <div className="relative bg-white h-80 shadow-lg px-6 py-12 rounded-xl">
