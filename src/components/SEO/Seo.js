@@ -11,9 +11,7 @@ const Seo = () => {
         <div className="lg:col-span-2 lg:col-start-1 lg:row-start-1 lg:mx-auto lg:grid lg:w-full lg:max-w-7xl lg:grid-cols-2 lg:gap-x-8 lg:px-8">
           <div className="lg:pr-4">
             <div className="lg:max-w-lg ">
-              <p className="text-base font-semibold leading-7 highlight">Search Engine Optimization</p>
-              <h1 className="mt-2 primary-heading text-gray-900">What is Search
-              Engine optimization?</h1>
+              <h1 className="mt-2 primary-heading text-gray-900">What is Search <span className="highlight">Engine Optimization?</span></h1>
               <p className="mt-6 text-justify app__text">
               At Mitochon Digital, based in the United Kingdom, we specialize in delivering high-quality SEO services that put your website on the front page of Google for search terms that relate to your business. As an SEO optimization agency, we use a variety of methods to ensure your website ranks highly on the search engine results pages. These methods include keyword strategy, link building, and site optimization. Our focus is on creating an effective SEO marketing strategy tailored to your business needs, helping you become visible in relevant searches.
               </p>

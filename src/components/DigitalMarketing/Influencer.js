@@ -4,7 +4,7 @@ import Image from "next/image"
 
 const Influencer = () => {
   return (
-    <section className="we-are-area h-screen flex items-center bg-slate-50">
+    <section className="we-are-area h-screen flex items-center ">
     <div className="app__container grid grid-cols-1 md:grid-cols-2 gap-8 mb-64 relative">
       <div className=" we-are-img">
         <div className="we-are-banner-img">
