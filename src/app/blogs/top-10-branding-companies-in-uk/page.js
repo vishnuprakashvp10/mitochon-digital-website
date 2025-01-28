@@ -5,7 +5,7 @@ import ContactForm from "@/components/ContactPage/ContactForm"
 import Top10branding from "@/components/Top10branding/top10branding"
 
 export const metadata = {
-  title: 'Top 10 Branding Companies in UK | Mitochon Digital',
+  title: 'Top 10 Branding Companies in UK | Mitochon Pixel',
   description: "Explore the top 10 branding companies in the UK, specializing in building strong and memorable brands.",
 }
 const Top10Branding = () => {

@@ -20,6 +20,6 @@ export const transporter = nodemailer.createTransport(
 );
 
 export const mailOptions = {
-	from: "contact@mitochondigital.com",
-	to: "contact@mitochondigital.com",
+	from: "contact@mitochonpixel.co.uk",
+	to: "contact@mitochonpixel.co.uk",
 };

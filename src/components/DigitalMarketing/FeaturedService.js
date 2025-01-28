@@ -12,7 +12,7 @@ const FeaturedService = () => {
             </div>
 
             <p className='app__text text-justify '>
-            Branding is about crafting a narrative that captivates your target audience, turning potential customers into loyal followers. At Mitochon Digital, a leader in brand strategy and development, we harness the power of digital branding and advertising, including social media, search engines, and mobile apps, to broadcast your brand&apos;s unique story. We employ a carefully devised strategy to elevate your brand to unprecedented heights in the United Kingdom and beyond.            </p>
+            Branding is about crafting a narrative that captivates your target audience, turning potential customers into loyal followers. At Mitochon Pixel, a leader in brand strategy and development, we harness the power of digital branding and advertising, including social media, search engines, and mobile apps, to broadcast your brand&apos;s unique story. We employ a carefully devised strategy to elevate your brand to unprecedented heights in the United Kingdom and beyond.            </p>
           </div>
       </div>
       <div className="we-are-img">

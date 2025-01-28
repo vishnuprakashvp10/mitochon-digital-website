@@ -4,8 +4,8 @@ import ContactForm from "@/components/ContactPage/ContactForm"
 import { PageWrapper } from "../page-wrapper"
 
 export const metadata = {
-  title: 'Contact Us | Mitochon Digital in United Kingdom',
-  description: 'Get in touch with Mitochon Digital, a trusted digital marketing company in the United Kingdom. Our team is here to help you achieve your business goals.',
+  title: 'Contact Us | Mitochon Pixel in United Kingdom',
+  description: 'Get in touch with Mitochon Pixel, a trusted digital marketing company in the United Kingdom. Our team is here to help you achieve your business goals.',
 }
 const Contact = () => {
   return (

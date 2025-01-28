@@ -29,7 +29,7 @@ const items = {
 const SeoServices = () => {
   const services = [{
     heading: "Good Quality Optimized Content",
-    desc: "Every page needs unique, well-optimized copy that is designed to target relevant keywords. Whether you need a SEO copywriting agency or support from search engine marketing agencies, Mitochon Digital ensures that your content is written to rank highly on Google.",
+    desc: "Every page needs unique, well-optimized copy that is designed to target relevant keywords. Whether you need a SEO copywriting agency or support from search engine marketing agencies, Mitochon Pixel ensures that your content is written to rank highly on Google.",
     imgUrl: SpeakerWaveIcon,
     hoverBg: "pink-hover",
     iconColor:"pink-text"
@@ -65,7 +65,7 @@ const SeoServices = () => {
   },
   {
     heading: "Improve Search Engine Ranking",
-    desc: "A strong SEO strategy complements your social media presence. At Mitochon Digital, our goal is to improve your search engine rankings by building high-quality backlinks from reputable sources. As a top SEO and digital marketing provider, we make sure your site remains visible and competitive.",
+    desc: "A strong SEO strategy complements your social media presence. At Mitochon Pixel, our goal is to improve your search engine rankings by building high-quality backlinks from reputable sources. As a top SEO and digital marketing provider, we make sure your site remains visible and competitive.",
     imgUrl: MagnifyingGlassIcon,
     hoverBg: "yellow-hover",
     iconColor:"yellow-text"
@@ -78,7 +78,7 @@ const SeoServices = () => {
                     <h2 className='primary-heading mb-4'>SEO Service <br/>
                     <span className='highlight'> Tailored to Your Needs</span></h2>
                     <p className='app__text'>
-                    At Mitochon Digital, we offer a variety of SEO services to cater to your business&apos;s unique requirements. Whether you need local SEO services for small business, link building services, or professional SEO services agency support, we have you covered. Our SEO audit agency team will perform a deep analysis of your website, identifying areas of improvement to maximize your visibility.</p>
+                    At Mitochon Pixel, we offer a variety of SEO services to cater to your business&apos;s unique requirements. Whether you need local SEO services for small business, link building services, or professional SEO services agency support, we have you covered. Our SEO audit agency team will perform a deep analysis of your website, identifying areas of improvement to maximize your visibility.</p>
                 </div>
                 
         </div>
@@ -102,7 +102,7 @@ const SeoServices = () => {
             }
         </motion.div>
         <div className="text-3xl font-extrabold pt-12 pb-8 text-center">
-        <h2>Benefits of SEO with Mitochon Digital</h2>
+        <h2>Benefits of SEO with Mitochon Pixel</h2>
         </div>
         <motion.div variants={variants} initial="hidden" whileInView="show" className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
         {

@@ -35,7 +35,7 @@ const WeHelp = ({ name }) => {
               <h4 className="primary-heading">WHAT WE <span className="highlight">DO</span></h4>
             </div>
             <div>
-              <h2>At Mitochon Digital, our social media management services ensures that your business reaches its full potential in the competitive digital landscape. As one of the best social media marketing companies in the United Kingdom, we offer a range of social media advertising services including social media ad campaigns, social media growth strategies, and social media content management. Our comprehensive approach helps businesses effectively optimize their social media marketing campaigns for maximum conversion and engagement. As a top-rated paid social agency, we specialize in creating impactful, data-driven social media marketing services packages. From social media marketing for realtors to B2B social media marketing, our goal is to maximize your ROI while building a strong, authentic connection between your brand and your audience.</h2>
+              <h2>At Mitochon Pixel, our social media management services ensures that your business reaches its full potential in the competitive digital landscape. As one of the best social media marketing companies in the United Kingdom, we offer a range of social media advertising services including social media ad campaigns, social media growth strategies, and social media content management. Our comprehensive approach helps businesses effectively optimize their social media marketing campaigns for maximum conversion and engagement. As a top-rated paid social agency, we specialize in creating impactful, data-driven social media marketing services packages. From social media marketing for realtors to B2B social media marketing, our goal is to maximize your ROI while building a strong, authentic connection between your brand and your audience.</h2>
             </div>
           </div>
         </div>
@@ -57,7 +57,7 @@ const WeHelp = ({ name }) => {
               <h3 className="pb-6 text-xl font-bold">Social Media Strategy</h3>
             </div>
             <p className='app__text'>
-            At Mitochon Digital, we develop a tailored social media strategy that aligns with your business goals. By leveraging targeted social media advertising and paid social advertising, we ensure your brand reaches the right audience. Our social media marketing packages are designed to maximize visibility, engagement, and ROI. </p>
+            At Mitochon Pixel, we develop a tailored social media strategy that aligns with your business goals. By leveraging targeted social media advertising and paid social advertising, we ensure your brand reaches the right audience. Our social media marketing packages are designed to maximize visibility, engagement, and ROI. </p>
           </div>
         </motion.div>  
         

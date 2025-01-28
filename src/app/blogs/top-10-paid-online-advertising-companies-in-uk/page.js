@@ -5,7 +5,7 @@ import ContactForm from "@/components/ContactPage/ContactForm"
 import Top10ppc from "@/components/Top10ppc/top10ppc"
 
 export const metadata = {
-  title: 'Top 10 PPC service Companies in UK | Mitochon Digital',
+  title: 'Top 10 PPC service Companies in UK | Mitochon Pixel',
   description: "Explore the top PPC service companies in the UK, providing expert solutions to boost your online visibility.",
 }
 const Top10Branding = () => {

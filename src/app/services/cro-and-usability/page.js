@@ -6,8 +6,8 @@ import Trend1 from "@/components/PPC/Trend1"
 import WeHelp1 from "@/components/PPC/WeHelp1"
 
 export const metadata = {
-  title: 'CRO and Usability Services in UK | Mitochon Digital',
-  description: 'Mitochon Digital, specializing in enhancing website performance and user experience and ensuring a seamless journey to drive better business outcomes.',
+  title: 'CRO and Usability Services in UK | Mitochon Pixel',
+  description: 'Mitochon Pixel, specializing in enhancing website performance and user experience and ensuring a seamless journey to drive better business outcomes.',
 }
 const sections = [ 
   {

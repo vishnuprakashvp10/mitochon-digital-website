@@ -19,7 +19,7 @@ const Influencer = () => {
             </div>
 
             <p className="text-justify app__text">
-            In today&apos;s digital landscape, creating a distinctive brand identity that resonates with your audience is essential. Mitochon Digital in the United Kingdom offers digital branding solutions that elevate your brand&apos;s presence through:
+            In today&apos;s digital landscape, creating a distinctive brand identity that resonates with your audience is essential. Mitochon Pixel in the United Kingdom offers digital branding solutions that elevate your brand&apos;s presence through:
             </p>
             <ul role="list" className="mt-8 text-justify space-y-8 app__text">
             <li className="flex gap-x-3">

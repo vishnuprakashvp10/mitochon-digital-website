@@ -27,8 +27,8 @@ const Footer = () => {
 
         <div className="grid grid-cols-1 md:grid-cols-4 ld:grid-cols-4 gap-y-8 pt-20">
         <div className="lg:pr-8 text-center md:text-start ">
-        <Link href="/"><Image src={image.webdevWhite} alt="Mitochon Digital" className="mx-auto md:mx-0" width={150} height={150}/></Link> 
-        <p className="text-base mt-4 text-slate-200 hover:text-white transition-all duration-300">With extensive expertise in digital marketing, Mitochon Digital has successfully completed over six projects, making a notable impact across the internet landscape.</p>
+        <Link href="/"><Image src={image.webdevWhite} alt="Mitochon Pixel" className="mx-auto md:mx-0" width={150} height={150}/></Link> 
+        <p className="text-base mt-4 text-slate-200 hover:text-white transition-all duration-300">With extensive expertise in digital marketing, Mitochon Pixel has successfully completed over six projects, making a notable impact across the internet landscape.</p>
         </div>
           <div className="mx-auto text-center md:text-start">
               <div>
@@ -122,9 +122,9 @@ const Footer = () => {
                 <li className="my-2 text-slate-200 hover:text-white transition-all duration-300">
                   <a
                     className="text-sm text-white text-sbold flex items-center justify-center md:justify-start gap-2"
-                    href="mailto:contact@mitochondigital.com"
+                    href="mailto:contact@mitochonpixel.co.uk"
                   >
-                  <FaEnvelope/> contact@mitochondigital.com
+                  <FaEnvelope/> contact@mitochonpixel.co.uk
                   </a>
                 </li>
                 <li className="mt-8">
@@ -132,7 +132,7 @@ const Footer = () => {
                     <li className="social">
                       <a
                         className="social-icon"
-                        href="https://www.facebook.com/people/Mitochon-Digital/61559303402146"
+                        href="https://www.facebook.com/people/Mitochon-Pixel/61559303402146/"
                         target="_blank" 
                         rel="noopener noreferrer"
                       >
@@ -142,7 +142,7 @@ const Footer = () => {
                     <li className="social">
                       <a
                         className="social-icon"
-                        href="https://x.com/MitochonDigital"
+                        href="https://x.com/MitochonPixel"
                         target="_blank" 
                         rel="noopener noreferrer"
                       >
@@ -152,7 +152,7 @@ const Footer = () => {
                     <li className="social">
                       <a
                         className="social-icon"
-                        href="https://www.instagram.com/mitochon_digital"
+                        href="https://www.instagram.com/mitochon_pixel/"
                         target="_blank" 
                         rel="noopener noreferrer"
                       >
@@ -162,7 +162,7 @@ const Footer = () => {
                     <li className="social">
                       <a
                         className="social-icon"
-                        href="https://uk.linkedin.com/company/mitochon-digital?trk=public_post_feed-actor-name"
+                        href="https://www.linkedin.com/company/mitochon-pixel-limited/"
                         target="_blank" 
                         rel="noopener noreferrer"
                       >
@@ -179,7 +179,7 @@ const Footer = () => {
 
       <div className="text-center py-6 mt-4 md:mt-8 lg:mt-12 mb-[4.5rem] md:mb-0">
       <p className="text-sm text-slate-200 hover:text-white transition-all duration-300">
-        © Copyright <a href="/">MitochonDigital.com</a> 2024. All rights reserved.
+        © Copyright <a href="/">mitochonpixel.co.uk</a> 2024. All rights reserved.
       </p>
     </div>
 

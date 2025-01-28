@@ -21,7 +21,7 @@ const NeedService = () => {
           </div>
 
           <p className='app__text text-justify'>
-          The secret behind successful social media marketing for businesses is simple: building a strong connection with your audience. At Mitochon Digital, we leverage the power of social media marketing to build your brand&apos;s voice and create meaningful conversations around your products. Our social media marketing experts employ techniques like social listening to monitor conversations about your brand, identifying the trends that matter most to your audience.
+          The secret behind successful social media marketing for businesses is simple: building a strong connection with your audience. At Mitochon Pixel, we leverage the power of social media marketing to build your brand&apos;s voice and create meaningful conversations around your products. Our social media marketing experts employ techniques like social listening to monitor conversations about your brand, identifying the trends that matter most to your audience.
           </p>
 
           <ul role="list" className="mt-8 text-justify space-y-8 app__text">

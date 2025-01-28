@@ -8,8 +8,8 @@ import Influencer from '@/components/DigitalMarketing/Influencer'
 import Marketing from '@/components/DigitalMarketing/Marketing'
 
 export const metadata = {
-  title: 'Branding Company in United Kingdom | Mitochon Digital',
-  description: "Mitochon Digital, helping businesses in the United Kingdom establish a strong brand identity through creative design, strategy, and digital presence.",
+  title: 'Branding Company in United Kingdom | Mitochon Pixel',
+  description: "Mitochon Pixel, helping businesses in the United Kingdom establish a strong brand identity through creative design, strategy, and digital presence.",
 }
 const sections = [
   {
@@ -25,7 +25,7 @@ const sections = [
     section: <Marketing/>
   },
   {
-    section: <Cta heading={"Digital Marketing Paid Online Advertising Solution!"} para={"Mitochon Digital's digital branding and advertising solutions include comprehensive paid online advertising strategies that encompass both Pay-Per-Click (PPC) campaigns and targeted social media advertising. These strategies are designed to maximize online visibility and engagement for businesses across the United Kingdom."}/>
+    section: <Cta heading={"Digital Marketing Paid Online Advertising Solution!"} para={"Mitochon Pixel's digital branding and advertising solutions include comprehensive paid online advertising strategies that encompass both Pay-Per-Click (PPC) campaigns and targeted social media advertising. These strategies are designed to maximize online visibility and engagement for businesses across the United Kingdom."}/>
   },
   {
     section: <ContactForm heading={`Get in <span class="highlight">Touch</span>`} color={"bg-white"}/>

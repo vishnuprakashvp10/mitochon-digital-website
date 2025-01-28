@@ -35,7 +35,7 @@ const WeHelp = ({ name }) => {
               <h4 className="primary-heading">WHAT WE <span className="highlight">DO</span></h4>
             </div>
             <div>
-              <h2>At Mitochon Digital in the United Kingdom, we specialize in enhancing both conversion rate optimization and website usability to drive meaningful results for your business. Our data-driven approach focuses on creating a seamless and enjoyable user experience, while ensuring your website is optimized to convert visitors into paying customers. We offer a comprehensive range of usability testing services and conversion rate optimization services to fine-tune every aspect of your website&apos;s performance.</h2>
+              <h2>At Mitochon Pixel in the United Kingdom, we specialize in enhancing both conversion rate optimization and website usability to drive meaningful results for your business. Our data-driven approach focuses on creating a seamless and enjoyable user experience, while ensuring your website is optimized to convert visitors into paying customers. We offer a comprehensive range of usability testing services and conversion rate optimization services to fine-tune every aspect of your website&apos;s performance.</h2>
             </div>
           </div>
         </div>
@@ -57,7 +57,7 @@ const WeHelp = ({ name }) => {
               <h3 className="pb-6 text-xl font-bold">CRO Strategy</h3>
             </div>
             <p className='app__text'> 
-            At Mitochon Digital, we develop robust CRO strategies that evolve with the latest trends in consumer behavior. Our website usability audits and usability research identify friction points, ensuring your website conversion optimization services reflect your brands unique personality while maximizing your conversion rate and overall success.
+            At Mitochon Pixel, we develop robust CRO strategies that evolve with the latest trends in consumer behavior. Our website usability audits and usability research identify friction points, ensuring your website conversion optimization services reflect your brands unique personality while maximizing your conversion rate and overall success.
                         </p>
           </div>
         </motion.div>  

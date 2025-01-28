@@ -8,8 +8,8 @@ import { PageWrapper } from "../page-wrapper"
 import ContactForm from "@/components/ContactPage/ContactForm"
 
 export const metadata = {
-  title: 'About Us | Mitochon Digital in United Kingdom',
-  description: 'Mitochon Digital, a leading digital marketing agency in the United Kingdom, offering expertise in SEO, PPC, web design and more.',
+  title: 'About Us | Mitochon Pixel in United Kingdom',
+  description: 'Mitochon Pixel, a leading digital marketing agency in the United Kingdom, offering expertise in SEO, PPC, web design and more.',
 }
 const aboutSections = [
   {
@@ -24,7 +24,7 @@ const aboutSections = [
   {
     section: <Cta
     heading="Branding and Online Advertising Solutions!"
-    para="At Mitochon Digital, our digital marketing services merge comprehensive branding strategies with advanced online advertising tactics. This powerful combination is crafted to maximize your online visibility and engagement, propelling your business to new heights."
+    para="At Mitochon Pixel, we bring together top-notch branding strategies and cutting-edge online advertising tactics. This cracking combo is designed to boost your online presence and engagement, giving your business the push it needs to soar to new heights."
     connectHref="/contact-us"
     knowMoreHref="/services/branding"
   />

@@ -70,7 +70,7 @@ const ContactAddress = () => {
 							</div>
 							<div className="contact-card-content mt-4">
 								<h6 className="font-semibold hover:scale-110">
-								<a  href="mailto:contact@mitochondigital.com">contact@mitochondigital.com</a>
+								<a  href="mailto:contact@mitochonpixel.co.uk">contact@mitochonpixel.co.uk</a>
 								</h6>
 							</div>
 						</div>

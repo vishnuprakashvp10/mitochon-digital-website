@@ -30,8 +30,7 @@ const AboutUs = () => {
               </div>
 
               <p className="app__text pb-12 text-justify">
-              Mitochon Digital, headquartered in Edinburgh with an additional office in India, is a high-end creative and detail-oriented agency. Boasting a solid two years of track record, we have collaborated with diverse enterprises, spanning e-commerce, cryptocurrency, and construction sectors. This breadth of experience has furnished us with a comprehensive grasp of these industries, equipping us with the technical and creative experience necessary to cater to a wide array of business needs. At Mitochon Digital, Providing deep and unfiltered insights with our clients is at the core of absolutely everything that we do. Speaking to our clients, we are able to delve into customer perceptions, short and long-term trends, search patterns, and much, much, more to deliver action-driven industry reports for our clients. 
-              </p>
+              Mitochon Pixel, based in Edinburgh with an office in India, is a high-end creative and detail-focused agency. With a solid two years of experience, we’ve worked with a variety of businesses across e-commerce, cryptocurrency, and construction industries. This broad expertise has given us a proper understanding of these sectors, equipping us with the technical skills and creative flair to meet diverse business needs. At Mitochon Pixel, sharing sharp and unfiltered insights with our clients is at the core of everything we do. By having a good chinwag with our clients, we dive into customer perceptions, spot trends, analyse search patterns, and much more to deliver action-driven industry reports tailored to their needs.              </p>
               <div>
               <Link href="/contact-us">
                   <button className="primary-btn shadow-lg">Contact Us</button>

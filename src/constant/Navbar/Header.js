@@ -112,7 +112,7 @@ const Header = () => {
 					<Link href="/" className="-m-1.5 p-1.5">
 						<Image
 							className="h-10 w-auto object-contain"
-							src={"/Logo.png"}
+							src={image.webdevWhite}
 							alt=""
 							width={250}
 							height={70}

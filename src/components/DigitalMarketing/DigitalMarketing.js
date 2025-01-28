@@ -14,7 +14,7 @@ export default function DigitalMarketing() {
             <div className="lg:max-w-lg">
 \              <h1 className="mt-2 primary-heading">IMPORTANCE OF <span className='highlight'>BRAND RECOGNITION AND INFLUENCE.</span></h1>
               <p className="mt-6 text-xl leading-8 text-gray-700">
-              At Mitochon Digital, we understand that in today&apos;s highly competitive landscape, your brand&apos;s identity is everything.
+              At Mitochon Pixel, we understand that in today&apos;s highly competitive landscape, your brand&apos;s identity is everything.
               </p>
             </div>
           </div>
@@ -30,7 +30,7 @@ export default function DigitalMarketing() {
           <div className="lg:pr-4">
             <div className="max-w-xl text-base leading-7 lg:max-w-lg">
               <p className='app__text text-justify'>
-              When launching a brand, the initial focus is often on how to attract the first customers. Many businesses rely on traditional advertising methods like print ads, coupon mailers, or billboards. However, offering a quality product or service alone is no longer enough to draw customers. To capture your audience&apos;s attention effectively, blending traditional methods with digital marketing and branding strategies is crucial. At Mitochon Digital, we specialize in integrating digital branding solutions with your marketing efforts to:
+              When launching a brand, the initial focus is often on how to attract the first customers. Many businesses rely on traditional advertising methods like print ads, coupon mailers, or billboards. However, offering a quality product or service alone is no longer enough to draw customers. To capture your audience&apos;s attention effectively, blending traditional methods with digital marketing and branding strategies is crucial. At Mitochon Pixel, we specialize in integrating digital branding solutions with your marketing efforts to:
               </p>
               <ul role="list" className="mt-8 text-justify space-y-8 app__text">
                 <li className="flex gap-x-3">
@@ -57,7 +57,7 @@ export default function DigitalMarketing() {
               </li>
               </ul>
               <p className="mt-8  text-justify app__text">
-              Many businesses hesitate to invest in digital marketing and branding, believing they lack the time or resources to compete online. This approach often falls short in today&apos;s fast-paced market. At Mitochon Digital, we provide the digital branding expertise and tools needed to promote your business globally and compete with other top digital companies.              </p>
+              Many businesses hesitate to invest in digital marketing and branding, believing they lack the time or resources to compete online. This approach often falls short in today&apos;s fast-paced market. At Mitochon Pixel, we provide the digital branding expertise and tools needed to promote your business globally and compete with other top digital companies.              </p>
               <h2 className="mt-16 text-2xl font-bold tracking-tight text-gray-900">OUR KEY SERVICES INCLUDE:-</h2>
               <ul role="list" className="mt-8 space-y-8 app__text">
               <li className="flex gap-x-3">

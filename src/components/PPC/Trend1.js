@@ -17,7 +17,7 @@ const Trend = () => {
               <h2 className="pb-12 primary-heading">Capture Attention, Drive Conversions: <span className="highlight">Unleash the Power of High-Converting</span></h2>
             </div>
 
-            <p className="app__text text-justify">In today&apos;s competitive digital landscape, standing out is crucial. At Mitochon Digital, we excel in transforming user experiences to boost conversion rates and optimize usability. We&apos;re not just another agency offering generic solutions; our team specializes in crafting high-impact Conversion Rate Optimization strategies that ensure your website not only captures attention but also drives seamless conversions.</p>
+            <p className="app__text text-justify">In today&apos;s competitive digital landscape, standing out is crucial. At Mitochon Pixel, we excel in transforming user experiences to boost conversion rates and optimize usability. We&apos;re not just another agency offering generic solutions; our team specializes in crafting high-impact Conversion Rate Optimization strategies that ensure your website not only captures attention but also drives seamless conversions.</p>
 
             <ul role="list" className="mt-8 space-y-8 app__text">
             <li className="flex gap-x-3">
@@ -35,7 +35,7 @@ const Trend = () => {
             <li className="flex gap-x-3">
               <CheckCircleIcon className="mt-1 h-5 w-5 flex-none text-indigo-600" aria-hidden="true" />
               <span>
-              At Mitochon Digital, we combine data-driven insights with clear metrics to drive results. Our commitment to continuous testing and optimization translates into a significant increase in conversions, turning website visitors into loyal customers and enhancing your overall business success.       </span>
+              At Mitochon Pixel, we combine data-driven insights with clear metrics to drive results. Our commitment to continuous testing and optimization translates into a significant increase in conversions, turning website visitors into loyal customers and enhancing your overall business success.       </span>
             </li>
           </ul>
           </div>

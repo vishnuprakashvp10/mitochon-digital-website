@@ -6,8 +6,8 @@ import NeedService from "@/components/SocialMarketing/NeedService"
 import Social from "@/components/SocialMarketing/Social"
 
 export const metadata = {
-  title: 'Social Media Marketing Company in UK | Mitochon Digital',
-  description: "Mitochon Digital, offering expert strategies to enhance your brand's presence across social platforms.",
+  title: 'Social Media Marketing Company in UK | Mitochon Pixel',
+  description: "Mitochon Pixel, offering expert strategies to enhance your brand's presence across social platforms.",
 }
 const sections = [
   {

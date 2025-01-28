@@ -5,7 +5,7 @@ import ContactForm from "@/components/ContactPage/ContactForm"
 import Faqpage from "@/components/faq/faqpage.js"
 
 export const metadata = {
-  title: 'FAQ | Mitochon Digital in United Kingdom',
+  title: 'FAQ | Mitochon Pixel in United Kingdom',
   description: "Whether you're curious about our process, pricing, or how we can help your business grow, our FAQ section provides the information you need.",
 }
 const WebsiteOptimization = () => {

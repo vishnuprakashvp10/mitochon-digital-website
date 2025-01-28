@@ -188,7 +188,7 @@ const Marketing = () => {
                     </h3>
                   </div>
                   <p className="app__text">
-                  With over 70% of online experiences beginning with a search engine, SEO is critical for increasing visibility and driving website traffic. Mitochon Digital optimizes your online presence to improve search rankings and attract more qualified leads to your site.
+                  With over 70% of online experiences beginning with a search engine, SEO is critical for increasing visibility and driving website traffic. Mitochon Pixel optimizes your online presence to improve search rankings and attract more qualified leads to your site.
                                     </p>
                 </div>
               </div>
@@ -225,7 +225,7 @@ const Marketing = () => {
                     </h3>
                   </div>
                   <p className="app__text">
-                  Informed decision-making is key to successful marketing strategies. At Mitochon Digital, we provide comprehensive analytics and reporting that track your campaigns&apos; performance, allowing for data-driven adjustments that boost efficiency and ROI.
+                  Informed decision-making is key to successful marketing strategies. At Mitochon Pixel, we provide comprehensive analytics and reporting that track your campaigns&apos; performance, allowing for data-driven adjustments that boost efficiency and ROI.
                   </p>
                 </div>
               </div>

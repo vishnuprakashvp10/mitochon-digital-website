@@ -12,7 +12,7 @@ const privacypolicy = () => {
             </div>
             <p className="text-justify ml-2 md:ml-4 max-w-[1400px] text-2xl mt-4 font-bold highlight">INTRODUCTION:</p>
             <p className='text-justify ml-2 md:ml-4 mr-4 max-w-[1400px] text-lg'>
-                Mitochon Digital (&quot;we&quot;, &quot;us&quot;, &quot;our&quot;) is committed to protecting your privacy. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you visit our website, <a href="https://www.mitochondigital.com/"><strong>https://www.mitochondigital.com/</strong></a> (&quot;Site&quot;). By using the Site, you agree to the collection and use of information in accordance with this policy.
+                Mitochon Pixel (&quot;we&quot;, &quot;us&quot;, &quot;our&quot;) is committed to protecting your privacy. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you visit our website, <a href="https://www.mitochonpixel.co.uk/"><strong>https://www.mitochonpixel.co.uk/</strong></a> (&quot;Site&quot;). By using the Site, you agree to the collection and use of information in accordance with this policy.
             </p>
             <p className="text-justify ml-2 md:ml-4 max-w-[1400px] text-2xl mt-4 font-bold highlight">INFORMATION WE COLLECT:</p>
             <p className='text-justify ml-2 md:ml-4 mr-4 max-w-[1400px] text-lg'>
@@ -71,13 +71,13 @@ const privacypolicy = () => {
                 If you have any questions about this Privacy Policy, please contact us at:
             </p>
             <p className='text-justify ml-2 md:ml-4 mr-4 max-w-[1400px] text-lg'>
-                Email: contact@mitochondigital.com
+                Email: contact@mitochonpixel.co.uk
             </p>
             <p className='mb-10 ml-2 md:ml-4 mr-4 max-w-[1400px] text-lg'>Phone: +44-7442005437 (United Kingdom) 
                 <br></br>Phone: +91-7904445263 (India)
             </p>
             <p className='mb-10 ml-2 md:ml-4 mr-4 max-w-[1400px] text-lg'>
-                <strong>Thank you for visiting <span className="highlight">Mitochon Digital!</span></strong>
+                <strong>Thank you for visiting <span className="highlight">Mitochon Pixel!</span></strong>
             </p>
         </div>
     )

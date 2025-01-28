@@ -5,7 +5,7 @@ import ContactForm from "@/components/ContactPage/ContactForm"
 import Top10website from "@/components/Top10website/top10websitedev"
 
 export const metadata = {
-  title: 'Top 10 Website Development Companies in uk | Mitochon Digital',
+  title: 'Top 10 Website Development Companies in uk | Mitochon Pixel',
   description: "Discover the leading website development companies in the UK that excel in creating impactful online solutions.",
 }
 const Top10Branding = () => {

@@ -5,7 +5,7 @@ import ContactForm from "@/components/ContactPage/ContactForm"
 import Top10seoservice from "@/components/Top10seoservice/top10seoservice"
 
 export const metadata = {
-  title: 'Top 10 SEO service Companies in UK | Mitochon Digital',
+  title: 'Top 10 SEO service Companies in UK | Mitochon Pixel',
   description: "Discover the top seo service companies in the UK, to enhance your online visibility and search engine rankings.",
 }
 const Top10Branding = () => {

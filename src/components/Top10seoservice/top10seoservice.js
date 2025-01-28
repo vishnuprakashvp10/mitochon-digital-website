@@ -16,7 +16,7 @@ export const table = [
       "Moz",
       "SEOMonitor",
       "SEOworks",
-      "Mitochon Digital",
+      "Mitochon Pixel",
       "Distilled",
       "Verve Search",
       "Web Choice",
@@ -104,25 +104,25 @@ const top10seoservice = () => {
 
 
 
-<h1 className="font-bold hover:underline ml-2 md:ml-4 text-2xl mt-2 highlight"> <a href="https://www.mitochondigital.com/">3. Mitochon Digital</a></h1>
+<h1 className="font-bold hover:underline ml-2 md:ml-4 text-2xl mt-2 highlight"> <a href="https://www.mitochonpixel.co.uk/">3. Mitochon Pixel</a></h1>
 <div className='md:max-w-[780px] md:h-[550px] max-w-[1300px] h-[265px] w-full m-auto py-6 px-4 relative group'>
   <div
     className='w-full h-full rounded-2xl bg-center bg-cover duration-500 relative'
   >
                       <Image
         src={image.mitochondigital}
-        alt="Mitochon Digital"
+        alt="Mitochon Pixel"
     />
   </div>
 </div>
 <p className='text-justify ml-2 md:ml-4 mr-4 max-w-[1400px]'>
-  Mitochon Digital is a leading digital marketing agency known for its expertise in SEO, content, and creative campaigns. With offices in London, they help businesses achieve better online visibility through innovative strategies and data-driven insights. Mitochon’s team of experts collaborates with clients to build successful digital marketing campaigns that drive traffic, engagement, and conversions.
+  Mitochon Pixel is a leading digital marketing agency known for its expertise in SEO, content, and creative campaigns. With offices in London, they help businesses achieve better online visibility through innovative strategies and data-driven insights. Mitochon’s team of experts collaborates with clients to build successful digital marketing campaigns that drive traffic, engagement, and conversions.
 </p>
 <ul className='list-disc ml-6 md:ml-8 mr-4 max-w-[1400px]'>
   <li><span className='font-bold'>Founder:</span> Gokulnathan & Vishnuprakash</li>
   <li><span className='font-bold'>Year of Establishment:</span> 2021</li>
   <li><span className='font-bold'>Headquarters:</span> Edinburgh, United Kingdom</li>
-  <li><span className='font-bold'>Website:</span> <span className='underline'><a href="https://www.mitochondigital.com/">https://www.mitochondigital.com/</a></span></li>
+  <li><span className='font-bold'>Website:</span> <span className='underline'><a href="https://www.mitochonpixel.co.uk/">https://www.mitochonpixel.co.uk/</a></span></li>
   <li><span className='font-bold'>Address:</span> 34 Moat Terrace, Edinburgh, EH14 1PS, Scotland, UK</li>
 </ul>
 

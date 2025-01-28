@@ -13,19 +13,19 @@ import Breadcrumbs from "@/components/Breadcrumbs/Breadcrumbs"
 
 
 export const metadata = {
-  title: 'Website Development Company in UK | Mitochon Digital',
-  description: 'Mitochon Digital offers professional website development and designing services in the UK, creating visually appealing, user-friendly and responsive websites.',
+  title: 'Website Development Company in UK | Mitochon Pixel',
+  description: 'Mitochon Pixel offers professional website development and designing services in the UK, creating visually appealing, user-friendly and responsive websites.',
 }
 const WebDevelopment = () => {
   const content = [{
     heading: "Engaging & Quality Content",
-    description: "Did you know that consumers prefer learning about businesses and products through content rather than traditional advertising? Convincing people to spend money on something unfamiliar is challenging. That's why at Mitochon Digital, we focus on crafting content that not only informs but also engages, paving the way for better brand recognition and customer trust."
+    description: "Did you know that consumers prefer learning about businesses and products through content rather than traditional advertising? Convincing people to spend money on something unfamiliar is challenging. That's why at Mitochon Pixel, we focus on crafting content that not only informs but also engages, paving the way for better brand recognition and customer trust."
   },{
     heading: "Stunning & Informative Website",
-    description: "A website embodies the essence and personality of a company. Unlike humans, however, this personality can be shaped and adapted to have a global impact. At Mitochon Digital, we ensure your website reflects the very best of your brand, transforming your online presence into a powerful tool that connects with audiences worldwide."
+    description: "A website embodies the essence and personality of a company. Unlike humans, however, this personality can be shaped and adapted to have a global impact. At Mitochon Pixel, we ensure your website reflects the very best of your brand, transforming your online presence into a powerful tool that connects with audiences worldwide."
   },{
     heading: "Craft Digital Marketing",
-    description: "Digital marketing remains one of the most effective strategies for promoting products and businesses. We employ a comprehensive range of digital marketing tactics to elevate your product and convert audiences into sales. Choose Mitochon Digital for website development, and receive this essential service."
+    description: "Digital marketing remains one of the most effective strategies for promoting products and businesses. We employ a comprehensive range of digital marketing tactics to elevate your product and convert audiences into sales. Choose Mitochon Pixel for website development, and receive this essential service."
   }]
 
   const sections =[

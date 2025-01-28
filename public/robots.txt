@@ -3,7 +3,7 @@ User-agent: *
 Allow: /
 
 # Host
-Host: https://mitochondigital.com
+Host: https://mitochonpixel.co.uk
 
 # Sitemaps
-Sitemap: https://mitochondigital.com/sitemap.xml
+Sitemap: https://mitochonpixel.co.uk/sitemap.xml
