@@ -33,17 +33,17 @@ const items = {
 const BestFeature = () => {
     const feature = [{
         name: "Web Analytics",
-        description: "At Mitochon Pixel, we’re spot on with tracking and analysing web activity to boost your digital performance. Using cutting-edge web analytics tools, we offer detailed website analytics services to keep tabs on key metrics like user behaviour, traffic sources, engagement rates, and conversions.",
+        description: "At Mitochon Pixel, we’re bang on when it comes to tracking and analysing web activity to give your digital performance a proper boost. Using top-notch web analytics tools, we deliver in-depth website analytics services, keeping a close eye on key metrics like user behaviour, traffic sources, engagement rates, and conversions.",
         icon: ArrowTrendingUpIcon,
         link: "/services/analytics-and-reporting",
     },{
         name: "Monthly SEO & PPC Check",
-        description: "Each month, our savvy team at Mitochon Pixel dives into your SEO and PPC campaigns with a fine-tooth comb. We analyse keyword performance, PPC campaign results, and search rankings to make sure your digital strategies are firing on all cylinders.",
+        description: "Every month, our sharp-eyed team at Mitochon Pixel gives your SEO and PPC campaigns a proper once-over. We dig deep into keyword performance, PPC campaign results, and search rankings to make sure your digital strategies are running like a dream.",
         icon: ArrowPathIcon,
         link: "/services/paid-online-advertising",
     },{
         name: "Digital Marketing Planning & Strategy",
-        description: "We’re all about working hand-in-hand with you to whip up a bespoke digital marketing plan that’s bang on for your business goals. From conversion rate optimisation services to usability testing and tailored digital marketing tactics, we craft strategies that deliver the goods.",
+        description: "We’re all about teaming up with you to whip up a tailor-made digital marketing plan that’s bang on for your business goals. From conversion rate optimisation services to usability testing and laser-focused digital marketing tactics, we craft strategies that hit the mark.",
         icon: ComputerDesktopIcon,
         link: "/services/branding"
     },]

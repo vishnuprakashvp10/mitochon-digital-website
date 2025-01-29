@@ -24,7 +24,7 @@ const aboutSections = [
   {
     section: <Cta
     heading="Branding and Online Advertising Solutions!"
-    para="At Mitochon Pixel, we bring together top-notch branding strategies and cutting-edge online advertising tactics. This cracking combo is designed to boost your online presence and engagement, giving your business the push it needs to soar to new heights."
+    para="At Mitochon Pixel, we blend top-tier branding strategies with next-level online advertising tactics. This belting combo is crafted to ramp up your online presence and engagement, giving your business the proper leg-up it needs to smash new heights."
     connectHref="/contact-us"
     knowMoreHref="/services/branding"
   />

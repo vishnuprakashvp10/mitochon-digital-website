@@ -30,7 +30,8 @@ const AboutUs = () => {
               </div>
 
               <p className="app__text pb-12 text-justify">
-              Mitochon Pixel, based in Edinburgh with an office in India, is a high-end creative and detail-focused agency. With a solid two years of experience, we’ve worked with a variety of businesses across e-commerce, cryptocurrency, and construction industries. This broad expertise has given us a proper understanding of these sectors, equipping us with the technical skills and creative flair to meet diverse business needs. At Mitochon Pixel, sharing sharp and unfiltered insights with our clients is at the core of everything we do. By having a good chinwag with our clients, we dive into customer perceptions, spot trends, analyse search patterns, and much more to deliver action-driven industry reports tailored to their needs.              </p>
+              Mitochon Pixel, headquartered in Edinburgh with a branch in India, is a top-tier creative agency with a keen eye for detail. With a solid two years under our belt, we’ve teamed up with businesses across e-commerce, cryptocurrency, and construction, giving us a well-rounded grasp of these industries. This hands-on experience means we’ve got both the technical know-how and creative chops to tackle a wide range of business needs. At Mitochon Pixel, keeping it real with our clients is at the heart of everything we do. Through a proper chinwag, we get stuck into customer perceptions, clock market trends, analyse search patterns, and loads more to deliver spot-on, action-driven industry reports tailored to their goals.
+              </p>
               <div>
               <Link href="/contact-us">
                   <button className="primary-btn shadow-lg">Contact Us</button>

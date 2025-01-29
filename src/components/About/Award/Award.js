@@ -21,20 +21,20 @@ const Award = () => {
       <div className='grid grid-cols-1 md:grid-cols-2'>
       <div>
       <h1 className='primary-heading mb-8'>Top-Rated <br/><span className='highlight'>Digital Agency</span></h1>
-      <p className='app__text text-justify'>At Mitochon Pixel, we approach digital marketing like a master painter approaches a canvas. Just as the right colours must be picked to capture every kind of sky, from the fiery oranges of sunset, the soft pinks and yellows of sunrise, to the bright blues of midday and the moody dark blues of a storm, every detail in digital marketing needs to be carefully crafted for maximum impact.</p>
+      <p className='app__text text-justify'>At Mitochon Pixel, we tackle digital marketing the way a master painter brings a canvas to life. Just like picking the perfect shades to capture every sky—whether it’s the fiery oranges of sunset, the soft pinks and yellows of sunrise, the crisp blues of midday, or the deep moody blues of a storm—every detail in digital marketing needs to be spot-on for maximum impact.</p>
       </div>
       <div className="mt-5 md:mt-0 md:ms-auto my-auto">
   <ul className="list-image-[url(yes.png)] list-inside app__text">
   <li className="text-justify text-sm sm:text-base">Crafting captivating, highly engaging content.</li>
-  <li className="text-justify text-sm sm:text-base">Making content sharing a doddle.</li>
-  <li className="text-justify text-sm sm:text-base">Boosting the natural shareability of your content.</li>
-  <li className="text-justify text-sm sm:text-base">Building a loyal crew of brand advocates.</li>
-  <li className="text-justify text-sm sm:text-base">Driving meaningful, purposeful audience engagement.</li>
-  <li className="text-justify text-sm sm:text-base">Optimising content distribution with precision.</li>
-  <li className="text-justify text-sm sm:text-base">Amplifying your brand’s presence across social platforms.</li>
-  <li className="text-justify text-sm sm:text-base">Using advanced data-driven insights for smarter strategies.</li>
-  <li className="text-justify text-sm sm:text-base">Fostering strong, inclusive community connections.</li>
-  <li className="text-justify text-sm sm:text-base">Promoting thought leadership to establish brand authority.</li>
+<li className="text-justify text-sm sm:text-base">Making content sharing an absolute doddle.</li>
+<li className="text-justify text-sm sm:text-base">Boosting the natural shareability of your content.</li>
+<li className="text-justify text-sm sm:text-base">Building a loyal crew of brand advocates.</li>
+<li className="text-justify text-sm sm:text-base">Driving meaningful, purposeful audience engagement.</li>
+<li className="text-justify text-sm sm:text-base">Optimising content distribution with razor-sharp precision.</li>
+<li className="text-justify text-sm sm:text-base">Amplifying your brand’s presence across social platforms.</li>
+<li className="text-justify text-sm sm:text-base">Using advanced data-driven insights for smarter strategies.</li>
+<li className="text-justify text-sm sm:text-base">Fostering strong, inclusive community connections.</li>
+<li className="text-justify text-sm sm:text-base">Promoting thought leadership to cement brand authority.</li>
   </ul>
 </div>
 
