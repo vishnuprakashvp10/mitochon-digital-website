@@ -6,7 +6,7 @@ import Faqpage from "@/components/faq/faqpage.js"
 
 export const metadata = {
   title: 'FAQ | Mitochon Pixel in United Kingdom',
-  description: "Whether you're curious about our process, pricing, or how we can help your business grow, our FAQ section provides the information you need.",
+  description: "Whether you are curious about our process, pricing or how we can help your business grow, our FAQ section provides the information you need.",
 }
 const WebsiteOptimization = () => {
   return (

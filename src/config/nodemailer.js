@@ -17,7 +17,7 @@ export const transporter = nodemailer.createTransport(
 			rejectUnauthorized: false,
 		},
 	})
-);
+); 
 
 export const mailOptions = {
 	from: "contact@mitochonpixel.co.uk",

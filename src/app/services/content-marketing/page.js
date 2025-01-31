@@ -6,7 +6,7 @@ import WebOptimization from "@/components/WebOptimization/WebOptimization"
 
 export const metadata = {
   title: 'Content Marketing Company in UK | Mitochon Pixel',
-  description: "Mitochon Pixel, specializing in creating and distributing valuable, relevant, and consistent content to attract and engage your target audience.",
+  description: "Mitochon Pixel, specialising in creating and distributing valuable, relevant and consistent content to attract and engage your target audience.",
 }
 const WebsiteOptimization = () => {
   return (

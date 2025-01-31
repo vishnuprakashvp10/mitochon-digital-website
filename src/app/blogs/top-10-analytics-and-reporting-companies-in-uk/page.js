@@ -6,7 +6,7 @@ import Top10analytics from "@/components/Top10analytics/top10analytics"
 
 export const metadata = {
   title: 'Top 10 Analytics and Reporting Agencies in UK | Mitochon Pixel',
-  description: "Discover the top 10 analytics and reporting agencies in the UK to optimize your data-driven decisions.",
+  description: "Discover the top 10 analytics and reporting agencies in the UK to optimise your data-driven decisions.",
 }
 const Top10Branding = () => {
   return (
