@@ -25,12 +25,20 @@
 // };
 
 
-import nodemailer from "nodemailer";
+// src/config/nodemailer.js
+import nodemailer from 'nodemailer';
 
-export const transporter = nodemailer.createTransport({
-  service: "gmail",
+const transporter = nodemailer.createTransport({
+  service: 'gmail', // Replace with your mail service, e.g., 'gmail'
   auth: {
-    user: process.env.EMAIL, // This will reference contact@mitochonpixel.co.uk
-    pass: process.env.EMAIL_PASS, // This will reference your App Password
+    user: 'contact@mitochonpixel.co.uk', // Replace with your email
+    pass: 'obbzqceuxspvakxh', // Replace with your email password or app password
   },
 });
+
+const mailOptions = {
+  from: 'contact@mitochonpixel.co.uk', // Sender address
+  to: 'contact@mitochonpixel.co.uk', // Replace with actual recipient email
+};
+
+export { mailOptions, transporter };
