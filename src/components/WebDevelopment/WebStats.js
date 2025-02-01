@@ -15,7 +15,7 @@ const WebStats = () => {
     <Stats
       stats={stats}
       heading="Excellent Web Development Services with Engaging Contents!"
-      para="You can get a stunning website with valuable and attractive contents."
+      para="You can get a stunning website with valuable and attractive content that not only captures attention but also engages your audience. Our team at Mitochon Pixel ensures your website is more than just visually appealing, it becomes a key driver of business growth. With carefully crafted content and design that speaks to your target audience, your website will build trust, inspire action, and enhance your brand’s online presence."
       connectHref="/contact-us"
       knowMoreHref="/services/content-marketing"
     /> </>

@@ -38,8 +38,7 @@ const ContactAddress = () => {
 					</h2>
 				</div>
 				<p className="pt-4 app__text">
-					How many days to promote for accurate response, How to manage the
-					promotional budget and what to promote?
+				How many days should you promote for a proper response? How do you manage the promo budget and decide what to push?
 				</p>
 			</div>
 			<div className="app__container mt-8">
