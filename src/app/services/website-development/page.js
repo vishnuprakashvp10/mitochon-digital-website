@@ -19,13 +19,13 @@ export const metadata = {
 const WebDevelopment = () => {
   const content = [{
     heading: "Engaging & Quality Content",
-    description: "Did you know that consumers prefer learning about businesses and products through content rather than traditional advertising? Convincing people to spend money on something unfamiliar is challenging. That's why at Mitochon Pixel, we focus on crafting content that not only informs but also engages, paving the way for better brand recognition and customer trust."
+    description: "Did you know that consumers prefer learning about businesses and products through content rather than traditional advertising? Convincing people to invest in something unfamiliar can be a challenge. That’s why at Mitochon Pixel, we focus on creating compelling content that not only informs but also captivates, fostering stronger brand recognition and customer trust."
   },{
     heading: "Stunning & Informative Website",
-    description: "A website embodies the essence and personality of a company. Unlike humans, however, this personality can be shaped and adapted to have a global impact. At Mitochon Pixel, we ensure your website reflects the very best of your brand, transforming your online presence into a powerful tool that connects with audiences worldwide."
+    description: "A website is the digital face of your company, representing its essence and personality. Unlike humans, however, this personality can be shaped and adapted to make a lasting global impact. At Mitochon Pixel, we ensure your website reflects the best of your brand, turning your online presence into a powerful platform that resonates with audiences worldwide."
   },{
     heading: "Craft Digital Marketing",
-    description: "Digital marketing remains one of the most effective strategies for promoting products and businesses. We employ a comprehensive range of digital marketing tactics to elevate your product and convert audiences into sales. Choose Mitochon Pixel for website development, and receive this essential service."
+    description: "Digital marketing remains one of the most powerful tools for promoting businesses and driving conversions. We utilise a comprehensive suite of digital marketing techniques to boost your brand visibility and turn potential customers into loyal buyers. When you choose Mitochon Pixel for website development, you gain access to a robust digital marketing strategy designed to maximise your success."
   }]
 
   const sections =[

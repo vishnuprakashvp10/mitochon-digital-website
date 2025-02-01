@@ -13,30 +13,30 @@ export const metadata = {
 const ourservices = () => {
   const content = [{
     heading: "Branding", 
-    description: "In today’s digital world, folks are more drawn to engaging content than traditional ads. At Mitochon Pixel, we get the drill crafting content that not only informs but truly connects. Our branding services pack a punch with top-notch strategies to boost your brand’s visibility. Whether it’s a fresh rebrand, co-branding projects, or interactive branding ideas, we’ve got you covered to make sure your brand stands tall in the marketplace."
+    description: "In today’s digital age, people are far more drawn to engaging content than old-school ads. At Mitochon Pixel, we know the score – crafting content that not only informs but genuinely resonates. Our branding services are top-tier, packed with smart strategies to boost your brand’s presence. Whether it’s a fresh rebrand, co-branding ventures, or interactive branding concepts, we’ve got you sorted, making sure your brand stands out in the marketplace."
   },{
     heading: "Website Development",
-    description: "A cracking online presence starts with a bang-on website. At Mitochon Pixel, we offer everything from snazzy web design to fully tailored development services. Whether it’s front-end flair, back-end brilliance, or SEO-focused web design, we make sure your site doesn’t just look the part but works a treat. Affordable and global-ready, our websites capture your brand’s essence perfectly."
+    description: "A cracking online presence starts with a spot-on website. At Mitochon Pixel, we cover everything from slick web design to fully bespoke development services. Whether it’s front-end finesse, back-end brilliance, or SEO-driven web design, we ensure your site doesn’t just look the part but functions flawlessly. Affordable and built for global reach, our websites capture your brand’s essence perfectly."
   },{
     heading: "Content Marketing",
-    description: "Smashing content marketing is the backbone of online success. Mitochon Pixel delivers top-notch content creation, from website copy to full-on content strategies. We focus on crafting pieces that not only grab attention but turn casual visitors into loyal customers. It’s all about growing your digital footprint while driving proper engagement and long-term recognition for your brand."
+    description: "Bang-on content marketing is at the heart of online success. Mitochon Pixel delivers first-class content creation, from website copy to full-blown content strategies. We focus on crafting pieces that don’t just grab attention but turn casual browsers into loyal customers. It’s all about growing your digital presence while driving proper engagement and long-term recognition for your brand."
   },
   {
     heading: "SEO Services",
-    description: "Want to top the search results? We’ve got your back. Mitochon Pixel’s SEO services are all about making your site stand out. Whether it’s local SEO to target nearby customers, national SEO for a wider reach, or solid link-building strategies, we’re one of the best SEO agencies in the UK. Our tailored solutions ensure your website performs like a champ and attracts organic traffic to keep you ahead of the curve."
+    description: "Looking to smash it on search engines? We’ve got your back. Mitochon Pixel’s SEO services are all about helping your site stand out. Whether it’s local SEO to bring in nearby customers, national SEO for wider reach, or rock-solid link-building strategies, we’re one of the top SEO agencies in the UK. Our tailored solutions ensure your website performs like a dream, pulling in organic traffic to keep you ahead of the game."
   },{
     heading: "Paid Online Advertising",
-    description: "Maximize your reach with targeted paid online advertising. Mitochon Pixel specializes in pay-per-click advertising strategies that effectively enhance your campaign performance. Whether you need pay-per-click advertising services, PPC management, or help with PPC advertising costs, we ensure your ads are optimized for the best possible ROI. Our team utilizes top PPC advertising platforms to drive qualified traffic to your website."
+    description: "Maximise your reach with precision-targeted paid ads. Mitochon Pixel specialises in pay-per-click (PPC) advertising strategies that get the most out of your campaign budget. Whether you need PPC management, advice on advertising costs, or a full-on ad strategy, we’ll make sure your ads are optimised for the best return on investment. Our team uses the top PPC platforms to drive quality traffic straight to your website."
   },{
     heading: "Social Media Marketing",
-    description: "Harness the power of social media with Mitochon Pixel’s expert social media marketing services. We develop and execute strategies that enhance your online presence and drive engagement. From social media marketing for small businesses to comprehensive social media campaigns, we leverage digital branding solutions to connect with your audience and build brand loyalty, fostering meaningful relationships and measurable results for long-term growth and success."
+    description: "Make the most of social media with Mitochon Pixel’s expert social media marketing services. We craft and execute strategies that boost your online presence and drive engagement. Whether it’s social media marketing for small businesses or full-scale campaigns, we use cutting-edge digital branding tactics to connect with your audience and build brand loyalty, creating meaningful relationships and measurable results for long-term growth."
   },
   {
     heading: "Analytics and Reporting",
-    description: "Understanding your website’s performance is crucial for making informed decisions. Mitochon Pixel offers advanced website analytics services to track user behavior, engagement, and conversion metrics. Our real-time website analytics and heatmap website analytics tools provide valuable insights, helping you optimize your digital strategies and stay ahead of the competition. With our analytics and reporting services, you’ll gain a clear understanding of your online performance and opportunities for improvement."
+    description: "Understanding your website’s performance is key to making smart decisions. Mitochon Pixel offers top-notch website analytics services to track user behaviour, engagement, and conversion rates. Our real-time analytics and heatmap tools provide valuable insights, helping you refine your digital strategies and stay ahead of the competition. With our analytics and reporting services, you’ll have a clear view of your online performance and how to improve it."
   },{
     heading: "CRO and Usability",
-    description: "Conversion Rate Optimization (CRO) and usability are essential for maximizing your website’s effectiveness. Mitochon Pixel specializes in conversion optimization services, ensuring that every element of your site is designed to enhance user experience and drive conversions. Our UX testing services and website conversion optimization strategies are tailored to improve engagement and boost your conversion rates, helping you achieve your business goals more efficiently and drive sustained revenue growth and exceptional user satisfaction."
+    description: "Conversion Rate Optimisation (CRO) and usability are vital for getting the most out of your website. Mitochon Pixel specialises in conversion optimisation, ensuring every aspect of your site enhances user experience and drives conversions. Our UX testing services and website conversion strategies are designed to improve engagement and boost your conversion rates, helping you hit your business targets while delivering a seamless user experience."
   }
   
 ]
@@ -44,7 +44,7 @@ const ourservices = () => {
   const sections =[
 
     {
-      section: <Feature content={content} mainHeading={`Explore our full range of services and discover how we can <span class="highlight">elevate your business!</span>`}/>
+      section: <Feature content={content} mainHeading={`Explore our full range of services and see how we take <span class="highlight">your business to next level!</span>`}/>
     },
     {
       section: <Test/>

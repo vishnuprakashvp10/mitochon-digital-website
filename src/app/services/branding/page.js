@@ -25,7 +25,7 @@ const sections = [
     section: <Marketing/>
   },
   {
-    section: <Cta heading={"Digital Marketing Paid Online Advertising Solution!"} para={"Mitochon Pixel's digital branding and advertising solutions include comprehensive paid online advertising strategies that encompass both Pay-Per-Click (PPC) campaigns and targeted social media advertising. These strategies are designed to maximize online visibility and engagement for businesses across the United Kingdom."}/>
+    section: <Cta heading={"Digital Marketing Paid Online Advertising Solution!"} para={"Mitochon Pixel’s digital branding and advertising solutions include expertly managed paid online advertising strategies, covering everything from Pay-Per-Click (PPC) campaigns to laser-focused social media advertising. Designed to maximise online visibility and engagement, our tailored approach ensures businesses across the UK achieve standout success."}/>
   },
   {
     section: <ContactForm heading={`Get in <span class="highlight">Touch</span>`} color={"bg-white"}/>

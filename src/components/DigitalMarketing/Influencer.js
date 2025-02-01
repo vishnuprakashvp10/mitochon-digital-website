@@ -35,7 +35,7 @@ const Influencer = () => {
             <li className="flex gap-x-3">
               <CheckCircleIcon className="mt-1 h-5 w-5 flex-none text-indigo-600" aria-hidden="true" />
               <span>
-              <strong className="font-semibold text-gray-900"> Innovative Digital Branding Techniques:</strong> Utilizing the latest marketing technologies and creative approaches to keep your brand dynamic and relevant in an ever-evolving marketplace.             </span>
+              <strong className="font-semibold text-gray-900"> Innovative Digital Branding Techniques:</strong> Utilising the latest marketing technologies and creative approaches to keep your brand dynamic and relevant in an ever-evolving marketplace.             </span>
             </li>
             <li className="flex gap-x-3">
             <CheckCircleIcon className="mt-1 h-5 w-5 flex-none text-indigo-600" aria-hidden="true" />

@@ -12,9 +12,9 @@ export default function DigitalMarketing() {
         <div className="lg:col-span-2 lg:col-start-1 lg:row-start-1 lg:mx-auto lg:grid lg:w-full lg:max-w-7xl lg:grid-cols-2 lg:gap-x-8 lg:px-8">
           <div className="lg:pr-4">
             <div className="lg:max-w-lg">
-\              <h1 className="mt-2 primary-heading">IMPORTANCE OF <span className='highlight'>BRAND RECOGNITION AND INFLUENCE.</span></h1>
+             <h1 className="mt-2 primary-heading">IMPORTANCE OF <span className='highlight'>BRAND RECOGNITION AND INFLUENCE.</span></h1>
               <p className="mt-6 text-xl leading-8 text-gray-700">
-              At Mitochon Pixel, we understand that in today&apos;s highly competitive landscape, your brand&apos;s identity is everything.
+              At Mitochon Pixel, we know that in today’s fiercely competitive world, your brand’s identity is everything.
               </p>
             </div>
           </div>
@@ -30,60 +30,60 @@ export default function DigitalMarketing() {
           <div className="lg:pr-4">
             <div className="max-w-xl text-base leading-7 lg:max-w-lg">
               <p className='app__text text-justify'>
-              When launching a brand, the initial focus is often on how to attract the first customers. Many businesses rely on traditional advertising methods like print ads, coupon mailers, or billboards. However, offering a quality product or service alone is no longer enough to draw customers. To capture your audience&apos;s attention effectively, blending traditional methods with digital marketing and branding strategies is crucial. At Mitochon Pixel, we specialize in integrating digital branding solutions with your marketing efforts to:
+              When launching a brand, the first priority is usually how to reel in those first customers. Many businesses turn to traditional advertising like print ads, coupon mailers, or billboards. But let’s be real – offering a top-notch product or service just isn’t enough anymore. To truly grab attention, blending traditional methods with digital marketing and branding strategies is a must. At Mitochon Pixel, we specialise in weaving digital branding solutions into your marketing efforts to:
               </p>
               <ul role="list" className="mt-8 text-justify space-y-8 app__text">
                 <li className="flex gap-x-3">
                   <CheckCircleIcon className="mt-1 h-5 w-5 flex-none text-indigo-600" aria-hidden="true" />
                   <span>
-                  Overcome geographical limitations and expand your brand&apos;s reach across borders.
+                  Smash geographical barriers and take your brand global
                 </span>
                 </li>
                 <li className="flex gap-x-3">
                   <CheckCircleIcon className="mt-1 h-5 w-5 flex-none text-indigo-600" aria-hidden="true" />
                   <span>
-                  Engage the right audience at the right time with precision targeting.
+                  Target the right crowd at the right time with pinpoint precision.
                   </span>
                 </li>
                 <li className="flex gap-x-3">
                   <CheckCircleIcon className="mt-1 h-5 w-5 flex-none text-indigo-600" aria-hidden="true" />
                   <span>
-                  Deepen your connection with customers and foster loyalty through strategic engagement and tailored loyalty programs.         </span>
+                  Strengthen customer connections and build loyalty through smart engagement and tailored loyalty schemes.         </span>
                 </li>
                 <li className="flex gap-x-3">
                 <CheckCircleIcon className="mt-1 h-5 w-5 flex-none text-indigo-600" aria-hidden="true" />
                 <span>
-                Instantly track and adjust your marketing strategies based on real-time data and customer responses.               </span>
+                Instantly tweak and refine your marketing strategies based on real-time data and customer reactions.               </span>
               </li>
               </ul>
               <p className="mt-8  text-justify app__text">
-              Many businesses hesitate to invest in digital marketing and branding, believing they lack the time or resources to compete online. This approach often falls short in today&apos;s fast-paced market. At Mitochon Pixel, we provide the digital branding expertise and tools needed to promote your business globally and compete with other top digital companies.              </p>
+              Plenty of businesses hold back on digital marketing and branding, thinking they don’t have the time or budget to make an impact online. But in today’s fast-moving market, that mindset just won’t cut it. At Mitochon Pixel, we bring the digital branding know-how and tools needed to promote your business worldwide and stand shoulder to shoulder with top digital brands.              </p>
               <h2 className="mt-16 text-2xl font-bold tracking-tight text-gray-900">OUR KEY SERVICES INCLUDE:-</h2>
               <ul role="list" className="mt-8 space-y-8 app__text">
               <li className="flex gap-x-3">
                 <CheckCircleIcon className="mt-1 h-5 w-5 flex-none text-indigo-600" aria-hidden="true" />
                 <span>
-                <strong className="font-semibold text-gray-900"> Brand Identity & Logo Design:</strong> We create compelling brand logos that encapsulate your business&apos;s essence, ensuring your company logo design resonates with your target audience.               </span>
+                <strong className="font-semibold text-gray-900"> Brand Identity & Logo Design:</strong> We craft striking brand logos that capture the essence of your business, ensuring your logo truly speaks to your audience.               </span>
               </li>
               <li className="flex gap-x-3">
                 <CheckCircleIcon className="mt-1 h-5 w-5 flex-none text-indigo-600" aria-hidden="true" />
                 <span>
-                <strong className="font-semibold text-gray-900"> Digital Brand Communication: </strong> We develop strategies that make your brand&apos;s message clear, consistent, and effective across all digital platforms.              </span>
+                <strong className="font-semibold text-gray-900"> Digital Brand Communication: </strong> We develop strategies to make your brand’s message clear, consistent, and effective across all digital platforms.              </span>
               </li>
               <li className="flex gap-x-3">
                 <CheckCircleIcon className="mt-1 h-5 w-5 flex-none text-indigo-600" aria-hidden="true" />
                 <span>
-                <strong className="font-semibold text-gray-900"> Brand Management: </strong> We help you maintain a strong brand identity and manage your brand&apos;s reputation online.               </span>
+                <strong className="font-semibold text-gray-900"> Brand Management: </strong> We help you maintain a solid brand identity and keep your online reputation in top shape.               </span>
               </li>
               <li className="flex gap-x-3">
               <CheckCircleIcon className="mt-1 h-5 w-5 flex-none text-indigo-600" aria-hidden="true" />
               <span>
-              <strong className="font-semibold text-gray-900"> SEO & PPC: </strong>  Enhance your brand&apos;s visibility with our SEO services and pay-per-click advertising strategies.            </span>
+              <strong className="font-semibold text-gray-900"> SEO & PPC: </strong>  Boost your brand’s visibility with our SEO services and pay-per-click advertising strategies.            </span>
             </li>
             <li className="flex gap-x-3">
             <CheckCircleIcon className="mt-1 h-5 w-5 flex-none text-indigo-600" aria-hidden="true" />
             <span>
-            <strong className="font-semibold text-gray-900"> Content Marketing: </strong> We craft engaging content that educates and entertains your audience, strengthening your brand&apos;s message.            </span>
+            <strong className="font-semibold text-gray-900"> Content Marketing: </strong> We create engaging content that informs and entertains your audience, reinforcing your brand’s message.            </span>
           </li>
             </ul>
             </div>

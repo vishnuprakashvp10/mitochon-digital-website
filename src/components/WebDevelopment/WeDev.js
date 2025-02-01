@@ -29,25 +29,25 @@ const features = [
   {
     name: 'Website Optimization',
     description:
-      "To ensure your website meets the evolving demands of both time and customers, our website developers continually adapt and refine its design. What draws customers and converts visits into sales is how compelling and relatable your website is.",
+      "Our web developers continuously refine and adapt your website’s design to meet evolving trends and customer expectations. A well-optimised, compelling website is key to attracting visitors and converting them into loyal customers.",
     icon: CodeBracketIcon,
   },
   {
     name: 'Unique Content Research',
     description:
-      "Our SEO specialists craft content that educates your audience about your product is crucial. Mitochon Pixel utilizes infographics and maps to vividly illustrate your product's features and benefits, ensuring your content resonates with and informs potential customers.",
+      "Quality content is essential in educating your audience about your product. Our SEO specialists craft engaging, informative content, incorporating infographics and maps to highlight your product’s features and benefits, ensuring it truly connects with potential customers.",
     icon: PencilSquareIcon,
   },
   {
     name: 'Website Maintenance',
     description:
-      "From developing relatable templates to designing your entire website, our website Developers handle all aspects of website creation. We manage your website's server and architecture to ensure it remains operational around the clock, every day of the year.",
+      "From designing eye-catching templates to developing a fully functional website, our team handles it all. We manage your website’s server and infrastructure to guarantee seamless performance, keeping it up and running 24/7.",
     icon: CodeBracketSquareIcon,
   },
   {
     name: 'Targeted Audience & SEO',
     description:
-      "Mitochon Pixel's approach extends beyond reaching just your target audience; we also connect you with potential customers, broadening your influence. With the help of our SEO team, your website is optimized to capture the attention of both your established and emerging markets.",
+      "At Mitochon Pixel, we go beyond just reaching your target audience, we help expand your reach to potential new customers. Our expert SEO team ensures your website is optimised to attract and engage both existing and emerging markets, enhancing your brand’s influence and visibility.",
     icon: UserGroupIcon,
   },
 ]
@@ -61,7 +61,7 @@ export default function WeDev() {
           Stunning, High-Speed <span className='highlight'>Website</span>
           </p>
           <p className="mt-6 text-lg leading-8 app__text text-center">
-          We handle everything from website development to content writing, SEO, and more. With Mitochon Pixel, you receive the following:
+          At Mitochon Pixel, we take care of everything from website development to content creation, SEO, and beyond. With us, you get a complete package that ensures your online presence is powerful and effective.
           </p>
         </div>
         <div className="mx-auto mt-16 max-w-2xl sm:mt-20 lg:mt-24 lg:max-w-4xl">

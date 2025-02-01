@@ -70,7 +70,7 @@ const Marketing = () => {
                     </h3>
                   </div> 
                   <p className="app__text">
-                  With over 2.6 billion people worldwide actively engaging with social media, these platforms offer an unparalleled opportunity to promote your product globally.
+                  With over 2.6 billion people worldwide actively engaging with social media, these platforms provide an unrivalled opportunity to promote your brand on a global scale. We craft tailored social media strategies that put your business in front of the right audience at the right time.
                   </p>
                 </div>
               </div>
@@ -102,7 +102,7 @@ const Marketing = () => {
                     </h3>
                   </div>
                   <p className="app__text">
-                  Introducing people to a new product requires engaging content that educates your audience. Utilize infographics, maps, and other engaging content to clearly communicate your product&apos;s features and benefits.                  </p>
+                  Getting people interested in a new product takes more than just an advert, it requires engaging content that educates and excites. Whether it’s infographics, interactive maps, or eye-catching visuals, we create compelling content that effectively communicates your product’s key features and benefits                  </p>
                 </div>
               </div>
               
@@ -188,7 +188,7 @@ const Marketing = () => {
                     </h3>
                   </div>
                   <p className="app__text">
-                  With over 70% of online experiences beginning with a search engine, SEO is critical for increasing visibility and driving website traffic. Mitochon Pixel optimizes your online presence to improve search rankings and attract more qualified leads to your site.
+                  With over 70% of online experiences starting with a search engine, SEO is essential for boosting visibility and driving traffic to your website. At Mitochon Pixel, we fine-tune your online presence to improve search rankings, helping you attract more qualified leads and stay ahead of the competition.
                                     </p>
                 </div>
               </div>
@@ -225,7 +225,7 @@ const Marketing = () => {
                     </h3>
                   </div>
                   <p className="app__text">
-                  Informed decision-making is key to successful marketing strategies. At Mitochon Pixel, we provide comprehensive analytics and reporting that track your campaigns&apos; performance, allowing for data-driven adjustments that boost efficiency and ROI.
+                  Making informed decisions is key to successful marketing. That’s why we provide detailed analytics and reporting to track your campaign performance in real time. Our data-driven insights allow for strategic adjustments, ensuring maximum efficiency and return on investment.
                   </p>
                 </div>
               </div>
