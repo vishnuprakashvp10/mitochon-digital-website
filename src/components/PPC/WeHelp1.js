@@ -35,7 +35,7 @@ const WeHelp = ({ name }) => {
               <h4 className="primary-heading">WHAT WE <span className="highlight">DO</span></h4>
             </div>
             <div>
-              <h2>At Mitochon Pixel in the United Kingdom, we specialize in enhancing both conversion rate optimization and website usability to drive meaningful results for your business. Our data-driven approach focuses on creating a seamless and enjoyable user experience, while ensuring your website is optimized to convert visitors into paying customers. We offer a comprehensive range of usability testing services and conversion rate optimization services to fine-tune every aspect of your website&apos;s performance.</h2>
+              <h2>At Mitochon Pixel in the United Kingdom, we specialize in enhancing both conversion rate optimisation and website usability to drive meaningful results for your business. Our data-driven approach focuses on creating a seamless and enjoyable user experience, while ensuring your website is optimised to convert visitors into paying customers. We offer a comprehensive range of usability testing services and conversion rate optimisation services to fine-tune every aspect of your website&apos;s performance.</h2>
             </div>
           </div>
         </div>
@@ -57,7 +57,7 @@ const WeHelp = ({ name }) => {
               <h3 className="pb-6 text-xl font-bold">CRO Strategy</h3>
             </div>
             <p className='app__text'> 
-            At Mitochon Pixel, we develop robust CRO strategies that evolve with the latest trends in consumer behavior. Our website usability audits and usability research identify friction points, ensuring your website conversion optimization services reflect your brands unique personality while maximizing your conversion rate and overall success.
+            At Mitochon Pixel, we develop robust CRO strategies that evolve with the latest trends in consumer behavior. Our website usability audits and usability research identify friction points, ensuring your website conversion optimisation services reflect your brands unique personality while maximizing your conversion rate and overall success.
                         </p>
           </div>
         </motion.div>  
@@ -82,7 +82,7 @@ const WeHelp = ({ name }) => {
               <h3 className="pb-6 text-xl font-bold">CRO Engagement</h3>
             </div>
             <p className='app__text'>
-            Website design, interface, and usability are more than just aesthetics. With web usability testing and UX usability testing, we optimize each element to not only grab attention but also guide visitors towards making a conversion. Our conversion rate optimization marketing strategy is geared toward seamless, effective engagement.      </p>
+            Website design, interface, and usability are more than just aesthetics. With web usability testing and UX usability testing, we optimise each element to not only grab attention but also guide visitors towards making a conversion. Our conversion rate optimisation marketing strategy is geared toward seamless, effective engagement.      </p>
           </div>
         </motion.div>
 
@@ -114,10 +114,10 @@ const WeHelp = ({ name }) => {
               </svg>
             </div>
             <div className="card-title">
-              <h3 className="pb-6 text-xl font-bold">CRO Optimization</h3>
+              <h3 className="pb-6 text-xl font-bold">CRO optimisation</h3>
             </div>
             <p className='app__text'>
-            We understand that effective conversion optimization in digital marketing requires regular updates, usability testing services, and a clear focus on improving every visitor&apos;s experience. With A/B testing, ecommerce conversion optimization services, and advanced web analytics, we continually enhance your site&apos;s performance, leading to better results.
+            We understand that effective conversion optimisation in digital marketing requires regular updates, usability testing services, and a clear focus on improving every visitor&apos;s experience. With A/B testing, ecommerce conversion optimisation services, and advanced web analytics, we continually enhance your site&apos;s performance, leading to better results.
 </p>
           </div>
         </motion.div>

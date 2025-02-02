@@ -56,7 +56,7 @@ const top10digitalmarketing = () => {
   </div>
 </div>
 <p className='text-justify ml-2 md:ml-4 mr-4 max-w-[1400px]'>
-  Impression is a multi-award-winning digital marketing agency that specializes in SEO, PPC, digital PR, and content marketing. Based in Nottingham, they are known for delivering data-driven strategies to help businesses grow online. Their expert team works with clients across various industries to enhance digital presence and drive measurable results. Impression has established itself as a leading player in the UK digital marketing landscape.
+  Impression is a multi-award-winning digital marketing agency that specialises in SEO, PPC, digital PR, and content marketing. Based in Nottingham, they are known for delivering data-driven strategies to help businesses grow online. Their expert team works with clients across various industries to enhance digital presence and drive measurable results. Impression has established itself as a leading player in the UK digital marketing landscape.
 </p>
 <ul className='list-disc ml-6 md:ml-8 mr-4 max-w-[1400px]'>
   <li><span className='font-bold'>Founder:</span> Aaron Dicks & Tom Craig</li>
@@ -79,7 +79,7 @@ const top10digitalmarketing = () => {
   </div>
 </div>
 <p className='text-justify ml-2 md:ml-4 mr-4 max-w-[1400px]'>
-  The SEO Works is a Sheffield-based digital marketing agency specializing in SEO, PPC, and web development services. Known for their expertise in search marketing, they have been recognized with multiple awards for delivering significant results to clients across different sectors. The agency focuses on helping businesses improve their online visibility and achieve sustainable growth through tailored digital strategies.
+  The SEO Works is a Sheffield-based digital marketing agency specialising in SEO, PPC, and web development services. Known for their expertise in search marketing, they have been recognized with multiple awards for delivering significant results to clients across different sectors. The agency focuses on helping businesses improve their online visibility and achieve sustainable growth through tailored digital strategies.
 </p>
 <ul className='list-disc ml-6 md:ml-8 mr-4 max-w-[1400px]'>
   <li><span className='font-bold'>Founder:</span> Ben Foster</li>
@@ -147,7 +147,7 @@ const top10digitalmarketing = () => {
   </div>
 </div>
 <p className='text-justify ml-2 md:ml-4 mr-4 max-w-[1400px]'>
-  Blueclaw is a performance-driven digital marketing agency specializing in SEO, PPC, and content marketing. Based in Leeds, they have a strong reputation for delivering effective digital strategies that boost online performance. Blueclaw’s team of experts works with clients across various sectors to enhance their digital presence and achieve significant business results.
+  Blueclaw is a performance-driven digital marketing agency specialising in SEO, PPC, and content marketing. Based in Leeds, they have a strong reputation for delivering effective digital strategies that boost online performance. Blueclaw’s team of experts works with clients across various sectors to enhance their digital presence and achieve significant business results.
 </p>
 <ul className='list-disc ml-6 md:ml-8 mr-4 max-w-[1400px]'>
   <li><span className='font-bold'>Founder:</span> Fergus Clawson</li>
@@ -191,7 +191,7 @@ const top10digitalmarketing = () => {
   </div>
 </div>
 <p className='text-justify ml-2 md:ml-4 mr-4 max-w-[1400px]'>
-  Add People is a digital marketing agency focused on helping small to medium-sized businesses grow online. Based in Altrincham, they specialize in affordable SEO, PPC, and social media marketing services. With a client-first approach, Add People ensures that businesses can effectively reach their target audiences and achieve measurable growth through tailored digital strategies.
+  Add People is a digital marketing agency focused on helping small to medium-sized businesses grow online. Based in Altrincham, they specialise in affordable SEO, PPC, and social media marketing services. With a client-first approach, Add People ensures that businesses can effectively reach their target audiences and achieve measurable growth through tailored digital strategies.
 </p>
 <ul className='list-disc ml-6 md:ml-8 mr-4 max-w-[1400px]'>
   <li><span className='font-bold'>Founder:</span> David Roberts</li>
@@ -239,7 +239,7 @@ const top10digitalmarketing = () => {
   </div>
 </div>
 <p className='text-justify ml-2 md:ml-4 mr-4 max-w-[1400px]'>
-  Propellernet is a Brighton-based digital marketing agency specializing in SEO, PPC, and content marketing. With a focus on delivering ethical and impactful digital strategies, Propellernet works with a wide range of clients to enhance their online presence and drive business growth. The agency is known for its innovative approach and commitment to achieving long-term success for its clients.
+  Propellernet is a Brighton-based digital marketing agency specialising in SEO, PPC, and content marketing. With a focus on delivering ethical and impactful digital strategies, Propellernet works with a wide range of clients to enhance their online presence and drive business growth. The agency is known for its innovative approach and commitment to achieving long-term success for its clients.
 </p>
 <ul className='list-disc ml-6 md:ml-8 mr-4 max-w-[1400px]'>
   <li><span className='font-bold'>Founder:</span> Jack Hubbard</li>
@@ -261,7 +261,7 @@ const top10digitalmarketing = () => {
   </div>
 </div>
 <p className='text-justify ml-2 md:ml-4 mr-4 max-w-[1400px]'>
-  Click Consult is a leading digital marketing agency based in Cheshire, specializing in SEO, PPC, and content marketing. With a focus on data-driven strategies, Click Consult has helped numerous businesses achieve better online visibility and increased conversions. Their team of experts works closely with clients to deliver tailored digital solutions that drive measurable results.
+  Click Consult is a leading digital marketing agency based in Cheshire, specialising in SEO, PPC, and content marketing. With a focus on data-driven strategies, Click Consult has helped numerous businesses achieve better online visibility and increased conversions. Their team of experts works closely with clients to deliver tailored digital solutions that drive measurable results.
 </p>
 <ul className='list-disc ml-6 md:ml-8 mr-4 max-w-[1400px]'>
   <li><span className='font-bold'>Founder:</span> Matt Bullas</li>

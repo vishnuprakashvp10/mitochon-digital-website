@@ -176,7 +176,7 @@ const top10seoservice = () => {
   </div>
 </div>
 <p className='text-justify ml-2 md:ml-4 mr-4 max-w-[1400px]'>
-  Space & Time Media is a digital marketing agency offering a range of paid advertising services, including Google Ads, social media ads, and display campaigns. They help businesses optimize their paid media strategies.
+  Space & Time Media is a digital marketing agency offering a range of paid advertising services, including Google Ads, social media ads, and display campaigns. They help businesses optimise their paid media strategies.
 </p>
 <ul className='list-disc ml-6 md:ml-8 mr-4 max-w-[1400px]'>
   <li><span className='font-bold'>Founder:</span> Peter Jones</li>

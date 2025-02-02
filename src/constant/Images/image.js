@@ -39,7 +39,7 @@ import setting from '../../assets/img/svg/setting.svg'
 import loupe from '../../assets/img/svg/loupe.svg'
 import strategicPlan from '../../assets/img/svg/strategic-plan.svg'
 import vector from '../../assets/img/svg/vector.svg'
-import seoOptimization from '../../assets/img/seo-optimization.png'
+import seooptimization from '../../assets/img/seo-optimization.png'
 import social from '../../assets/img/ppc/about.png'
 import heroImg from '../../assets/home/banner/banner.png'
 import webStrategy from '../../assets/img/Web-strategy.png'
@@ -165,7 +165,7 @@ const image = {
    webStrategy,
    heroImg,
   social,
-   seoOptimization,
+   seooptimization,
    setting,
    loupe,
    strategicPlan,

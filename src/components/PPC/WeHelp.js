@@ -35,7 +35,7 @@ const WeHelp = ({ name }) => {
               <h4 className="primary-heading">WHAT WE <span className="highlight">DO</span></h4>
             </div>
             <div>
-              <h2>At Mitochon Pixel, our expertise in PPC and pay-per-click management services ensures that your business reaches its full potential in the competitive digital landscape. As one of the best PPC agencies in the United Kingdom, we offer a range of PPC services, including PPC ad campaigns, PPC marketing strategies, and PPC campaign management. Our comprehensive approach helps businesses effectively optimize their PPC advertising campaigns for maximum conversion and engagement. As a top-rated pay-per-click marketing agency, we specialize in creating impactful, data-driven PPC advertising services packages. From PPC marketing for real estate to B2B PPC advertising, our goal is to maximize your ROI while building a strong, authentic connection between your brand and your audience. Whether you need assistance with local PPC marketing or international PPC campaigns, Mitochon Pixel is your trusted partner.</h2>
+              <h2>At Mitochon Pixel, our expertise in PPC and pay-per-click management services ensures that your business reaches its full potential in the competitive digital landscape. As one of the best PPC agencies in the United Kingdom, we offer a range of PPC services, including PPC ad campaigns, PPC marketing strategies, and PPC campaign management. Our comprehensive approach helps businesses effectively optimise their PPC advertising campaigns for maximum conversion and engagement. As a top-rated pay-per-click marketing agency, we specialise in creating impactful, data-driven PPC advertising services packages. From PPC marketing for real estate to B2B PPC advertising, our goal is to maximise your ROI while building a strong, authentic connection between your brand and your audience. Whether you need assistance with local PPC marketing or international PPC campaigns, Mitochon Pixel is your trusted partner.</h2>
             </div>
           </div>
         </div>
@@ -57,7 +57,7 @@ const WeHelp = ({ name }) => {
               <h3 className="pb-6 text-xl font-bold">PPC Advertising Strategy</h3>
             </div>
             <p className='app__text'>
-            The digital landscape is constantly evolving, and at Mitochon Pixel, our PPC ad agency ensures that your product or service remains highly visible to your target audience. We design PPC advertising campaigns that are optimized for performance across the best PPC advertising platforms, providing you with the highest return on investment.        </p>
+            The digital landscape is constantly evolving, and at Mitochon Pixel, our PPC ad agency ensures that your product or service remains highly visible to your target audience. We design PPC advertising campaigns that are optimised for performance across the best PPC advertising platforms, providing you with the highest return on investment.        </p>
           </div>
         </motion.div>  
         
@@ -114,10 +114,10 @@ const WeHelp = ({ name }) => {
               </svg>
             </div>
             <div className="card-title">
-              <h3 className="pb-6 text-xl font-bold">Optimizing Your PPC Campaigns</h3>
+              <h3 className="pb-6 text-xl font-bold">optimising Your PPC Campaigns</h3>
             </div>
             <p className='app__text'>
-            Optimization is key in ensuring long-term success in pay-per-click advertising. Mitochon Pixel offers comprehensive PPC campaign management that includes regular updates, performance tracking, and PPC campaign optimization strategies. As a trusted pay-per-click advertising company, we ensure your brand remains competitive.
+            optimisation is key in ensuring long-term success in pay-per-click advertising. Mitochon Pixel offers comprehensive PPC campaign management that includes regular updates, performance tracking, and PPC campaign optimisation strategies. As a trusted pay-per-click advertising company, we ensure your brand remains competitive.
             </p>
           </div>
         </motion.div>

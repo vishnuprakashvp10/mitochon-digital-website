@@ -24,7 +24,7 @@ const Test = () => {
     //   id: 3,
     //   name: "example",
     //   message:
-    //     "Today we work with statistics and more accurate data and realize the digital space is an essential tool for Clinica da Mama to position itself in an increasingly competitive field",
+    //     "Today we work with statistics and more accurate data and realise the digital space is an essential tool for Clinica da Mama to position itself in an increasingly competitive field",
     //   imgUrl: image.client,
     // },
     // {

@@ -30,8 +30,8 @@ const privacypolicy = () => {
             </p>
             <ul className='text-justify ml-4 md:ml-6 mr-4 max-w-[1400px] text-lg list-disc'>
                 <li>Provide, operate, and maintain our Site</li>
-                <li>Improve, personalize, and expand our Site</li>
-                <li>Understand and analyze how you use our Site</li>
+                <li>Improve, personalise, and expand our Site</li>
+                <li>Understand and analyse how you use our Site</li>
                 <li>Develop new products, services, features, and functionality</li>
                 <li>Communicate with you, including for customer service, updates, and marketing</li>
                 <li>Process your transactions and manage your orders</li>

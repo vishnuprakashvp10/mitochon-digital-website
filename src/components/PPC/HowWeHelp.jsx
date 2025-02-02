@@ -13,7 +13,7 @@ const HowWeHelp = ({name}) => {
         imgUrl: image.internet,
         bgColor: "svg-orange"
     },{
-        heading: "PPC Optimization",
+        heading: "PPC optimisation",
         desc: "The maintenance of the same displays regular and consistent efforts, dedication towards ones products and self check ins.",
         imgUrl: image.rocket,
         bgColor: "svg-orange"

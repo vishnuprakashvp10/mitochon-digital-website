@@ -41,7 +41,7 @@ const products = [
 	{
 		name: "SEO Service",
 		description:
-			"Optimize your web presence to improve search engine rankings and attract organic traffic.",
+			"optimise your web presence to improve search engine rankings and attract organic traffic.",
 		href: "/services/seo-service",
 		icon: ComputerDesktopIcon,
 	},
@@ -69,7 +69,7 @@ const products = [
 	{
 		name: "CRO and Usability",
 		description:
-			"Enhance website usability and conversion rates through focused optimizations.",
+			"Enhance website usability and conversion rates through focused optimisations.",
 		href: "/services/cro-and-usability",
 		icon: CodeBracketIcon,
 	},

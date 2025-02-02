@@ -55,7 +55,7 @@ const top10websitedev = () => {
       </div>
       <div className="ml-0">
       <p className='text-justify ml-2 md:ml-4 mr-4 max-w-[1400px]'>
-      Selecting the right website development company is essential for creating a powerful and user-friendly online presence. The UK is home to a wide array of leading web development firms, each known for their technical expertise and innovative solutions. This list highlights the top 10 website development companies in the UK, recognized for their ability to build dynamic, responsive, and high-performing websites.
+      Selecting the right website development company is essential for creating a powerful and user-friendly online presence. The UK is home to a wide array of leading web development firms, each known for their technical expertise and innovative solutions. This list highlights the top 10 website development companies in the UK, recognised for their ability to build dynamic, responsive, and high-performing websites.
             <span className='highlight'> Whether you need front-end design, back-end development, or full-stack services, these industry leaders are equipped to bring your vision to life and ensure your business thrives in the digital world. </span>
       </p>
 <section className="mb-8 py-6 px-4 grid grid-cols-1 gap-8">
@@ -72,7 +72,7 @@ const top10websitedev = () => {
   </div>
 </div>
 <p className='text-justify ml-2 md:ml-4 mr-4 max-w-[1400px]'>
-  Cyber-Duck is an award-winning digital transformation agency that specializes in web design, development, and digital marketing. They help businesses by creating user-focused websites and apps through a combination of creative design and robust technology. Cyber-Duck serves clients across various industries, providing tailored digital solutions.
+  Cyber-Duck is an award-winning digital transformation agency that specialises in web design, development, and digital marketing. They help businesses by creating user-focused websites and apps through a combination of creative design and robust technology. Cyber-Duck serves clients across various industries, providing tailored digital solutions.
 </p>
 <ul className='list-disc ml-6 md:ml-8 mr-4 max-w-[1400px]'>
   <li><span className='font-bold'>Founder:</span> Danny Bluestone</li>
@@ -91,7 +91,7 @@ const top10websitedev = () => {
   </div>
 </div>
 <p className='text-justify ml-2 md:ml-4 mr-4 max-w-[1400px]'>
-  Lighthouse London is a creative web development and digital product studio that specializes in building innovative websites and web applications. They help startups and established businesses enhance their digital presence by offering end-to-end web development services, including user experience design and backend development.
+  Lighthouse London is a creative web development and digital product studio that specialises in building innovative websites and web applications. They help startups and established businesses enhance their digital presence by offering end-to-end web development services, including user experience design and backend development.
 </p>
 <ul className='list-disc ml-6 md:ml-8 mr-4 max-w-[1400px]'>
   <li><span className='font-bold'>Founders:</span> Tom Johnson & Ben Novak</li>
@@ -135,7 +135,7 @@ const top10websitedev = () => {
   </div>
 </div>
 <p className='text-justify ml-2 md:ml-4 mr-4 max-w-[1400px]'>
-  Web Choice is a leading web design and development agency that focuses on delivering tailor-made websites with a strong emphasis on SEO, user experience, and business growth. They specialize in building websites that are not only visually appealing but also optimized for performance and lead generation.
+  Web Choice is a leading web design and development agency that focuses on delivering tailor-made websites with a strong emphasis on SEO, user experience, and business growth. They specialise in building websites that are not only visually appealing but also optimised for performance and lead generation.
 </p>
 <ul className='list-disc ml-6 md:ml-8 mr-4 max-w-[1400px]'>
   <li><span className='font-bold'>Founder:</span> Sam Dunning</li>
@@ -192,7 +192,7 @@ const top10websitedev = () => {
   </div>
 </div>
 <p className='text-justify ml-2 md:ml-4 mr-4 max-w-[1400px]'>
-  DCSL GuideSmiths is a web development company that specializes in custom software development, including complex web applications, business websites, and digital platforms. They focus on delivering high-quality, scalable web solutions for businesses across various sectors, using cutting-edge technology and agile methodologies.
+  DCSL GuideSmiths is a web development company that specialises in custom software development, including complex web applications, business websites, and digital platforms. They focus on delivering high-quality, scalable web solutions for businesses across various sectors, using cutting-edge technology and agile methodologies.
 </p>
 <ul className='list-disc ml-6 md:ml-8 mr-4 max-w-[1400px]'>
   <li><span className='font-bold'>Founder:</span> Nick Thompson</li>
@@ -230,7 +230,7 @@ const top10websitedev = () => {
   </div>
 </div>
 <p className='text-justify ml-2 md:ml-4 mr-4 max-w-[1400px]'>
-  Crowdform is a London-based digital product studio that specializes in building websites, apps, and digital experiences. They focus on creating highly engaging and user-friendly platforms for businesses looking to transform their online presence. Their expertise covers a wide range of industries, including tech startups, fintech, and consumer brands.
+  Crowdform is a London-based digital product studio that specialises in building websites, apps, and digital experiences. They focus on creating highly engaging and user-friendly platforms for businesses looking to transform their online presence. Their expertise covers a wide range of industries, including tech startups, fintech, and consumer brands.
 </p>
 <ul className='list-disc ml-6 md:ml-8 mr-4 max-w-[1400px]'>
   <li><span className='font-bold'>Founder:</span> Leo Rodrigues & Patrick Dowling</li>
@@ -250,7 +250,7 @@ const top10websitedev = () => {
   </div>
 </div>
 <p className='text-justify ml-2 md:ml-4 mr-4 max-w-[1400px]'>
-Squareball is a digital product agency that offers comprehensive web development services. They specialize in creating high-performance websites and digital products that cater to user needs and business goals. Squareball combines creativity and technology to develop solutions that are both functional and visually impressive.
+Squareball is a digital product agency that offers comprehensive web development services. They specialise in creating high-performance websites and digital products that cater to user needs and business goals. Squareball combines creativity and technology to develop solutions that are both functional and visually impressive.
 </p>
 <ul className='list-disc ml-6 md:ml-8 mr-4 max-w-[1400px]'>
   <li><span className='font-bold'>Founder:</span> Steve Arnold</li>
@@ -264,7 +264,7 @@ Squareball is a digital product agency that offers comprehensive web development
 
       <p className="text-justify ml-2 md:ml-4  max-w-[1400px] text-2xl mt-2 font-bold highlight">Conclusion:</p>
 <p className='text-justify ml-2 md:ml-4 mr-4 max-w-[1400px]'>
-Selecting the right website development company can be a game-changer for your business&apos;s online presence. By partnering with one of the top website development firms listed here, you will gain access to industry experts who specialize in creating visually stunning, high-performing, and user-friendly websites. These companies are known for their innovative designs, cutting-edge technologies, and dedication to delivering websites that not only look great but are optimized for performance and lead generation. Entrusting your web development needs to a reputable firm will save you time and effort while ensuring your website drives meaningful results and supports long-term business growth in the digital world.
+Selecting the right website development company can be a game-changer for your business&apos;s online presence. By partnering with one of the top website development firms listed here, you will gain access to industry experts who specialise in creating visually stunning, high-performing, and user-friendly websites. These companies are known for their innovative designs, cutting-edge technologies, and dedication to delivering websites that not only look great but are optimised for performance and lead generation. Entrusting your web development needs to a reputable firm will save you time and effort while ensuring your website drives meaningful results and supports long-term business growth in the digital world.
 
 
 

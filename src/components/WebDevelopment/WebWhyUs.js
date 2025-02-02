@@ -23,7 +23,7 @@ const WebWhyUs = () => {
             <li className="flex gap-x-3">
               <CheckCircleIcon className="mt-1 h-5 w-5 flex-none text-indigo-600" aria-hidden="true" />
               <p className='app__text'>
-              Our team comprises seasoned graphic designers and web developers in the UK who not only understand the aesthetics of effective design but also the mechanics of user engagement and conversion optimization. We specialise in website design services, website development services, website management services, and comprehensive website building services tailored to meet your business goals.              </p>
+              Our team comprises seasoned graphic designers and web developers in the UK who not only understand the aesthetics of effective design but also the mechanics of user engagement and conversion optimisation. We specialise in website design services, website development services, website management services, and comprehensive website building services tailored to meet your business goals.              </p>
             </li>
             <li className="flex gap-x-3">
               <CheckCircleIcon className="mt-1 h-5 w-5 flex-none text-indigo-600" aria-hidden="true" />
@@ -33,12 +33,12 @@ const WebWhyUs = () => {
             <li className="flex gap-x-3">
             <CheckCircleIcon className="mt-1 h-5 w-5 flex-none text-indigo-600" aria-hidden="true" />
             <p className='app__text'>
-            During our consultations, we assess your specific needs and match you with technologies that enhance your digital footprint and streamline your operations. Our expertise in digital marketing in the United Kingdom ensures that your online presence is optimized to drive traffic and generate leads effectively.      </p>
+            During our consultations, we assess your specific needs and match you with technologies that enhance your digital footprint and streamline your operations. Our expertise in digital marketing in the United Kingdom ensures that your online presence is optimised to drive traffic and generate leads effectively.      </p>
           </li>
           <li className="flex gap-x-3">
             <CheckCircleIcon className="mt-1 h-5 w-5 flex-none text-indigo-600" aria-hidden="true" />
             <p className='app__text'>
-            Partner with Mitochon Pixel, the foremost web development company in the UK, and watch your business thrive with a stunning, high-performing website that captivates your audience and maximizes your growth potential.  </p>
+            Partner with Mitochon Pixel, the foremost web development company in the UK, and watch your business thrive with a stunning, high-performing website that captivates your audience and maximises your growth potential.  </p>
           </li>
           </ul>
           </div>

@@ -35,7 +35,7 @@ const WeHelp = ({ name }) => {
               <h4 className="primary-heading">WHAT WE <span className="highlight">DO</span></h4>
             </div>
             <div>
-              <h2>At Mitochon Pixel, our social media management services ensures that your business reaches its full potential in the competitive digital landscape. As one of the best social media marketing companies in the United Kingdom, we offer a range of social media advertising services including social media ad campaigns, social media growth strategies, and social media content management. Our comprehensive approach helps businesses effectively optimize their social media marketing campaigns for maximum conversion and engagement. As a top-rated paid social agency, we specialize in creating impactful, data-driven social media marketing services packages. From social media marketing for realtors to B2B social media marketing, our goal is to maximize your ROI while building a strong, authentic connection between your brand and your audience.</h2>
+              <h2>At Mitochon Pixel, our social media management services ensures that your business reaches its full potential in the competitive digital landscape. As one of the best social media marketing companies in the United Kingdom, we offer a range of social media advertising services including social media ad campaigns, social media growth strategies, and social media content management. Our comprehensive approach helps businesses effectively optimise their social media marketing campaigns for maximum conversion and engagement. As a top-rated paid social agency, we specialise in creating impactful, data-driven social media marketing services packages. From social media marketing for realtors to B2B social media marketing, our goal is to maximise your ROI while building a strong, authentic connection between your brand and your audience.</h2>
             </div>
           </div>
         </div>
@@ -114,10 +114,10 @@ const WeHelp = ({ name }) => {
               </svg>
             </div>
             <div className="card-title">
-              <h3 className="pb-6 text-xl font-bold">Social Media Optimization</h3>
+              <h3 className="pb-6 text-xl font-bold">Social Media optimisation</h3>
             </div>
             <p className='app__text'>
-            We specialize in social media optimization to enhance your online presence. By optimizing your social media advertising campaigns, we ensure your brand remains visible and relevant. Our social media marketing experts use data-driven insights to fine-tune your content, driving organic growth and improving overall engagement across platforms.
+            We specialise in social media optimisation to enhance your online presence. By optimising your social media advertising campaigns, we ensure your brand remains visible and relevant. Our social media marketing experts use data-driven insights to fine-tune your content, driving organic growth and improving overall engagement across platforms.
             </p>
           </div>
         </motion.div>

@@ -55,8 +55,8 @@ const top10websitedev = () => {
       </div>
       <div className="ml-0">
       <p className='text-justify ml-2 md:ml-4 mr-4 max-w-[1400px]'>
-      Selecting the right content marketing company is crucial for building a strong and engaging online presence. The UK boasts a diverse range of top content marketing agencies, each recognized for their creative strategies and expertise in delivering impactful content. 
-                  <span className='highlight'> This list highlights the top 10 content marketing companies in the UK, known for their ability to craft compelling, SEO-optimized content that drives brand awareness, boosts audience engagement, and generates measurable results for businesses across various industries </span>
+      Selecting the right content marketing company is crucial for building a strong and engaging online presence. The UK boasts a diverse range of top content marketing agencies, each recognised for their creative strategies and expertise in delivering impactful content. 
+                  <span className='highlight'> This list highlights the top 10 content marketing companies in the UK, known for their ability to craft compelling, SEO-optimised content that drives brand awareness, boosts audience engagement, and generates measurable results for businesses across various industries </span>
       </p>
 <section className="mb-8 py-6 px-4 grid grid-cols-1 gap-8">
   {table.map((item, index) => (
@@ -91,7 +91,7 @@ const top10websitedev = () => {
   </div>
 </div>
 <p className='text-justify ml-2 md:ml-4 mr-4 max-w-[1400px]'>
-  The Brains is a digital marketing and content strategy agency that specializes in developing intelligent marketing campaigns to drive growth. They offer content marketing, SEO, paid search, and web development services.
+  The Brains is a digital marketing and content strategy agency that specialises in developing intelligent marketing campaigns to drive growth. They offer content marketing, SEO, paid search, and web development services.
 </p>
 <ul className='list-disc ml-6 md:ml-8 mr-4 max-w-[1400px]'>
   <li><span className='font-bold'>Founder:</span> Jonathan Lemer</li>
@@ -154,7 +154,7 @@ const top10websitedev = () => {
   </div>
 </div>
 <p className='text-justify ml-2 md:ml-4 mr-4 max-w-[1400px]'>
-  Builtvisible is a content marketing and SEO agency specializing in organic search growth and content development. They focus on delivering measurable results and increasing visibility for their clients.
+  Builtvisible is a content marketing and SEO agency specialising in organic search growth and content development. They focus on delivering measurable results and increasing visibility for their clients.
 </p>
 <ul className='list-disc ml-6 md:ml-8 mr-4 max-w-[1400px]'>
   <li><span className='font-bold'>Founder:</span> Richard Baxter</li>
@@ -173,7 +173,7 @@ const top10websitedev = () => {
   </div>
 </div>
 <p className='text-justify ml-2 md:ml-4 mr-4 max-w-[1400px]'>
-  Red Hot Penny specializes in content marketing, SEO, and eCommerce. They create campaigns that focus on brand growth, online performance, and lead generation.
+  Red Hot Penny specialises in content marketing, SEO, and eCommerce. They create campaigns that focus on brand growth, online performance, and lead generation.
 </p>
 <ul className='list-disc ml-6 md:ml-8 mr-4 max-w-[1400px]'>
   <li><span className='font-bold'>Founder:</span> Joe Russell</li>
@@ -211,7 +211,7 @@ const top10websitedev = () => {
   </div>
 </div>
 <p className='text-justify ml-2 md:ml-4 mr-4 max-w-[1400px]'>
-  Greenlight Digital offers a range of digital marketing services, including content marketing, SEO, and digital advertising. They help brands maximize visibility through creative and data-driven content strategies.
+  Greenlight Digital offers a range of digital marketing services, including content marketing, SEO, and digital advertising. They help brands maximise visibility through creative and data-driven content strategies.
 </p>
 <ul className='list-disc ml-6 md:ml-8 mr-4 max-w-[1400px]'>
   <li><span className='font-bold'>Founder:</span> Warren Cowan</li>
@@ -230,7 +230,7 @@ const top10websitedev = () => {
   </div>
 </div>
 <p className='text-justify ml-2 md:ml-4 mr-4 max-w-[1400px]'>
-  Digital Uncut is a content marketing and SEO agency dedicated to helping startups and scaleups grow with tailored marketing strategies and SEO-optimized content.
+  Digital Uncut is a content marketing and SEO agency dedicated to helping startups and scaleups grow with tailored marketing strategies and SEO-optimised content.
 </p>
 <ul className='list-disc ml-6 md:ml-8 mr-4 max-w-[1400px]'>
   <li><span className='font-bold'>Founder:</span> Chris Liversidge</li>
@@ -249,7 +249,7 @@ const top10websitedev = () => {
   </div>
 </div>
 <p className='text-justify ml-2 md:ml-4 mr-4 max-w-[1400px]'>
-  Click Consult provides integrated search and content marketing services. They specialize in SEO, PPC, content strategy, and digital PR to deliver impactful marketing campaigns.
+  Click Consult provides integrated search and content marketing services. They specialise in SEO, PPC, content strategy, and digital PR to deliver impactful marketing campaigns.
 </p>
 <ul className='list-disc ml-6 md:ml-8 mr-4 max-w-[1400px]'>
   <li><span className='font-bold'>Founder:</span> Matt Bullas</li>
@@ -263,7 +263,7 @@ const top10websitedev = () => {
 
       <p className="text-justify ml-2 md:ml-4  max-w-[1400px] text-2xl mt-2 font-bold highlight">Conclusion:</p>
 <p className='text-justify ml-2 md:ml-4 mr-4 max-w-[1400px]'>
-Choosing the right content marketing company can significantly boost your brand&apos;s visibility and drive customer engagement. By working with one of the top content marketing agencies listed here, you will partner with professionals who excel at creating compelling, data-driven content strategies tailored to your business goals. These agencies are recognized for their creativity, expertise in SEO, and ability to deliver measurable results through content that resonates with your audience. Investing in a reputable content marketing firm will help you save time, enhance your digital presence, and ensure that your brand stands out in the competitive online landscape.
+Choosing the right content marketing company can significantly boost your brand&apos;s visibility and drive customer engagement. By working with one of the top content marketing agencies listed here, you will partner with professionals who excel at creating compelling, data-driven content strategies tailored to your business goals. These agencies are recognised for their creativity, expertise in SEO, and ability to deliver measurable results through content that resonates with your audience. Investing in a reputable content marketing firm will help you save time, enhance your digital presence, and ensure that your brand stands out in the competitive online landscape.
       </p>
       </div>
       </div>

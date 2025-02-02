@@ -2,7 +2,7 @@ import image from "@/constant/Images/image";
 import Image from "next/image";
 import React from "react";
  
-const WebOptimization = () => {
+const Weboptimization = () => {
   return (
     <section className="we-are-area">
       <div className="app__container grid grid-cols-1 md:grid-cols-2 gap-8 relative">
@@ -59,4 +59,4 @@ const WebOptimization = () => {
   );
 };
 
-export default WebOptimization;
+export default Weboptimization;

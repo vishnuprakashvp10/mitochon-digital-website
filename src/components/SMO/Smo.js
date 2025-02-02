@@ -16,7 +16,7 @@ const Smo = () => {
             </div>
 
             <p className="text-justify app__text">
-            Analytics and Reporting is a critical component of digital marketing that focuses on collecting, analyzing, and reporting data to enhance the effectiveness of your marketing strategies. At Mitochon Pixel, based in the United Kingdom, web analytics and reporting play a critical role in digital marketing by gathering, analyzing, and presenting data to improve your online strategies. Our web analytics services provide real-time insights into user engagement, conversion tracking, and behavior analysis, helping you stay ahead in the digital landscape. By utilizing advanced tools like website analytics dashboards, heatmap website analytics, and competitor web analytics, we ensure your marketing efforts are optimized for success.
+            Analytics and Reporting is a critical component of digital marketing that focuses on collecting, analysing, and reporting data to enhance the effectiveness of your marketing strategies. At Mitochon Pixel, based in the United Kingdom, web analytics and reporting play a critical role in digital marketing by gathering, analysing, and presenting data to improve your online strategies. Our web analytics services provide real-time insights into user engagement, conversion tracking, and behavior analysis, helping you stay ahead in the digital landscape. By utilising advanced tools like website analytics dashboards, heatmap website analytics, and competitor web analytics, we ensure your marketing efforts are optimised for success.
             </p>
 
             <ul role="list" className="mt-8 space-y-8 text-justify app__text">
@@ -25,7 +25,7 @@ const Smo = () => {
                   className="mt-1 h-5 w-5 flex-none text-indigo-600"
                   aria-hidden="true"
                 />
-                <span>Real-time website analytics from Mitochon Pixel provide insights into how users interact with your website, highlighting key engagement metrics such as clicks, time spent on pages, and heatmap analytics. Using advanced web analytics tools like heatmap website analytics and competitor web analytics, we track user behavior to optimize the user journey. Our website analytics dashboard allows you to monitor user engagement data in real time, ensuring a seamless experience for your audience.</span>
+                <span>Real-time website analytics from Mitochon Pixel provide insights into how users interact with your website, highlighting key engagement metrics such as clicks, time spent on pages, and heatmap analytics. Using advanced web analytics tools like heatmap website analytics and competitor web analytics, we track user behavior to optimise the user journey. Our website analytics dashboard allows you to monitor user engagement data in real time, ensuring a seamless experience for your audience.</span>
               </li>
               <li className="flex gap-x-3">
                 <CheckCircleIcon

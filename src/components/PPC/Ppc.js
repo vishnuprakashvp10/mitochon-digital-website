@@ -19,7 +19,7 @@ const Ppc = () => {
 
             <p className='app__text text-justify'>
             <strong>Pay Per Click (PPC) advertising is a model of digital marketing where advertisers pay a fee each time one of their ads is clicked.</strong><br/><br/>
-            At Mitochon Pixel, based in the United Kingdom, we specialize in Pay Per Click advertising, a digital marketing model where advertisers pay a fee each time their ad is clicked. As a leading PPC agency, we focus on crafting successful PPC ad campaigns that help businesses bid for ad placements in search engine results for relevant keywords. Whether you&apos;re searching for a PPC agency near me, a pay per click advertising agency, or an affordable PPC marketing firm, Mitochon Pixel delivers tailored solutions that drive targeted traffic to your website.
+            At Mitochon Pixel, based in the United Kingdom, we specialise in Pay Per Click advertising, a digital marketing model where advertisers pay a fee each time their ad is clicked. As a leading PPC agency, we focus on crafting successful PPC ad campaigns that help businesses bid for ad placements in search engine results for relevant keywords. Whether you&apos;re searching for a PPC agency near me, a pay per click advertising agency, or an affordable PPC marketing firm, Mitochon Pixel delivers tailored solutions that drive targeted traffic to your website.
             </p>
             <Link href="/contact-us">
             <button className='primary-btn mt-12 shadow-lg'>Contact Us</button>

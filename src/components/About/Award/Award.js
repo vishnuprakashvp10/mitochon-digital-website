@@ -30,7 +30,7 @@ const Award = () => {
 <li className="text-justify text-sm sm:text-base">Boosting the natural shareability of your content.</li>
 <li className="text-justify text-sm sm:text-base">Building a loyal crew of brand advocates.</li>
 <li className="text-justify text-sm sm:text-base">Driving meaningful, purposeful audience engagement.</li>
-<li className="text-justify text-sm sm:text-base">Optimising content distribution with razor-sharp precision.</li>
+<li className="text-justify text-sm sm:text-base">Optimising content distribution with rasor-sharp precision.</li>
 <li className="text-justify text-sm sm:text-base">Amplifying your brand’s presence across social platforms.</li>
 <li className="text-justify text-sm sm:text-base">Using advanced data-driven insights for smarter strategies.</li>
 <li className="text-justify text-sm sm:text-base">Fostering strong, inclusive community connections.</li>

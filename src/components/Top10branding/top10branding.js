@@ -54,7 +54,7 @@ const top10branding = () => {
       </div>
       <div className="ml-0">
       <p className='text-justify ml-2 md:ml-4 mr-4 max-w-[1400px]'>
-      selecting the right branding agency is crucial for building a distinctive and lasting brand presence. The UK is home to a range of top-tier branding firms, each known for their creative strategies and innovative approaches. This list features the top 10 branding companies in the UK, recognized for their ability to transform businesses through impactful brand development, design, and storytelling. 
+      selecting the right branding agency is crucial for building a distinctive and lasting brand presence. The UK is home to a range of top-tier branding firms, each known for their creative strategies and innovative approaches. This list features the top 10 branding companies in the UK, recognised for their ability to transform businesses through impactful brand development, design, and storytelling. 
       <span className='highlight'> Whether you are seeking expertise in brand identity, strategy, design, or full-service brand development, these industry leaders are well-equipped to elevate your brand and help it thrive in an ever-evolving market. </span>
       </p>
 <section className="mb-8 py-6 px-4 grid grid-cols-1 gap-8">
@@ -71,7 +71,7 @@ const top10branding = () => {
   </div>
 </div>
 <p className='text-justify ml-2 md:ml-4 mr-4 max-w-[1400px]'>
-  Wolf Ollins is a globally recognized branding consultancy that has worked with some of the world biggest brands. They specialize in brand strategy, design, and innovation, with a mission to create powerful, purposeful brands that drive success. Their holistic approach combines creativity and business insight to solve complex brand challenges.
+  Wolf Ollins is a globally recognised branding consultancy that has worked with some of the world biggest brands. They specialise in brand strategy, design, and innovation, with a mission to create powerful, purposeful brands that drive success. Their holistic approach combines creativity and business insight to solve complex brand challenges.
 </p>
 <ul className='list-disc ml-6 md:ml-8 mr-4 max-w-[1400px]'>
   <li><span className='font-bold'>Founder:</span> Wally Olins & Michael Wolff</li>
@@ -90,7 +90,7 @@ const top10branding = () => {
   </div>
 </div>
 <p className='text-justify ml-2 md:ml-4 mr-4 max-w-[1400px]'>
-  DesignStudio is a creative branding agency known for delivering bold and innovative designs. They specialize in branding, product design, and user experience, working with clients to create compelling visual identities that resonate with audiences. DesignStudio’s focus is on producing impactful and engaging designs across multiple platforms.
+  DesignStudio is a creative branding agency known for delivering bold and innovative designs. They specialise in branding, product design, and user experience, working with clients to create compelling visual identities that resonate with audiences. DesignStudio’s focus is on producing impactful and engaging designs across multiple platforms.
 </p>
 <ul className='list-disc ml-6 md:ml-8 mr-4 max-w-[1400px]'>
   <li><span className='font-bold'>Founder:</span> Ben Wright & Paul Stafford</li>
@@ -153,7 +153,7 @@ const top10branding = () => {
   </div>
 </div>
 <p className='text-justify ml-2 md:ml-4 mr-4 max-w-[1400px]'>
-  Pentagram is one of the world’s most iconic design consultancies. Known for their minimalist approach and groundbreaking designs, they specialize in brand identity, graphics, and architecture. Pentagram is unique for its cooperative structure where its partners are also the main designers of the firm.
+  Pentagram is one of the world’s most iconic design consultancies. Known for their minimalist approach and groundbreaking designs, they specialise in brand identity, graphics, and architecture. Pentagram is unique for its cooperative structure where its partners are also the main designers of the firm.
 </p>
 <ul className='list-disc ml-6 md:ml-8 mr-4 max-w-[1400px]'>
   <li><span className='font-bold'>Founder:</span> Alan Fletcher, Theo Crosby, Colin Forbes, Kenneth Grange, Mervyn Kurlansky</li>
@@ -172,7 +172,7 @@ const top10branding = () => {
   </div>
 </div>
 <p className='text-justify ml-2 md:ml-4 mr-4 max-w-[1400px]'>
-  BrandOpus is a global branding agency specializing in brand creation, brand strategy, and packaging design. With a deep understanding of consumer psychology and visual storytelling, they help businesses transform their brand identity and connect emotionally with their audiences.
+  BrandOpus is a global branding agency specialising in brand creation, brand strategy, and packaging design. With a deep understanding of consumer psychology and visual storytelling, they help businesses transform their brand identity and connect emotionally with their audiences.
 </p>
 <ul className='list-disc ml-6 md:ml-8 mr-4 max-w-[1400px]'>
   <li><span className='font-bold'>Founder:</span> Nir Wegrzyn</li>
@@ -210,7 +210,7 @@ const top10branding = () => {
   </div>
 </div>
 <p className='text-justify ml-2 md:ml-4 mr-4 max-w-[1400px]'>
-  Superunion is a brand agency specializing in brand strategy, identity, and brand experience. The agency works to create disruptive and compelling brands that help businesses stand out. They have partnered with clients across various sectors to build meaningful brands that inspire and engage audiences.
+  Superunion is a brand agency specialising in brand strategy, identity, and brand experience. The agency works to create disruptive and compelling brands that help businesses stand out. They have partnered with clients across various sectors to build meaningful brands that inspire and engage audiences.
 </p>
 <ul className='list-disc ml-6 md:ml-8 mr-4 max-w-[1400px]'>
   <li><span className='font-bold'>Founder:</span> Merger of five WPP agencies</li>

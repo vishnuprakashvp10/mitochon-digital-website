@@ -12,7 +12,7 @@ import ContactForm from "@/components/ContactPage/ContactForm";
 
 export default function Home() { 
   const content = [{
-    heading: "Search Engine Optimization",
+    heading: "Search Engine optimisation",
     description: "At Mitochon Pixel, we take a full-on, 360-degree approach to SEO, making sure on-page and technical SEO work hand-in-hand to deliver cracking organic results. As one of the top SEO firms in the UK, we are pros at SEO and digital marketing.",
   },{
     heading: "Paid Online Advertising Strategy",

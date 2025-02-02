@@ -55,8 +55,8 @@ const top10seoservice = () => {
       </div>
       <div className="ml-0">
       <p className='text-justify ml-2 md:ml-4 mr-4 max-w-[1400px]'>
-      Selecting the right SEO service company is vital for enhancing your website&apos;s visibility and improving search engine rankings. The UK is home to a range of highly regarded SEO agencies, each specializing in creating tailored SEO strategies that help businesses achieve sustainable online growth. This list showcases the top 10 SEO service companies in the UK, known for their data-driven approach, technical expertise, and commitment to delivering long-term results. 
-     <span className='highlight'> These firms are experts at optimizing websites for search engines, driving organic traffic, and ultimately increasing brand exposure in today&apos;s competitive digital landscape.</span>
+      Selecting the right SEO service company is vital for enhancing your website&apos;s visibility and improving search engine rankings. The UK is home to a range of highly regarded SEO agencies, each specialising in creating tailored SEO strategies that help businesses achieve sustainable online growth. This list showcases the top 10 SEO service companies in the UK, known for their data-driven approach, technical expertise, and commitment to delivering long-term results. 
+     <span className='highlight'> These firms are experts at optimising websites for search engines, driving organic traffic, and ultimately increasing brand exposure in today&apos;s competitive digital landscape.</span>
       </p>
 <section className="mb-8 py-6 px-4 grid grid-cols-1 gap-8">
   {table.map((item, index) => (
@@ -72,7 +72,7 @@ const top10seoservice = () => {
   </div>
 </div>
 <p className='text-justify ml-2 md:ml-4 mr-4 max-w-[1400px]'>
-  Moz is a leading SEO software company that provides tools and resources to help businesses improve their online visibility and search engine rankings. They offer insights, keyword research, and on-page optimization strategies.
+  Moz is a leading SEO software company that provides tools and resources to help businesses improve their online visibility and search engine rankings. They offer insights, keyword research, and on-page optimisation strategies.
 </p>
 <ul className='list-disc ml-6 md:ml-8 mr-4 max-w-[1400px]'>
   <li><span className='font-bold'>Founder:</span> Rand Fishkin</li>
@@ -91,7 +91,7 @@ const top10seoservice = () => {
   </div>
 </div>
 <p className='text-justify ml-2 md:ml-4 mr-4 max-w-[1400px]'>
-  SEOMonitor offers a comprehensive suite of SEO tools designed to help businesses optimize their online presence. Their services include analytics, keyword tracking, and performance monitoring.
+  SEOMonitor offers a comprehensive suite of SEO tools designed to help businesses optimise their online presence. Their services include analytics, keyword tracking, and performance monitoring.
 </p>
 <ul className='list-disc ml-6 md:ml-8 mr-4 max-w-[1400px]'>
   <li><span className='font-bold'>Founder:</span> Lidia Infante</li>
@@ -155,7 +155,7 @@ const top10seoservice = () => {
   </div>
 </div>
 <p className='text-justify ml-2 md:ml-4 mr-4 max-w-[1400px]'>
-  Distilled is a digital marketing agency specializing in SEO and content marketing. They help brands enhance their online visibility through data-driven SEO strategies and innovative content solutions.
+  Distilled is a digital marketing agency specialising in SEO and content marketing. They help brands enhance their online visibility through data-driven SEO strategies and innovative content solutions.
 </p>
 <ul className='list-disc ml-6 md:ml-8 mr-4 max-w-[1400px]'>
   <li><span className='font-bold'>Founder:</span> Will Critchlow</li>
@@ -193,7 +193,7 @@ const top10seoservice = () => {
   </div>
 </div>
 <p className='text-justify ml-2 md:ml-4 mr-4 max-w-[1400px]'>
-  Web Choice is a web design and development agency that also offers SEO services. They focus on delivering tailor-made solutions optimized for performance and lead generation.
+  Web Choice is a web design and development agency that also offers SEO services. They focus on delivering tailor-made solutions optimised for performance and lead generation.
 </p>
 <ul className='list-disc ml-6 md:ml-8 mr-4 max-w-[1400px]'>
   <li><span className='font-bold'>Founder:</span> Sam Dunning</li>
@@ -212,7 +212,7 @@ const top10seoservice = () => {
   </div>
 </div>
 <p className='text-justify ml-2 md:ml-4 mr-4 max-w-[1400px]'>
-  Koozai is a digital marketing agency specializing in SEO, PPC, and content marketing. They create data-driven strategies to enhance online visibility and drive traffic to websites.
+  Koozai is a digital marketing agency specialising in SEO, PPC, and content marketing. They create data-driven strategies to enhance online visibility and drive traffic to websites.
 </p>
 <ul className='list-disc ml-6 md:ml-8 mr-4 max-w-[1400px]'>
   <li><span className='font-bold'>Founder:</span> James Moffat</li>
@@ -231,7 +231,7 @@ const top10seoservice = () => {
   </div>
 </div>
 <p className='text-justify ml-2 md:ml-4 mr-4 max-w-[1400px]'>
-  Click Consult provides integrated SEO and digital marketing services. They specialize in on-page optimization, technical SEO, content marketing, and link building to enhance brand visibility.
+  Click Consult provides integrated SEO and digital marketing services. They specialise in on-page optimisation, technical SEO, content marketing, and link building to enhance brand visibility.
 </p>
 <ul className='list-disc ml-6 md:ml-8 mr-4 max-w-[1400px]'>
   <li><span className='font-bold'>Founder:</span> Matt Bullas</li>
@@ -250,7 +250,7 @@ const top10seoservice = () => {
   </div>
 </div>
 <p className='text-justify ml-2 md:ml-4 mr-4 max-w-[1400px]'>
-  Green Gecko is a digital marketing agency that specializes in SEO, web design, and content marketing. They focus on delivering tailored strategies to boost brand visibility and online engagement.
+  Green Gecko is a digital marketing agency that specialises in SEO, web design, and content marketing. They focus on delivering tailored strategies to boost brand visibility and online engagement.
 </p>
 <ul className='list-disc ml-6 md:ml-8 mr-4 max-w-[1400px]'>
   <li><span className='font-bold'>Founder:</span> Andrew Waggott</li>

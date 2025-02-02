@@ -27,7 +27,7 @@ const items = {
 };
 const features = [
   {
-    name: 'Website Optimization',
+    name: 'Website optimisation',
     description:
       "Our web developers continuously refine and adapt your website’s design to meet evolving trends and customer expectations. A well-optimised, compelling website is key to attracting visitors and converting them into loyal customers.",
     icon: CodeBracketIcon,
