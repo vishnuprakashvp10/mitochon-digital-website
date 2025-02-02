@@ -81,15 +81,15 @@ const ContactAddress = () => {
 							</div>
 							<div className="contact-card-content mt-4">
 								<h6 className="font-semibold hover:scale-110">
-										<a  href="https://maps.app.goo.gl/bneZQCHVp1XF2doXA" 
+										<a  href="https://maps.app.goo.gl/X6w2G6y3UEgCgTXW8" 
     										target="_blank" 
     										rel="noopener noreferrer">
-											34 Moat Terrace, Edinburgh</a>
+											5 South Charlotte Street, Edinburgh</a>
 										<br />
-										<a  href="https://maps.app.goo.gl/bneZQCHVp1XF2doXA" 
+										<a  href="https://maps.app.goo.gl/X6w2G6y3UEgCgTXW8" 
     										target="_blank" 
     										rel="noopener noreferrer">
-											EH14 1PS, Scotland, UK</a>
+											EH2 4AN, Scotland, UK</a>
 									</h6>
 							</div>
 						</div>
