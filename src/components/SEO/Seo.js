@@ -21,7 +21,7 @@ const Seo = () => {
         <div className="-ml-12 -mt-12 p-12 lg:sticky lg:top-4 lg:col-start-2 lg:row-span-2 lg:row-start-1 ">
           <Image
             className="w-full max-w-none"
-            src={image.seoOptimization}
+            src={image.seooptimization}
             alt=""
           />
         </div>
