@@ -16,7 +16,7 @@ const nunito = Nunito({
 export const metadata = {
 	title: "Mitochon Pixel | Digital Marketing Company in United Kingdom",
 	description:
-		"Mitochon Pixel, a top notch digital marketing agency in the UK, smashes it with SEO, PPC and web design helping brands stand out and thrive online.",
+		"Mitochon Pixel is a top tier digital marketing agency in the UK, delivers results driven SEO, PPC and web design to help brands shine online. Enquire now.",
 };
 
 export default function RootLayout({ children }) {

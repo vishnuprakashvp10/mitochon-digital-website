@@ -5,7 +5,7 @@ import { PageWrapper } from "../page-wrapper"
 
 export const metadata = {
   title: 'Contact Us | Mitochon Pixel in United Kingdom',
-  description: 'Get in touch with Mitochon Pixel, a trusted digital marketing company in the United Kingdom. Our team is here to help you achieve your business goals.',
+  description: 'Get in touch with Mitochon Pixel, a trusted UK marketing agency ready to help your business grow with tailored digital strategies. Enquire now.',
 }
 const Contact = () => {
   return (

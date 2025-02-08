@@ -6,7 +6,7 @@ import Top10branding from "@/components/Top10branding/top10branding"
 
 export const metadata = {
   title: 'Top 10 Branding Companies in UK | Mitochon Pixel',
-  description: "Explore the top 10 branding companies in the UK, specialising in building strong and memorable brands.",
+  description: "Explore the best content marketing agencies with Mitochon Pixel’s UK blog, delivering innovative strategies to help brands grow online.",
 }
 const Top10Branding = () => {
   return (

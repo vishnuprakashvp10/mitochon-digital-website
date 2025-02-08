@@ -6,7 +6,7 @@ import Privacypage from "@/components/Privacy/privacypage"
 
 export const metadata = {
   title: 'Privacy Policy | Mitochon Pixel in United Kingdom',
-  description: "Our Privacy Policy outlines how we collect, use and protect your personal information when you interact with our services.",
+  description: "Our Privacy Policy explains how we collect, use and safeguard your personal information when you interact with Mitochon Pixel’s services.",
 }
 const WebsiteOptimization = () => {
   return (

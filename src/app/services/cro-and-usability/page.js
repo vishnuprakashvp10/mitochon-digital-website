@@ -7,7 +7,7 @@ import WeHelp1 from "@/components/PPC/WeHelp1"
 
 export const metadata = {
   title: 'CRO and Usability Services in UK | Mitochon Pixel',
-  description: 'Mitochon Pixel, specialising in enhancing website performance and user experience and ensuring a seamless journey to drive better business outcomes.',
+  description: 'Turn visitors into customers with conversion rate optimisation and usability enhancements by Mitochon Pixel in the UKl. Enquire today.',
 }
 const sections = [ 
   {

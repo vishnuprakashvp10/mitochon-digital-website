@@ -8,7 +8,7 @@ import Breadcrumbs from "@/components/Breadcrumbs/Breadcrumbs"
 
 export const metadata = {
   title: 'Blogs | Mitochon Pixel in United Kingdom',
-  description: 'Stay updated with the latest trends and insights in digital marketing through the Mitochon Pixel blog. Explore our expert advice and tips to grow your presence.',
+  description: 'Stay ahead in digital marketing with Mitochon Pixel’s UK blog, featuring expert insights, trends, and tips to boost your online presence. Read the latest now.',
 }
 const ourservices = () => {
   const content = [

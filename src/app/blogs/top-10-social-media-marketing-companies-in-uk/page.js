@@ -6,7 +6,7 @@ import Top10socialmedia from "@/components/Top10socialmedia/top10socialmedia"
 
 export const metadata = {
   title: 'Top 10 Social Media Marketing Agencies in UK | Mitochon Pixel',
-  description: "Explore the top 10 social media marketing agencies in the UK to boost your online presence.",
+  description: "Discover the leading social media marketing agencies with Mitochon Pixel’s UK blog, helping brands expand their digital footprint.",
 }
 const Top10Branding = () => {
   return (

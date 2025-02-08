@@ -9,7 +9,7 @@ import ContactForm from "@/components/ContactPage/ContactForm"
 
 export const metadata = {
   title: 'About Us | Mitochon Pixel in United Kingdom',
-  description: 'Mitochon Pixel, a leading digital marketing agency in the United Kingdom, offering expertise in SEO, PPC, web design and more.',
+  description: 'Mitochon Pixel is a UK based marketing agency specialising in SEO, PPC and web design, helping brands grow with data driven strategies. Enquire now.',
 }
 const aboutSections = [
   {

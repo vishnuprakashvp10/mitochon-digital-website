@@ -6,7 +6,7 @@ import Top10website from "@/components/Top10website/top10websitedev"
 
 export const metadata = {
   title: 'Top 10 Website Development Companies in uk | Mitochon Pixel',
-  description: "Discover the leading website development companies in the UK that excel in creating impactful online solutions.",
+  description: "Explore the top website development agencies with Mitochon Pixel’s UK blog,, crafting cutting edge online experiences for businesses.",
 }
 const Top10Branding = () => {
   return (

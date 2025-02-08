@@ -6,7 +6,7 @@ import Top10digitalmarketing from "@/components/top10digitalmarketing/top10digit
 
 export const metadata = {
   title: 'Top 10 Digital Marketing Companies in UK | Mitochon Pixel',
-  description: "Discover the top 10 digital marketing companies in the UK, these companies help businesses grow their online presence and achieve measurable results.",
+  description: "Uncover the top digital marketing firms with Mitochon Pixel’s UK blog, delivering data driven strategies for business growth.",
 }
 const Top10Branding = () => {
   return (

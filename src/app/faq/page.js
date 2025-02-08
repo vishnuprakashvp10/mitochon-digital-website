@@ -5,8 +5,8 @@ import ContactForm from "@/components/ContactPage/ContactForm"
 import Faqpage from "@/components/faq/faqpage.js"
 
 export const metadata = {
-  title: 'FAQ | Mitochon Pixel in United Kingdom',
-  description: "Whether you are curious about our process, pricing or how we can help your business grow, our FAQ section provides the information you need.",
+  title: 'FAQs | Mitochon Pixel in United Kingdom',
+  description: "Our FAQs section covers everything from pricing to services, helping you understand how Mitochon Pixel can fuel your business growth.",
 }
 const WebsiteOptimization = () => {
   return (

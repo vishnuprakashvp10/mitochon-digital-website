@@ -8,7 +8,7 @@ import Breadcrumbs from "@/components/Breadcrumbs/Breadcrumbs"
 
 export const metadata = {
   title: 'Our Services | Mitochon Pixel in United Kingdom',
-  description: 'Explore the range of services offered by Mitochon Pixel in the United Kingdom, including SEO, PPC, social media marketing, web design and more.',
+  description: 'Discover expert digital marketing services at Mitochon Pixel, from SEO and PPC to branding, all designed to help your UK business thrive. Enquire now.',
 }
 const ourservices = () => {
   const content = [{

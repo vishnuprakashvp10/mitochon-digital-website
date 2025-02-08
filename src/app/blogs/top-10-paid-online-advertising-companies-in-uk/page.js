@@ -6,7 +6,7 @@ import Top10ppc from "@/components/Top10ppc/top10ppc"
 
 export const metadata = {
   title: 'Top 10 PPC service Companies in UK | Mitochon Pixel',
-  description: "Explore the top PPC service companies in the UK, providing expert solutions to boost your online visibility.",
+  description: "Find the top PPC experts with Mitochon Pixel’s UK blog, delivering high performance paid ad campaigns for maximum impact.",
 }
 const Top10Branding = () => {
   return (

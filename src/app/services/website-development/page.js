@@ -14,7 +14,7 @@ import Breadcrumbs from "@/components/Breadcrumbs/Breadcrumbs"
 
 export const metadata = {
   title: 'Website Development Company in UK | Mitochon Pixel',
-  description: 'Mitochon Pixel offers professional website development and designing services in the UK, creating visually appealing, user-friendly and responsive websites.',
+  description: 'Mitochon Pixel crafts stunning and user friendly websites in the UK, blending creativity with functionality for maximum impact. Enquire now.',
 }
 const WebDevelopment = () => {
   const content = [{

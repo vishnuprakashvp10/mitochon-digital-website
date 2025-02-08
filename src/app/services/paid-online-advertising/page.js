@@ -7,7 +7,7 @@ import WeHelp from "@/components/PPC/WeHelp"
 import Link from "next/link";
 export const metadata = {
   title: 'Paid Online Advertising Company in UK | Mitochon Pixel',
-  description: 'Mitochon Pixel, specialising in creating effective ad campaigns across various platforms to maximise your return on investment.',
+  description: 'Maximise your ROI with strategic paid ad campaigns by Mitochon Pixel in the UK, delivering high converting PPC solutions. Enquire now.',
 }
 const sections = [ 
   {

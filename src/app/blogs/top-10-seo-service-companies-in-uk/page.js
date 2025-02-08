@@ -6,7 +6,7 @@ import Top10seoservice from "@/components/Top10seoservice/top10seoservice"
 
 export const metadata = {
   title: 'Top 10 SEO service Companies in UK | Mitochon Pixel',
-  description: "Discover the top seo service companies in the UK, to enhance your online visibility and search engine rankings.",
+  description: "Find the best SEO agencies with Mitochon Pixel’s UK blog, offering expert strategies to boost rankings and online visibility.",
 }
 const Top10Branding = () => {
   return (

@@ -7,7 +7,7 @@ import Social from "@/components/SocialMarketing/Social"
 
 export const metadata = {
   title: 'Social Media Marketing Company in UK | Mitochon Pixel',
-  description: "Mitochon Pixel, offering expert strategies to enhance your brand's presence across social platforms.",
+  description: "Amplify your brand on social media with Mitochon Pixel’s expert strategies in the UK, driving engagement and growth across all major platforms. Enquire now.",
 }
 const sections = [
   {

@@ -9,7 +9,7 @@ import Marketing from '@/components/DigitalMarketing/Marketing'
 
 export const metadata = {
   title: 'Branding Company in United Kingdom | Mitochon Pixel',
-  description: "Mitochon Pixel, helping businesses in the United Kingdom establish a strong brand identity through creative design, strategy, and digital presence.",
+  description: "Build a bold and memorable brand with Mitochon Pixel, where strategy meets creativity to give your UK business a standout identity. Enquire now.",
 }
 const sections = [
   {

@@ -6,7 +6,7 @@ import SeoServices from "@/components/SEO/SeoServices"
 
 export const metadata = {
   title: 'SEO Service Company in United Kingdom | Mitochon Pixel',
-  description: "Mitochon Pixel, dedicated to improving your website's search engine rankings through tailored strategies and expert optimisation.",
+  description: "Boost your online visibility with expert SEO from Mitochon Pixel, helping UK businesses climb search rankings and attract more customers. Enquire now.",
 }
 const SeoService = () => {
   return (

@@ -6,7 +6,7 @@ import Top10contentmarketing from "@/components/Top10contentmarketing/top10conte
 
 export const metadata = {
   title: 'Top 10 Content Marketing Companies in UK | Mitochon Pixel',
-  description: "Discover the top content marketing companies in the UK, driving growth with innovative digital strategies.",
+  description: "Explore the best content marketing agencies in the UK, delivering innovative strategies to help brands grow online.",
 }
 const Top10Branding = () => {
   return (

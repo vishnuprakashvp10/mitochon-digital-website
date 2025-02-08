@@ -7,7 +7,7 @@ import Smo from "@/components/SMO/Smo"
 
 export const metadata = {
   title: 'Analytics and Reporting Services in UK | Mitochon Pixel',
-  description: 'Mitochon Pixel, providing in-depth analysis and detailed reports to help you understand your digital performance.',
+  description: 'Unlock actionable insights with Mitochon Pixel’s in depth analytics and reporting, making your marketing efforts in the UK drive real results. Enquire now.',
 }
 const sections = [
   {
