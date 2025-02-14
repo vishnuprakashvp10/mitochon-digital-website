@@ -13,13 +13,13 @@ import ContactForm from "@/components/ContactPage/ContactForm";
 export default function Home() { 
   const content = [{
     heading: "Search Engine optimisation",
-    description: "At Mitochon Pixel, we take a full-on, 360-degree approach to SEO, making sure on-page and technical SEO work hand-in-hand to deliver cracking organic results. As one of the top SEO firms in the UK, we are pros at SEO and digital marketing.",
+    description: "At Mitochon Pixel, we take a full-on, 360-degree approach to SEO, making sure on-page and technical SEO work hand in hand to deliver cracking organic results. As one of the top SEO firms in the UK, we are pros at SEO and digital marketing.",
   },{
     heading: "Paid Online Advertising Strategy",
-    description: "At Mitochon Pixel, we shine as a leading PPC agency, using pay-per-click (PPC) advertising to reach the right people with spot-on messages at just the right time. As one of the best PPC agencies in the UK, our PPC services are designed to drive top-notch traffic and get the most out of every pound spent.",
+    description: "At Mitochon Pixel, we shine as a leading PPC agency, using pay-per-click (PPC) advertising to reach the right people with spot on messages at just the right time. Our PPC services are designed to drive top-notch traffic and get the most out of every pound spent.",
   },{
     heading: "Website Content and Development",
-    description: "We know every business is different, so we offer flexible website development packages, from affordable plans for small businesses to all-out custom solutions for large enterprises. Whether you are after budget-friendly website development or a bespoke website project quote, we keep everything transparent, including website development costs.",
+    description: "We know every business is different, so we offer flexible website development packages, from affordable plans for small businesses to all out custom solutions for large enterprises. Whether you are after budget friendly website development or a bespoke website project quote, we keep everything transparent, including website development costs.",
   }]
 
   
