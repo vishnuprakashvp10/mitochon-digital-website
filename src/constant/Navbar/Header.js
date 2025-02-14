@@ -191,7 +191,7 @@ const Header = () => {
 				</div>
  
 				<div className="flex flex-1 justify-end">
-					<a href="tel:+447442005437" className="navbar-btn shadow-lg">
+					<a href="/contact-us" className="navbar-btn shadow-lg">
 						Contact Us
 					</a>
 				</div>

@@ -35,7 +35,7 @@ const AboutUs = () => {
               <div>
               <Link href="/contact-us">
                   <button className="primary-btn shadow-lg">Contact Us</button>
-                </Link>
+                </Link> 
               </div>
             </div>
           </div>
