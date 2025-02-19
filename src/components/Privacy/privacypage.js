@@ -73,8 +73,7 @@ const privacypolicy = () => {
             <p className='text-justify ml-2 md:ml-4 mr-4 max-w-[1400px] text-lg'>
                 Email: contact@mitochonpixel.co.uk
             </p>
-            <p className='mb-10 ml-2 md:ml-4 mr-4 max-w-[1400px] text-lg'>Phone: +44-7442005437 (United Kingdom) 
-                <br></br>Phone: +91-7904445263 (India)
+            <p className='mb-10 ml-2 md:ml-4 mr-4 max-w-[1400px] text-lg'>Phone: +44-7438191808 (United Kingdom) 
             </p>
             <p className='mb-10 ml-2 md:ml-4 mr-4 max-w-[1400px] text-lg'>
                 <strong>Thank you for visiting <span className="highlight">Mitochon Pixel!</span></strong>

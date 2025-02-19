@@ -63,12 +63,12 @@ export default function ContactForm({ heading, color }) {
               <div className="flex items-center gap-x-4 mt-4 text-sm leading-6">
                 <a
                   className="text-sm text-gray-600 text-bold flex items-center justify-center md:justify-start gap-2"
-                  href="tel:+447442005437"
+                  href="tel:+447438191808"
                 >
                   <span className="text-green-600">
                     <FaPhoneSquareAlt />
                   </span>{" "} 
-                  +44-7442005437
+                  +44-7438191808
                 </a>
                 <a
                   className="text-sm text-gray-600 text-sbold flex items-center justify-center md:justify-start gap-2"

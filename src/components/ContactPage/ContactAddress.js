@@ -55,9 +55,8 @@ const ContactAddress = () => {
 								</div>
 								<div className="contact-card-content mt-4">
 									<h6 className="font-semibold hover:scale-110">
-										<a  href="tel:+447442005437">+44-7442005437</a>
-										<br />
-										<a href="tel:+917904445263">+91-7904445263</a>
+										<a  href="tel:+447438191808">+44-7438191808</a>
+									
 									</h6>
 								</div>
 							</div>

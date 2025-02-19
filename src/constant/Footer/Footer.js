@@ -19,7 +19,7 @@ const Footer = () => {
             </h2>
           </div>
           <div>
-            <a href="tel:+447442005437">
+            <a href="/contact-us">
               <button className="primary-btn shadow-lg">Reach Us</button>
             </a>
           </div>
@@ -106,17 +106,9 @@ const Footer = () => {
                 <li className="my-2 text-slate-200 hover:text-white transition-all duration-300">
                   <a
                     className="text-sm text-white text-bold flex items-center justify-center md:justify-start gap-2"
-                    href="tel:+447442005437"
+                    href="tel:+447438191808"
                   >
-                <FaPhoneSquareAlt/> +44-7442005437
-                  </a>
-                </li>
-                <li className="my-2 text-slate-200 hover:text-white transition-all duration-300">
-                  <a
-                    className="text-sm text-white text-bold flex items-center justify-center md:justify-start gap-2"
-                    href="tel:+917904445263"
-                  >
-                <FaPhoneSquareAlt/> +91-7904445263
+                <FaPhoneSquareAlt/> 
                   </a>
                 </li>
                 <li className="my-2 text-slate-200 hover:text-white transition-all duration-300">
