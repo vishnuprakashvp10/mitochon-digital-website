@@ -123,7 +123,7 @@ const top10seoservice = () => {
   <li><span className='font-bold'>Year of Establishment:</span> 2021</li>
   <li><span className='font-bold'>Headquarters:</span> Edinburgh, United Kingdom</li>
   <li><span className='font-bold'>Website:</span> <span className='underline'><a href="https://www.mitochonpixel.co.uk/">https://www.mitochonpixel.co.uk/</a></span></li>
-  <li><span className='font-bold'>Address:</span> 5 South Charlotte Street, Edinburgh, EH2 4AN, Scotland, UK</li>
+  <li><span className='font-bold'>Address:</span> Edinburgh, Scotland, UK</li>
 </ul>
 
 

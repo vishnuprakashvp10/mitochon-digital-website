@@ -103,9 +103,9 @@ const Footer = () => {
                 </h3>
               </div>
               <ul className="">
-                <li className="my-2 text-slate-200 hover:text-white transition-all duration-300">
+                <li className="my-2 text-white hover:text-white transition-all duration-300">
                   <a
-                    className="text-sm text-white text-bold flex items-center justify-center md:justify-start gap-2"
+                    className="text-sm text-white text-sbold flex items-center justify-center md:justify-start gap-2"
                     href="tel:+447438191808"
                   >
                 <FaPhoneSquareAlt/> 

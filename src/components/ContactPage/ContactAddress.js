@@ -83,12 +83,7 @@ const ContactAddress = () => {
 										<a  href="https://maps.app.goo.gl/X6w2G6y3UEgCgTXW8" 
     										target="_blank" 
     										rel="noopener noreferrer">
-											5 South Charlotte Street, Edinburgh</a>
-										<br />
-										<a  href="https://maps.app.goo.gl/X6w2G6y3UEgCgTXW8" 
-    										target="_blank" 
-    										rel="noopener noreferrer">
-											EH2 4AN, Scotland, UK</a>
+											Edinburgh, Scotland, UK</a>
 									</h6>
 							</div>
 						</div>
