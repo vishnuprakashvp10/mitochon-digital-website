@@ -108,7 +108,7 @@ const Footer = () => {
                     className="text-sm text-white text-sbold flex items-center justify-center md:justify-start gap-2"
                     href="tel:+447438191808"
                   >
-                <FaPhoneSquareAlt/> 
+                <FaPhoneSquareAlt/> +44 7438191808
                   </a>
                 </li>
                 <li className="my-2 text-slate-200 hover:text-white transition-all duration-300">
