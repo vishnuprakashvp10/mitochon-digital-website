@@ -1,9 +1,23 @@
-.app__hero{
-    background-image: url('../../../assets/home/banner/banner-bg.png');
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-} 
+.app__hero {
+  background-image: url('../../../assets/home/banner/banner-bg.png');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 90vh;
+}
+
+/* On tablets and smaller: shift focus to the left of the image */
+@media screen and (max-width: 1024px) {
+  .app__hero {
+    background-position: 90% center;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .app__hero {
+    background-position: 90% top;
+  }
+}
 
 .square-animation{
     background: linear-gradient(to right, #EF0D75, #FE6407);
