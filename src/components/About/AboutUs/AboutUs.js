@@ -36,12 +36,13 @@ const AboutUs = () => {
             doing it right. Everyone here brings their own flair to the table,
             but we all share the same goal: to make a real difference for the
             brands we work with. No egos, no fluff—just honest work, done
-            proper.Our goal’s never been to be the biggest agency out
-            there—we’re here to be the most impactful. We work
+            proper.Our goal`&apos;s never been to be the biggest agency out
+            there—we`&apos;re here to be the most impactful. We work
             shoulder-to-shoulder with our clients, building trust through
             transparency and results. We ask the right questions, challenge
-            assumptions, and back each other every step of the way. Every win’s
-            a team win, and every lesson’s a chance to level up together.
+            assumptions, and back each other every step of the way. Every
+            win`&apos;s a team win, and every lesson`&apos;s a chance to level
+            up together.
           </p>
 
           <Link href="/contact-us">
