@@ -8,7 +8,7 @@ const Ppc = () => {
     <div className="app__container grid grid-cols-1 md:grid-cols-2 gap-8 relative">
       <div className="we-are-img">
         <div className="we-are-banner-img">
-          <Image src={image.aboutAni} alt="" />
+          <Image src={image.wo} alt="" />
         </div>
       </div>
         <div className="my-auto">

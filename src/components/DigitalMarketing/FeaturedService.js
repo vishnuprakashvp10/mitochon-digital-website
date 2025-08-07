@@ -17,7 +17,7 @@ const FeaturedService = () => {
       </div>
       <div className="we-are-img">
       <div className="we-are-banner-img">
-        <Image src={image.aboutAni} alt="" />
+        <Image src={image.aboutAni3} alt="" />
       </div>
     </div>
     </div>

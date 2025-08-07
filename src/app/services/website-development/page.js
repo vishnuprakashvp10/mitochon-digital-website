@@ -47,9 +47,9 @@ const WebDevelopment = () => {
     {
       section: <WebEngaging/>
     },
-    {
-      section: <WebStats/>
-    },
+    // {
+    //   section: <WebStats/>
+    // },
     {
       section: <Test/>
     },

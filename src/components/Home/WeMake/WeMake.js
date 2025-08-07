@@ -10,32 +10,32 @@ import {
 
 const features = [
   {
+    name: "Search Engine Optimisation",
+    description:
+      "At Mitochon Pixel, we combine technical precision with strategic content to boost your visibility across search engines. From keyword research and on-page optimisation to backlink strategies.",
+    icon: PencilSquareIcon,
+    link: "/services/seo-service",
+  },
+  {
+    name: "Paid Advertising",
+    description:
+      "We craft data driven PPC campaigns that deliver measurable results. Reaching the right audience, at the right time, with the right message to maximise conversions and ROI.",
+    icon: UserGroupIcon,
+    link: "/services/paid-online-advertising",
+  },
+  {
     name: "Website Content & Development",
     description:
-      "To properly showcase every aspect of your product, your website needs to keep up with the times and meet customer expectations. At Mitochon Pixel, we create websites that don’t just grab attention but truly connect with your audience, inspiring them to engage and convert.",
+      "We create websites that don’t just grab attention but truly connect with your audience, inspiring them to engage and convert.",
     icon: CodeBracketIcon,
     link: "/services/website-development",
   },
   {
-    name: "CRO & Usability",
-    description:
-      "At Mitochon Pixel, we know that a winning digital marketing strategy isn’t just about driving traffic—it’s about turning that traffic into loyal customers. Using a data-driven approach, we dive deep into user behaviour and preferences with advanced analytics.",
-    icon: PencilSquareIcon,
-    link: "/services/cro-and-usability",
-  },
-  {
     name: "Analytics and Reporting",
     description:
-      "At Mitochon Pixel, we tap into search behaviour to build personalised audience segments using Google Analytics. Our standard reporting service, part of our retainer, pulls together data from Google Analytics, Google Ads, and social platforms like Facebook, Twitter, LinkedIn, and Instagram.",
+      "Our standard reporting service, part of our retainer, pulls together data from Google Analytics, Google Ads, and social platforms to provide actionable insights.",
     icon: CodeBracketSquareIcon,
     link: "/services/analytics-and-reporting",
-  },
-  {
-    name: "Targeted Audience",
-    description:
-      "At Mitochon Pixel, we don’t stop at your direct target audience. We go the extra mile, reaching potential customers who could benefit from what you offer. Join us to expand your market reach and establish your brand as a major player in your industry.",
-    icon: UserGroupIcon,
-    link: "/services/content-marketing",
   },
 ];
 
@@ -69,14 +69,14 @@ export default function WeMake() {
       <div className="app__container">
         <div className="mx-auto max-w-2xl lg:text-center">
           <p className="mt-2 primary-heading text-gray-900 text-center">
-            We Enhance Your <span className="highlight">Digital presence</span>{" "}
+            Digital Marketing solution{" "}
+            <span className="highlight">we offer</span>{" "}
           </p>
           <p className="mt-6 text-lg leading-8 app__text text-center">
-            For expert advice on sharpening your digital presence and getting
-            the most out of your spend, give Mitochon Pixel a shout. Partner
-            with us to see a game-changing boost in your digital performance,
-            making sure your digital presence stands out with the best marketing
-            company in the UK.
+            At Mitochon Pixel, we offer tailored digital marketing services,
+            including SEO, PPC, Data Analytics and Web Development – all
+            designed to enhance visibility, engagement, and business growth for
+            our clients.
           </p>
         </div>
         <div className="mx-auto mt-16 max-w-2xl sm:mt-20 lg:mt-24 lg:max-w-4xl">
@@ -95,7 +95,7 @@ export default function WeMake() {
                     </div>
                     {feature.name}
                   </dt>
-                  <dd className="mt-2 text-base leading-7 app__text">
+                  <dd className="mt-2 text-base text-justify leading-7 app__text">
                     {feature.description}
                   </dd>
                 </motion.div>

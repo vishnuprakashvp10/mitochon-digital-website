@@ -25,7 +25,7 @@ const Weboptimization = () => {
 
         <div className="we-are-img order-1 md:order-2">
           <div className="we-are-banner-img">
-            <Image src={image.semMarketing} alt="SEM Marketing" />
+            <Image src={image.smo} alt="SEM Marketing" />
           </div>
         </div>
       </div>

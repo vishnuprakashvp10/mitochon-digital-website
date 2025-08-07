@@ -35,7 +35,7 @@ const services = [
 		link:"/services/seo-service"
 	},
 	{
-		heading: "Paid Online Advertising",
+		heading: "Paid Advertising",
 		imgUrl: image.wo,
 		hoverBg: "purple-hover",
 		iconColor: "pink-text",
@@ -57,7 +57,7 @@ const services = [
 	},
 	{
 		heading: "CRO and Usability",
-		imgUrl: image.ppc,
+		imgUrl: image.cro,
 		hoverBg: "yellow-hover",
 		iconColor: "yellow-text",
 		link:"/services/cro-and-usability"
@@ -97,7 +97,6 @@ const CaseStudy = () => {
 			<div className="app__container grid grid-cols-1 md:grid-cols-2 gap-y-8">
 				<div className="my-auto">
 					<h1 className="primary-heading">
-						Any Doubt? Just <br />
 						Check Out <span className="highlight">Our Services.</span>
 					</h1>
 				</div>

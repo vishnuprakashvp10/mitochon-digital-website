@@ -9,7 +9,7 @@ const Home = () => {
   return (
     <section className="relative w-full">
       <div className="max-w-7xl mx-auto px-6 py-12">
-        <h2 className="text-3xl md:text-5xl text-center font-extrabold headingsingle">
+        <h2 className="primary-heading text-center font-extrabold headingsingle">
           OUR CLIENTS
         </h2>
         <div className="relative w-full h-[15vh] md:h-[40vh]">

@@ -20,6 +20,7 @@ import infographic from "../../assets/img/svg/infographic.svg";
 import earthGlobe from "../../assets/img/svg/earth-globe.svg";
 import bannerMan from "../../assets/home2/feature/banner-man.png";
 import aboutAni from "../../assets/img/about/About-ani-img.png";
+import aboutAni3 from "../../assets/img/about/aboutAni3.png";
 import linkBuilding from "../../assets/linkBuilding.svg";
 import workingProcess1 from "../../assets/img/working-process1.png";
 import workingProcess2 from "../../assets/img/working-process2.png";
@@ -32,6 +33,7 @@ import contactMan from "../../assets/img/contact/Contact-man.png";
 import internet from "../../assets/img/svg/internet.svg";
 import rocket from "../../assets/img/svg/rocket.svg";
 import ppcTrend from "../../assets/img/ppc/PPC-trend.png";
+import trendd from "../../assets/img/ppc/trendd.png";
 import semMarketing from "../../assets/img/sem/SEM-marketing.png";
 import semServiceBg from "../../assets/img/sem/sem-service-bg.png";
 import semService from "../../assets/img/sem/sem-service.png";
@@ -56,6 +58,7 @@ import quote from "../../assets/new/quote.svg";
 import client from "../../assets/new/client.png";
 import digitalMarketing from "../../assets/new/services/dm.png";
 import ppc from "../../assets/new/services/ppc.png";
+import cro from "../../assets/new/services/cro.png";
 import smo from "../../assets/new/services/smo.png";
 import seo from "../../assets/new/services/seo.png";
 import socialMarketing from "../../assets/new/services/socialMarketing.png";
@@ -139,7 +142,6 @@ import thedatalab from "../../assets/blogs/thedatalab.jpg";
 import team from "../../assets/team.jpg";
 import clients from "../../assets/home/banner/clients.png";
 
-
 const image = {
   logo,
   webdevWhite,
@@ -150,11 +152,13 @@ const image = {
   seo,
   smo,
   ppc,
+  cro,
   digitalMarketing,
   client,
   quote,
   announcementIcon,
   dm,
+  trendd,
   dm2,
   webdev2,
   webdev,
@@ -186,6 +190,7 @@ const image = {
   workingProcess2,
   linkBuilding,
   aboutAni,
+  aboutAni3,
   bannerMan,
   optimization,
   framework,

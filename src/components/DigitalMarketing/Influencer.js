@@ -32,16 +32,6 @@ const Influencer = () => {
               <span>
               <strong className="font-semibold text-gray-900"> Consistent Brand Voice: </strong> Maintaining a uniform brand voice and aesthetic across all online and offline channels to reinforce brand recognition and trust.            </span>
             </li>
-            <li className="flex gap-x-3">
-              <CheckCircleIcon className="mt-1 h-5 w-5 flex-none text-indigo-600" aria-hidden="true" />
-              <span>
-              <strong className="font-semibold text-gray-900"> Innovative Digital Branding Techniques:</strong> Utilising the latest marketing technologies and creative approaches to keep your brand dynamic and relevant in an ever-evolving marketplace.             </span>
-            </li>
-            <li className="flex gap-x-3">
-            <CheckCircleIcon className="mt-1 h-5 w-5 flex-none text-indigo-600" aria-hidden="true" />
-            <span>
-            <strong className="font-semibold text-gray-900"> Interactive Branding:  </strong>Seamlessly integrating digital strategies into your branding to enhance visibility and engagement across multiple platforms.          </span>
-          </li>
           </ul>
           </div>
         </div>
