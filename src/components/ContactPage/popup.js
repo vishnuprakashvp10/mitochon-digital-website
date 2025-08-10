@@ -58,7 +58,7 @@ export default function ContactFormPopup() {
       <div className="bg-white rounded-lg w-full max-w-2xl p-6 relative overflow-y-auto max-h-[90vh]">
         <button
           onClick={() => setShowPopup(false)}
-          className="absolute top-2 right-2 text-gray-600 hover:text-red-600 text-lg font-bold"
+          className="absolute top-2 right-2 text-gray-600 hover:text-red-600 text-4xl font-bold"
         >
           ×
         </button>
@@ -67,16 +67,17 @@ export default function ContactFormPopup() {
           Get in Touch
         </h2>
 
-        <div className="flex items-center gap-x-4 text-sm mb-6">
-          <a href="tel:+447438191808" className="flex items-center text-gray-700 gap-2">
-            <FaPhoneSquareAlt className="text-green-600" />
-            +44-7438191808
-          </a>
-          <a href="mailto:contact@mitochonpixel.co.uk" className="flex items-center text-gray-700 gap-2">
-            <FaEnvelope className="text-red-600" />
-            contact@mitochonpixel.co.uk
-          </a>
-        </div>
+<div className="flex flex-col items-start gap-y-2 text-sm mb-6">
+  <a href="tel:+447438191808" className="flex items-center text-gray-700 gap-2">
+    <FaPhoneSquareAlt className="text-green-600" />
+    +44-7438191808
+  </a>
+  <a href="mailto:contact@mitochonpixel.co.uk" className="flex items-center text-gray-700 gap-2">
+    <FaEnvelope className="text-red-600" />
+    contact@mitochonpixel.co.uk
+  </a>
+</div>
+
 
         <form onSubmit={onSubmit} className="space-y-4">
           <div>

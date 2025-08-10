@@ -12,7 +12,7 @@ export const metadata = {
   description: "Build a bold and memorable brand with Mitochon Pixel, where strategy meets creativity to give your UK business a standout identity. Enquire now.",
 }
 const sections = [
-  {
+  { 
     section: <DigitalMarketing/>
   },
   {

@@ -49,8 +49,8 @@ export default function ContactForm({ heading, color }) {
 
   return (
     <section className={`${color}`}>
-      <div className="app__container grid grid-cols-1 md:grid-cols-2 gap-12 py-16 md:py-32">
-        <div className="my-auto">
+      <div className="app__container grid grid-cols-1 md:grid-cols-2 gap-12 py-8 md:py-8">
+        <div className="my-auto hidden md:block">
           <Image src={image.getInTouch} alt="contact Us" />
         </div>
         <form>

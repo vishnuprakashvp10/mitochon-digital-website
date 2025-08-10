@@ -4,7 +4,7 @@ import Image from 'next/image'
 const FeaturedService = () => {
   return (
     <section className="we-are-area h-screen flex items-center">
-    <div className="app__container grid grid-cols-1 md:grid-cols-2 gap-8 relative">
+    <div className="app__container grid grid-cols-1 md:grid-cols-2 gap-8 mb-64 relative">
         <div className="my-auto">
           <div className="we-are-content">
             <div className="section-title">

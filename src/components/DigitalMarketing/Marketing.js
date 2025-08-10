@@ -26,7 +26,7 @@ const items = {
 };
 const Marketing = () => {
   return (
-    <section className="app__feature py-6 md:py-32 bg-slate-50">
+    <section className="app__feature py-6 md:py-6  bg-slate-50">
       <div className="app__container">
         <div className="max-w-3xl mx-auto mb-16">
           <h2 className="primary-heading text-center">

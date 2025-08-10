@@ -93,7 +93,7 @@ const CaseStudy = () => {
 	}, [width, controls]);
 
 	return (
-		<section className="py-24 sm:py-32">
+		<section className="py-8 sm:py-8">
 			<div className="app__container grid grid-cols-1 md:grid-cols-2 gap-y-8">
 				<div className="my-auto">
 					<h1 className="primary-heading">

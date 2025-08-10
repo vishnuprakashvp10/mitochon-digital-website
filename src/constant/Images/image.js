@@ -56,7 +56,7 @@ import dm2 from "../../assets/new/dm2.png";
 import announcementIcon from "../../assets/new/announcement-icon.svg";
 import quote from "../../assets/new/quote.svg";
 import client from "../../assets/new/client.png";
-import digitalMarketing from "../../assets/new/services/dm.png";
+import digitalMarketing from "../../assets/new/services/dm.jpg";
 import ppc from "../../assets/new/services/ppc.png";
 import cro from "../../assets/new/services/cro.png";
 import smo from "../../assets/new/services/smo.png";

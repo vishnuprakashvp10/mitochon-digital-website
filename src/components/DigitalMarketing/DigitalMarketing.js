@@ -89,15 +89,6 @@ export default function DigitalMarketing() {
                     </span>
                   </li>
                 </ul>
-                <p className="mt-8  text-justify app__text">
-                  Plenty of businesses hold back on digital marketing and
-                  branding, thinking they don’t have the time or budget to make
-                  an impact online. But in today’s fast-moving market, that
-                  mindset just won’t cut it. At Mitochon Pixel, we bring the
-                  digital branding know-how and tools needed to promote your
-                  business worldwide and stand shoulder to shoulder with top
-                  digital brands.{" "}
-                </p>
               </div>
             </div>
           </div>

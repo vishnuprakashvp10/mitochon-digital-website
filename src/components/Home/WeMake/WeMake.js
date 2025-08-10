@@ -65,7 +65,7 @@ const items = {
 
 export default function WeMake() {
   return (
-    <div className="bg-slate-50 py-2 sm:py-12">
+    <div className="bg-slate-50 py-2 sm:py-2">
       <div className="app__container">
         <div className="mx-auto max-w-2xl lg:text-center">
           <p className="mt-2 primary-heading text-gray-900 text-center">

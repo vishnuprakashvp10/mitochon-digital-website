@@ -8,7 +8,7 @@ import { motion } from "framer-motion";
 const Home = () => {
   return (
     <section className="relative w-full">
-      <div className="max-w-7xl mx-auto px-6 py-12">
+      <div className="max-w-7xl mx-auto px-6 py-8">
         <h2 className="primary-heading text-center font-extrabold headingsingle">
           OUR CLIENTS
         </h2>

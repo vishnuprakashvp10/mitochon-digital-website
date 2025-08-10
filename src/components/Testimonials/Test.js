@@ -43,7 +43,7 @@ const Test = () => {
   }, [testimonials.length]);
 
   return (
-    <section className="py-24 sm:py-32 bg-[#FAF1F2]">
+    <section className="py-8 sm:py-8 bg-[#FAF1F2]">
       <div className="app__container grid grid-cols-1 md:grid-cols-2">
         {/* Left Side */}
         <div className="relative left-[5%] right-[5%] h-80">
@@ -62,7 +62,7 @@ const Test = () => {
         </div>
 
         {/* Right Side - Carousel */}
-        <div className="relative bg-white h-80 shadow-lg px-6 py-12 rounded-xl overflow-hidden">
+        <div className="relative bg-white h-80 shadow-lg px-6 py-8 rounded-xl overflow-hidden">
           {/* Background Quote */}
           <Image
             src={image.quote}
