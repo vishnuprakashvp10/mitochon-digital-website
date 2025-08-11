@@ -1,4 +1,5 @@
 "use client";
+import Script from "next/script"; // For loading Calendly script
 import image from "@/constant/Images/image";
 import { sendContactForm } from "@/lib/api";
 import { FaEnvelope } from "@react-icons/all-files/fa/FaEnvelope";
@@ -13,14 +14,13 @@ const initValues = {
   number: "",
   service: "",
   message: "",
-  referralCode: "", // Add referralCode to the initial values
+  referralCode: "",
 };
 const initState = { values: initValues };
 
 export default function ContactForm({ heading, color }) {
   const [state, setState] = useState(initState);
   const { values } = state;
-
   const [loading, setLoading] = useState(false);
 
   const handleChange = ({ target }) =>
@@ -37,7 +37,7 @@ export default function ContactForm({ heading, color }) {
     setLoading(true);
     await sendContactForm(values)
       .then(() => {})
-      .catch((error) => {
+      .catch(() => {
         toast.error("Error sending message");
       })
       .finally(() => {
@@ -49,6 +49,25 @@ export default function ContactForm({ heading, color }) {
 
   return (
     <section className={`${color}`}>
+      {/* ✅ Calendly Embed Section */}
+      <div className="mb-12 w-full flex justify-center">
+        <div
+          className="calendly-inline-widget"
+          data-url="https://calendly.com/mitochondigital/check"
+          style={{
+            minWidth: "320px",
+            width: "100%",
+            maxWidth: "900px",
+            height: "700px",
+          }}
+        ></div>
+        <Script
+          src="https://assets.calendly.com/assets/external/widget.js"
+          strategy="lazyOnload"
+        />
+      </div>
+
+      {/* ✅ Contact Form */}
       <div className="app__container grid grid-cols-1 md:grid-cols-2 gap-12 py-8 md:py-8">
         <div className="my-auto hidden md:block">
           <Image src={image.getInTouch} alt="contact Us" />
@@ -67,7 +86,7 @@ export default function ContactForm({ heading, color }) {
                 >
                   <span className="text-green-600">
                     <FaPhoneSquareAlt />
-                  </span>{" "} 
+                  </span>{" "}
                   +44-7438191808
                 </a>
                 <a
@@ -163,7 +182,9 @@ export default function ContactForm({ heading, color }) {
                         Website Development
                       </option>
                       <option value="Branding">Branding</option>
-                      <option value="Content_Marketing">Content Marketing</option>
+                      <option value="Content_Marketing">
+                        Content Marketing
+                      </option>
                       <option value="Paid_Online_Adverts">
                         Paid Online Advertising
                       </option>
@@ -184,7 +205,8 @@ export default function ContactForm({ heading, color }) {
                     htmlFor="referralCode"
                     className="block text-sm font-medium leading-6 text-gray-900"
                   >
-                    Referral Code <span className="text-gray-500">(optional)</span>
+                    Referral Code{" "}
+                    <span className="text-gray-500">(optional)</span>
                   </label>
                   <div className="mt-2">
                     <input
