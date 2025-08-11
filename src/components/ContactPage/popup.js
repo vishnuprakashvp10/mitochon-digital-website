@@ -143,7 +143,7 @@ export default function ContactFormPopup() {
             <textarea
               id="message"
               name="message"
-              rows="4"
+              rows="2"
               value={values.message}
               onChange={handleChange}
               className="w-full border border-gray-300 rounded-md p-2 mt-1"
