@@ -1,11 +1,11 @@
 "use client";
-import Script from "next/script"; // For loading Calendly script
+import Script from "next/script";
 import image from "@/constant/Images/image";
 import { sendContactForm } from "@/lib/api";
 import { FaEnvelope } from "@react-icons/all-files/fa/FaEnvelope";
 import { FaPhoneSquareAlt } from "@react-icons/all-files/fa/FaPhoneSquareAlt";
 import Image from "next/image";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import toast from "react-hot-toast";
 
 const initValues = {
@@ -47,13 +47,31 @@ export default function ContactForm({ heading, color }) {
       });
   };
 
+  // ✅ Calendly fix: Load and initialize once
+  useEffect(() => {
+    const script = document.createElement("script");
+    script.src = "https://assets.calendly.com/assets/external/widget.js";
+    script.async = true;
+    script.onload = () => {
+      if (window.Calendly) {
+        window.Calendly.initInlineWidget({
+          url: "https://calendly.com/mitochondigital/check",
+          parentElement: document.getElementById("calendly-embed"),
+          prefill: {},
+          utm: {},
+        });
+      }
+    };
+    document.body.appendChild(script);
+  }, []);
+
   return (
     <section className={`${color}`}>
       {/* ✅ Calendly Embed Section */}
       <div className="mb-12 w-full flex justify-center">
         <div
+          id="calendly-embed"
           className="calendly-inline-widget"
-          data-url="https://calendly.com/mitochondigital/check"
           style={{
             minWidth: "320px",
             width: "100%",
@@ -61,10 +79,6 @@ export default function ContactForm({ heading, color }) {
             height: "700px",
           }}
         ></div>
-        <Script
-          src="https://assets.calendly.com/assets/external/widget.js"
-          strategy="lazyOnload"
-        />
       </div>
 
       {/* ✅ Contact Form */}
