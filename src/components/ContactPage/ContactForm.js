@@ -49,23 +49,6 @@ export default function ContactForm({ heading, color }) {
 
   return (
     <section className={`${color}`}>
-      {/* ✅ Calendly Embed Section */}
-      <div className="mb-12 w-full flex justify-center">
-        <div
-          className="calendly-inline-widget"
-          data-url="https://calendly.com/mitochondigital/check"
-          style={{
-            minWidth: "320px",
-            width: "100%",
-            maxWidth: "900px",
-            height: "700px",
-          }}
-        ></div>
-        <Script
-          src="https://assets.calendly.com/assets/external/widget.js"
-          strategy="lazyOnload"
-        />
-      </div>
 
       {/* ✅ Contact Form */}
       <div className="app__container grid grid-cols-1 md:grid-cols-2 gap-12 py-8 md:py-8">
@@ -261,6 +244,24 @@ export default function ContactForm({ heading, color }) {
             </button>
           </div>
         </form>
+        
+      </div>
+            {/* ✅ Calendly Embed Section */}
+      <div className="mb-12 w-full flex justify-center">
+        <div
+          className="calendly-inline-widget"
+          data-url="https://calendly.com/mitochondigital/check"
+          style={{
+            minWidth: "320px",
+            width: "100%",
+            maxWidth: "900px",
+            height: "700px",
+          }}
+        ></div>
+        <Script
+          src="https://assets.calendly.com/assets/external/widget.js"
+          strategy="lazyOnload"
+        />
       </div>
     </section>
   );
