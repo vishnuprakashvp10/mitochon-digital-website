@@ -65,11 +65,9 @@ export default function ContactForm({ heading, color }) {
           Book Your <span className="highlight">Free Consultation</span>
         </h2>
         <p className="mt-4 text-gray-600 text-justify text-lg leading-relaxed">
-          Let us have a proper chat about your goals and how we can help your
-          business absolutely smash it. We are dab hands at crafting sharp,
-          results driven marketing strategies that actually work. Book your free
-          consultation with our crew and walk away with bespoke advice, fresh
-          ideas, and a crystal-clear game plan to get your business flying high.
+          Book your free consultation with our crew and walk away with bespoke
+          advice, fresh ideas, and a crystal-clear game plan to get your
+          business flying high.
         </p>
         <div className="mt-6 flex justify-left">
           <button
