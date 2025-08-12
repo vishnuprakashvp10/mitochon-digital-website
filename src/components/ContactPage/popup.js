@@ -54,34 +54,47 @@ export default function ContactFormPopup() {
   if (!showPopup) return null;
 
   return (
-    <div className="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-60 p-4">
-      <div className="bg-white rounded-lg w-full max-w-2xl p-6 relative overflow-y-auto max-h-[90vh]">
+    <div
+      className="fixed inset-0 z-[99999] flex items-center justify-center p-4 backdrop-blur-sm bg-black/40"
+    >
+      <div className="bg-white rounded-lg w-full max-w-2xl p-6 relative overflow-y-auto max-h-[90vh] shadow-lg">
+        {/* Close Button */}
         <button
           onClick={() => setShowPopup(false)}
-          className="absolute top-2 right-2 text-gray-600 hover:text-red-600 text-4xl font-bold"
+          className="absolute top-2 right-3 text-gray-600 hover:text-red-600 text-4xl font-bold leading-none"
         >
           ×
         </button>
 
+        {/* Heading */}
         <h2 className="text-2xl font-semibold text-gray-800 mb-4">
           Get in Touch
         </h2>
 
-<div className="flex flex-col items-start gap-y-2 text-sm mb-6">
-  <a href="tel:+447438191808" className="flex items-center text-gray-700 gap-2">
-    <FaPhoneSquareAlt className="text-green-600" />
-    +44-7438191808
-  </a>
-  <a href="mailto:contact@mitochonpixel.co.uk" className="flex items-center text-gray-700 gap-2">
-    <FaEnvelope className="text-red-600" />
-    contact@mitochonpixel.co.uk
-  </a>
-</div>
+        {/* Contact Info */}
+        <div className="flex flex-col items-start gap-y-2 text-sm mb-6">
+          <a
+            href="tel:+447438191808"
+            className="flex items-center text-gray-700 gap-2"
+          >
+            <FaPhoneSquareAlt className="text-green-600" />
+            +44-7438191808
+          </a>
+          <a
+            href="mailto:contact@mitochonpixel.co.uk"
+            className="flex items-center text-gray-700 gap-2"
+          >
+            <FaEnvelope className="text-red-600" />
+            contact@mitochonpixel.co.uk
+          </a>
+        </div>
 
-
+        {/* Form */}
         <form onSubmit={onSubmit} className="space-y-4">
           <div>
-            <label htmlFor="name" className="block text-sm font-medium">Full Name*</label>
+            <label htmlFor="name" className="block text-sm font-medium">
+              Full Name*
+            </label>
             <input
               type="text"
               name="name"
@@ -93,7 +106,9 @@ export default function ContactFormPopup() {
           </div>
 
           <div>
-            <label htmlFor="email" className="block text-sm font-medium">Email Address*</label>
+            <label htmlFor="email" className="block text-sm font-medium">
+              Email Address*
+            </label>
             <input
               type="email"
               name="email"
@@ -105,7 +120,9 @@ export default function ContactFormPopup() {
           </div>
 
           <div>
-            <label htmlFor="number" className="block text-sm font-medium">Phone Number*</label>
+            <label htmlFor="number" className="block text-sm font-medium">
+              Phone Number*
+            </label>
             <input
               type="text"
               name="number"
@@ -117,7 +134,9 @@ export default function ContactFormPopup() {
           </div>
 
           <div>
-            <label htmlFor="form-services" className="block text-sm font-medium">What are your requirements?*</label>
+            <label htmlFor="form-services" className="block text-sm font-medium">
+              What are your requirements?*
+            </label>
             <select
               name="service"
               id="form-services"
@@ -132,14 +151,18 @@ export default function ContactFormPopup() {
               <option value="Content_Marketing">Content Marketing</option>
               <option value="Paid_Online_Adverts">Paid Online Advertising</option>
               <option value="Social_Media_Marketing">Social Media Marketing</option>
-              <option value="Analytics_and_Reporting">Analytics and Reporting</option>
+              <option value="Analytics_and_Reporting">
+                Analytics and Reporting
+              </option>
               <option value="CRO_and_Usablity">CRO and Usability</option>
               <option value="Others">Others</option>
             </select>
           </div>
 
           <div>
-            <label htmlFor="message" className="block text-sm font-medium">Message*</label>
+            <label htmlFor="message" className="block text-sm font-medium">
+              Message*
+            </label>
             <textarea
               id="message"
               name="message"
@@ -153,8 +176,12 @@ export default function ContactFormPopup() {
           <button
             type="submit"
             disabled={
-              !values.name || !values.email || !values.number ||
-              !values.service || !values.message || loading
+              !values.name ||
+              !values.email ||
+              !values.number ||
+              !values.service ||
+              !values.message ||
+              loading
             }
             className="bg-green-700 hover:bg-green-800 text-white font-semibold py-2 px-4 rounded"
           >
