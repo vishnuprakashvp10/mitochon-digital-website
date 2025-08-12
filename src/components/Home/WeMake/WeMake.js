@@ -68,7 +68,7 @@ export default function WeMake() {
     <div className="bg-slate-50 py-2 sm:py-2">
       <div className="app__container">
         <div className="mx-auto max-w-2xl lg:text-center">
-          <p className="mt-2 primary-heading text-gray-900 text-center">
+          <p className="mt-2 primary-heading text-gray-900 text-center"> 
             Digital Marketing solution{" "}
             <span className="highlight">we offer</span>{" "}
           </p>

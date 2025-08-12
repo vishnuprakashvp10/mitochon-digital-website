@@ -1,11 +1,11 @@
 "use client";
-import Script from "next/script"; // For loading Calendly script
+import Script from "next/script";
 import image from "@/constant/Images/image";
 import { sendContactForm } from "@/lib/api";
 import { FaEnvelope } from "@react-icons/all-files/fa/FaEnvelope";
 import { FaPhoneSquareAlt } from "@react-icons/all-files/fa/FaPhoneSquareAlt";
 import Image from "next/image";
-import { useState } from "react";
+import { useState, useCallback } from "react";
 import toast from "react-hot-toast";
 
 const initValues = {
@@ -36,7 +36,6 @@ export default function ContactForm({ heading, color }) {
     e.preventDefault();
     setLoading(true);
     await sendContactForm(values)
-      .then(() => {})
       .catch(() => {
         toast.error("Error sending message");
       })
@@ -47,14 +46,45 @@ export default function ContactForm({ heading, color }) {
       });
   };
 
+  // Calendly popup function
+  const openCalendly = useCallback(() => {
+    if (typeof window !== "undefined" && window.Calendly) {
+      window.Calendly.initPopupWidget({
+        url: "https://calendly.com/mitochondigital/check",
+      });
+    } else {
+      console.error("Calendly script not loaded yet.");
+    }
+  }, []);
+
   return (
     <section className={`${color}`}>
-
-      {/* ✅ Contact Form */}
-      <div className="app__container grid grid-cols-1 md:grid-cols-2 gap-12 py-8 md:py-8">
-        <div className="my-auto hidden md:block">
-          <Image src={image.getInTouch} alt="contact Us" />
+      {/* ✅ Block 1 — Book Your Free Consultation */}
+      <div className="app__container py-12 text-left">
+        <h2 className="text-3xl primary-heading text-gray-90 font-bold text-gray-900">
+          Book Your <span className="highlight">Free Consultation</span>
+        </h2>
+        <p className="mt-4 text-gray-600 text-justify text-lg leading-relaxed">
+          Let us have a proper chat about your goals and how we can help your
+          business absolutely smash it. We are dab hands at crafting sharp,
+          results driven marketing strategies that actually work. Book your free
+          consultation with our crew and walk away with bespoke advice, fresh
+          ideas, and a crystal-clear game plan to get your business flying high.
+        </p>
+        <div className="mt-6 flex justify-left">
+          <button
+            type="button"
+            onClick={openCalendly}
+            className="rounded-md bg-gradient-to-r from-[#96A210] to-[#176301] px-6 py-3 text-sm font-semibold text-white shadow-sm hover:bg-transparent hover:border-green-800 hover:text-black border transition"
+          >
+            Schedule Your Appointment
+          </button>
         </div>
+      </div>
+
+      {/* ✅ Block 2 — Touches Form with Image on Right */}
+      <div className="app__container grid grid-cols-1 md:grid-cols-2 gap-12 py-16">
+        {/* Left: Form */}
         <form>
           <div className="space-y-12">
             <div className="pb-6">
@@ -64,168 +94,161 @@ export default function ContactForm({ heading, color }) {
               />
               <div className="flex items-center gap-x-4 mt-4 text-sm leading-6">
                 <a
-                  className="text-sm text-gray-600 text-bold flex items-center justify-center md:justify-start gap-2"
+                  className="text-sm text-gray-600 font-bold flex items-center gap-2"
                   href="tel:+447438191808"
                 >
                   <span className="text-green-600">
                     <FaPhoneSquareAlt />
-                  </span>{" "}
+                  </span>
                   +44-7438191808
                 </a>
                 <a
-                  className="text-sm text-gray-600 text-sbold flex items-center justify-center md:justify-start gap-2"
+                  className="text-sm text-gray-600 font-bold flex items-center gap-2"
                   href="mailto:contact@mitochonpixel.co.uk"
                 >
                   <span className="text-[#EA4335]">
                     <FaEnvelope />
-                  </span>{" "}
+                  </span>
                   contact@mitochonpixel.co.uk
                 </a>
               </div>
 
               <div className="mt-10 grid grid-cols-1 gap-x-6 gap-y-4 sm:grid-cols-6">
+                {/* Full Name */}
                 <div className="sm:col-span-3">
                   <label
                     htmlFor="name"
-                    className="block text-sm font-medium leading-6 text-gray-900"
+                    className="block text-sm font-medium text-gray-900"
                   >
                     Full Name*
                   </label>
-                  <div className="mt-2">
-                    <input
-                      type="text"
-                      name="name"
-                      id="name"
-                      value={values.name}
-                      onChange={handleChange}
-                      autoComplete="name"
-                      className="block w-full pl-3 pr-10 py-2 text-base shadow-sm placeholder:text-gray-400 border border-gray-300 rounded-md bg-white text-gray-900 focus:outline-none focus:border-green-500 focus:ring-indigo-200"
-                    />
-                  </div>
+                  <input
+                    type="text"
+                    name="name"
+                    id="name"
+                    value={values.name}
+                    onChange={handleChange}
+                    autoComplete="name"
+                    className="mt-2 block w-full pl-3 pr-10 py-2 text-base border border-gray-300 rounded-md focus:outline-none focus:border-green-500"
+                  />
                 </div>
 
+                {/* Email */}
                 <div className="sm:col-span-3">
                   <label
                     htmlFor="email"
-                    className="block text-sm font-medium leading-6 text-gray-900"
+                    className="block text-sm font-medium text-gray-900"
                   >
                     Email address*
                   </label>
-                  <div className="mt-2">
-                    <input
-                      id="email"
-                      name="email"
-                      type="email"
-                      value={values.email}
-                      onChange={handleChange}
-                      autoComplete="email"
-                      className="block w-full pl-3 pr-10 py-2 text-base shadow-sm placeholder:text-gray-400 border border-gray-300 rounded-md bg-white text-gray-900 focus:outline-none focus:border-green-500 focus:ring-indigo-200"
-                    />
-                  </div>
+                  <input
+                    id="email"
+                    name="email"
+                    type="email"
+                    value={values.email}
+                    onChange={handleChange}
+                    autoComplete="email"
+                    className="mt-2 block w-full pl-3 pr-10 py-2 text-base border border-gray-300 rounded-md focus:outline-none focus:border-green-500"
+                  />
                 </div>
 
+                {/* Phone */}
                 <div className="sm:col-span-3">
                   <label
                     htmlFor="number"
-                    className="block text-sm font-medium leading-6 text-gray-900"
+                    className="block text-sm font-medium text-gray-900"
                   >
                     Phone Number*
                   </label>
-                  <div className="mt-2">
-                    <input
-                      type="text"
-                      name="number"
-                      id="number"
-                      value={values.number}
-                      onChange={handleChange}
-                      autoComplete="number"
-                      className="block w-full pl-3 pr-10 py-2 text-base shadow-sm placeholder:text-gray-400 border border-gray-300 rounded-md bg-white text-gray-900 focus:outline-none focus:border-green-500 focus:ring-indigo-200"
-                    />
-                  </div>
+                  <input
+                    type="text"
+                    name="number"
+                    id="number"
+                    value={values.number}
+                    onChange={handleChange}
+                    autoComplete="number"
+                    className="mt-2 block w-full pl-3 pr-10 py-2 text-base border border-gray-300 rounded-md focus:outline-none focus:border-green-500"
+                  />
                 </div>
 
+                {/* Services */}
                 <div className="sm:col-span-3">
                   <label
                     htmlFor="form-services"
-                    className="block text-sm font-medium leading-6 text-gray-900"
+                    className="block text-sm font-medium text-gray-900"
                   >
                     What are your requirements?*
                   </label>
-                  <div className="mt-2">
-                    <select
-                      id="form-services"
-                      name="service"
-                      value={values.service}
-                      onChange={handleChange}
-                      className="block w-full pl-3 pr-10 py-2 text-base shadow-sm placeholder:text-gray-400 border border-gray-300 rounded-md bg-white text-gray-900 focus:outline-none focus:border-green-500 focus:ring-indigo-200"
-                    >
-                      <option value="">Select</option>
-                      <option value="SEO_Services">SEO Services</option>
-                      <option value="Website_Development">
-                        Website Development
-                      </option>
-                      <option value="Branding">Branding</option>
-                      <option value="Content_Marketing">
-                        Content Marketing
-                      </option>
-                      <option value="Paid_Online_Adverts">
-                        Paid Online Advertising
-                      </option>
-                      <option value="Social_Media_Marketing">
-                        Social Media Marketing
-                      </option>
-                      <option value="Analytics_and_Reporting">
-                        Analytics and Reporting
-                      </option>
-                      <option value="CRO_and_Usablity">CRO and Usability</option>
-                      <option value="Others">Others</option>
-                    </select>
-                  </div>
+                  <select
+                    id="form-services"
+                    name="service"
+                    value={values.service}
+                    onChange={handleChange}
+                    className="mt-2 block w-full pl-3 pr-10 py-2 text-base border border-gray-300 rounded-md focus:outline-none focus:border-green-500"
+                  >
+                    <option value="">Select</option>
+                    <option value="SEO_Services">SEO Services</option>
+                    <option value="Website_Development">
+                      Website Development
+                    </option>
+                    <option value="Branding">Branding</option>
+                    <option value="Content_Marketing">Content Marketing</option>
+                    <option value="Paid_Online_Adverts">
+                      Paid Online Advertising
+                    </option>
+                    <option value="Social_Media_Marketing">
+                      Social Media Marketing
+                    </option>
+                    <option value="Analytics_and_Reporting">
+                      Analytics and Reporting
+                    </option>
+                    <option value="CRO_and_Usablity">CRO and Usability</option>
+                    <option value="Others">Others</option>
+                  </select>
                 </div>
 
+                {/* Referral Code */}
                 <div className="sm:col-span-3">
                   <label
                     htmlFor="referralCode"
-                    className="block text-sm font-medium leading-6 text-gray-900"
+                    className="block text-sm font-medium text-gray-900"
                   >
                     Referral Code{" "}
                     <span className="text-gray-500">(optional)</span>
                   </label>
-                  <div className="mt-2">
-                    <input
-                      type="text"
-                      name="referralCode"
-                      id="referralCode"
-                      value={values.referralCode}
-                      onChange={handleChange}
-                      autoComplete="off"
-                      className="block w-full pl-3 pr-10 py-2 text-base shadow-sm placeholder:text-gray-400 border border-gray-300 rounded-md bg-white text-gray-900 focus:outline-none focus:border-green-500 focus:ring-indigo-200"
-                    />
-                  </div>
+                  <input
+                    type="text"
+                    name="referralCode"
+                    id="referralCode"
+                    value={values.referralCode}
+                    onChange={handleChange}
+                    autoComplete="off"
+                    className="mt-2 block w-full pl-3 pr-10 py-2 text-base border border-gray-300 rounded-md focus:outline-none focus:border-green-500"
+                  />
                 </div>
 
+                {/* Message */}
                 <div className="col-span-full">
                   <label
                     htmlFor="message"
-                    className="block text-sm font-medium leading-6 text-gray-900"
+                    className="block text-sm font-medium text-gray-900"
                   >
                     Message*
                   </label>
-                  <div className="mt-2">
-                    <textarea
-                      id="message"
-                      name="message"
-                      value={values.message}
-                      onChange={handleChange}
-                      cols="50"
-                      className="block w-full pl-3 pr-10 py-2 text-base shadow-sm placeholder:text-gray-400 border border-gray-300 rounded-md bg-white text-gray-900 focus:outline-none focus:border-green-500 focus:ring-indigo-200"
-                    />
-                  </div>
+                  <textarea
+                    id="message"
+                    name="message"
+                    value={values.message}
+                    onChange={handleChange}
+                    cols="50"
+                    className="mt-2 block w-full pl-3 pr-10 py-2 text-base border border-gray-300 rounded-md focus:outline-none focus:border-green-500"
+                  />
                 </div>
               </div>
             </div>
           </div>
 
+          {/* Submit */}
           <div className="mt-6 flex items-center justify-start">
             <button
               type="submit"
@@ -238,31 +261,30 @@ export default function ContactForm({ heading, color }) {
                 loading
               }
               onClick={onSubmit}
-              className="rounded-md bg-gradient-to-r transition-all from-[#96A210] to-[#176301] hover:bg-none hover:bg-transparent border hover:border-green-800 hover:text-black px-4 py-3 text-sm font-semibold text-white shadow-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+              className="rounded-md bg-gradient-to-r from-[#96A210] to-[#176301] px-4 py-3 text-sm font-semibold text-white shadow-sm hover:bg-transparent hover:border-green-800 hover:text-black border transition"
             >
               {loading ? "Sending..." : "Send Message"}
             </button>
           </div>
         </form>
-        
+
+        {/* Right: Image */}
+        <div className="my-auto hidden md:block">
+          <Image src={image.getInTouch} alt="Contact Us" />
+        </div>
       </div>
-            {/* ✅ Calendly Embed Section */}
-      <div className="mb-12 w-full flex justify-center">
-        <div
-          className="calendly-inline-widget"
-          data-url="https://calendly.com/mitochondigital/check"
-          style={{
-            minWidth: "320px",
-            width: "100%",
-            maxWidth: "900px",
-            height: "700px",
-          }}
-        ></div>
-        <Script
-          src="https://assets.calendly.com/assets/external/widget.js"
-          strategy="lazyOnload"
-        />
-      </div>
+
+      {/* Calendly CSS */}
+      <link
+        href="https://assets.calendly.com/assets/external/widget.css"
+        rel="stylesheet"
+      />
+
+      {/* Calendly Script */}
+      <Script
+        src="https://assets.calendly.com/assets/external/widget.js"
+        strategy="afterInteractive"
+      />
     </section>
   );
 }
